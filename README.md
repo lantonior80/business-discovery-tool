@@ -2,7 +2,7 @@
 
 **A friendly AI interviewer that maps how a real-estate team turns leads into buyers, one short question at a time, and saves the answers as a shareable report.**
 
-It works inside a **ChatGPT Project**, a **Claude Project** or a **Custom GPT**. The owner just chats with it, by typing or voice. Behind the scenes it tracks 269 discovery questions, never asks the same thing twice, stops after about 12 minutes, and hands back one report file that can be picked up again later.
+It works inside a **ChatGPT Project** or a **Claude Project**. The owner just chats with it, by typing or voice. Behind the scenes it tracks 269 discovery questions, never asks the same thing twice, stops after about 12 minutes, and hands back one report file that can be picked up again later.
 
 ---
 
@@ -13,8 +13,6 @@ Open **ChatGPT** or **Claude**, start a chat (inside a Project if you have one),
 > You're setting up the "Business Discovery Tool" for me. I am NOT technical, so explain each step in plain English, give me one step at a time, and wait for me to say "done" before moving on. Open this setup guide and follow it exactly: https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/SETUP.md. If you can't open links, tell me and I'll open https://github.com/lantonior80/business-discovery-tool myself. Don't start the questionnaire until setup is finished.
 
 The assistant then walks you through about five clicks: make a Project, download five files, add them, paste the instructions, and start.
-
-**Even easier:** if someone sent you a **Custom GPT link** for this tool, just open it and type `Start quick discovery`. There's nothing to set up.
 
 ---
 
@@ -46,9 +44,8 @@ The assistant then walks you through about five clicks: make a Project, download
 ## For builders
 
 - [SETUP.md](SETUP.md): the step-by-step guide the AI follows during setup.
-- [GPT_SETUP.md](GPT_SETUP.md): how to publish it as a one-link Custom GPT.
 - [TESTING.md](TESTING.md): the smoke test to run in a fictional Project before you share it.
-- `project-files/`: the five files that go into a Project or GPT, which are also attached to each [release](https://github.com/lantonior80/business-discovery-tool/releases/latest).
+- `project-files/`: the five files that go into a Project, which are also attached to each [release](https://github.com/lantonior80/business-discovery-tool/releases/latest).
 - `instructions/PROJECT_INSTRUCTIONS.txt`: the instructions to paste (under 8,000 characters, so they fit ChatGPT and Claude).
 - `reference-js/`: the original JavaScript checker, which gives identical results.
 - Run the tests: `python -m unittest discover -s tests`. They also compare the Python and JavaScript checkers when Node is installed.

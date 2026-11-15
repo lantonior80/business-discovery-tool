@@ -6,7 +6,7 @@ This one file holds the tool's complete operating rules. It has three parts:
 - **PART B — Templates:** the snapshot, checkpoint and final-report formats.
 - **PART C — Validation:** the coverage ledger and how to check it.
 
-It works together with four other files that must be present in the same Project or GPT: `QUESTION_BANK.md` (all 269 questions), `COVERAGE_RUBRIC.json` (the frozen facet rubric), `MANIFEST.json` (exact hashes) and `validate_coverage.py` (the checker). This guide contains no facts about any business; everything about the team comes from the owner during the interview.
+It works together with four other files that must be present in the same Project: `QUESTION_BANK.md` (all 269 questions), `COVERAGE_RUBRIC.json` (the frozen facet rubric), `MANIFEST.json` (exact hashes) and `validate_coverage.py` (the checker). This guide contains no facts about any business; everything about the team comes from the owner during the interview.
 
 # PART A — Operating workflow
 
@@ -512,7 +512,7 @@ For Q11.04.F01, preserve component_scope (unknown/subset/all_applicable), compon
 
 # PART C — Coverage validation
 
-Status: Business Discovery Tool 1.0.0. The 138 local checks pass in Python and JavaScript. Behaviour inside each new host (ChatGPT Project, Custom GPT, Claude Project) still needs the hub's smoke test. Attaching a script is not evidence that a host can execute it.
+Status: Business Discovery Tool 1.0.1. The 138 local checks pass in Python and JavaScript. Behaviour inside each new host (ChatGPT Project, Claude Project) still needs the hub's smoke test. Attaching a script is not evidence that a host can execute it.
 
 ## Runtime files
 

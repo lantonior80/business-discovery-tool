@@ -1,10 +1,10 @@
 # Smoke test, before you share the tool
 
-Run this once in each new place you set it up (ChatGPT Project, Custom GPT or Claude Project). Use a **separate test Project or GPT** and **only made-up answers**, and never mix test answers into a real person's discovery. It takes about 20 minutes. Mark each line ✅, ❌ or ⏸ (couldn't run).
+Run this once in each new place you set it up (ChatGPT Project or Claude Project). Use a **separate test Project** and **only made-up answers**, and never mix test answers into a real person's discovery. It takes about 20 minutes. Mark each line ✅, ❌ or ⏸ (couldn't run).
 
 ## A. Setup (about 2 minutes)
 - [ ] Paste the setup paragraph from the README into a fresh chat. The assistant gives one step at a time and waits for you.
-- [ ] All five files upload into the Project, or into the GPT's Knowledge.
+- [ ] All five files upload into the Project.
 - [ ] In a new chat, `Check setup` lists all five files. If code runs, it reports `"valid": true`, `269` questions and `409` facets. If code can't run, it says so plainly, and doesn't pretend it ran.
 
 ## B. Interview behavior (about 10 minutes)

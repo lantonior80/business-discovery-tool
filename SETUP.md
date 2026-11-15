@@ -21,7 +21,7 @@ Ask which app they're using: **ChatGPT** or **Claude**, and whether this chat is
   - **ChatGPT:** in the left sidebar click **New project**, name it `Business Discovery`, and create it. Open it and start a new chat inside it.
   - **Claude:** click **Projects** in the left sidebar, click **Create project**, name it `Business Discovery`, and create it.
   - Then ask them to paste the setup paragraph again in a chat inside that new Project, and continue there.
-- **They'd rather not use Projects:** if whoever shared this tool gave them a Custom GPT link, they can just open that link and type `Start quick discovery`. Setup is then finished.
+- **They'd rather not use Projects:** explain kindly that the tool needs a Project, because that's where its five files and instructions are kept so every future chat can use them.
 
 ## Step 2 — Download the five tool files
 
