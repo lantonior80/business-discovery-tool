@@ -1,0 +1,1358 @@
+{
+  "schema_version": "1.0.0",
+  "question_count": 269,
+  "bank_sha256": "51a6a62436d9a8765d4671c18ca45b69c40bb1e660905f7fa473108418a32b1a",
+  "rubric_sha256": "7770c9061cc53e4a9e1e23ad0df02f3fddf1ba2d945676ce62da741fdee91bae",
+  "source_hashes": {
+    "note": "Derived from the D1 candidate frozen 2026-11-15. Six question texts and their rubric propositions were made team-neutral; no facet, qualifier, priority or ID changed.",
+    "d1_bank_sha256": "1cec14fe2d6d797c5cc55cc988c96d4685c5b7787176769ad60c3545b25ac0cf",
+    "d1_rubric_sha256": "b9612d5452d94521825626480c7ada12c99446494423e6ad4754545334e90da6"
+  },
+  "question_manifest": [
+    {
+      "question_id": "Q01.01",
+      "priority": "E",
+      "question_text": "What residential real-estate markets does your team actively serve? Identify primary cities/counties and secondary relocation markets."
+    },
+    {
+      "question_id": "Q01.02",
+      "priority": "E",
+      "question_text": "What types of buyers currently make up your business? For example, first-time buyers, move-up buyers, relocations, investors, cash buyers, and returning clients."
+    },
+    {
+      "question_id": "Q01.03",
+      "priority": "E",
+      "question_text": "Approximately what proportion of your buyer business comes from each major segment? Estimates are acceptable."
+    },
+    {
+      "question_id": "Q01.04",
+      "priority": "E",
+      "question_text": "What languages does your team use for marketing, prospect communications, and appointments?"
+    },
+    {
+      "question_id": "Q01.05",
+      "priority": "E",
+      "question_text": "What is your primary value proposition to homebuyers? Why should a prospective buyer choose your team?"
+    },
+    {
+      "question_id": "Q01.06",
+      "priority": "D",
+      "question_text": "What problems or concerns usually motivate prospects to contact you?"
+    },
+    {
+      "question_id": "Q01.07",
+      "priority": "D",
+      "question_text": "Do different buyer types receive different onboarding, financing, or appointment processes?"
+    },
+    {
+      "question_id": "Q01.08",
+      "priority": "D",
+      "question_text": "Which prospect types tend to convert into active buyers, and which frequently stall?"
+    },
+    {
+      "question_id": "Q01.09",
+      "priority": "O",
+      "question_text": "What makes your team's buying experience meaningfully different from other agents' processes?"
+    },
+    {
+      "question_id": "Q01.10",
+      "priority": "O",
+      "question_text": "What buyer outcomes would you most like your system to improve, and how would you define measurable success?"
+    },
+    {
+      "question_id": "Q02.01",
+      "priority": "E",
+      "question_text": "List every active buyer lead source: paid Meta advertising, Facebook, Instagram, TikTok, YouTube, organic content, websites, referrals, seminars, open houses, database reactivation, or others."
+    },
+    {
+      "question_id": "Q02.02",
+      "priority": "E",
+      "question_text": "Which sources currently generate the greatest lead volume?"
+    },
+    {
+      "question_id": "Q02.03",
+      "priority": "E",
+      "question_text": "For each major source, what exactly does the advertisement or content promise the viewer?"
+    },
+    {
+      "question_id": "Q02.04",
+      "priority": "E",
+      "question_text": "What action is the prospect instructed to take—submit a form, send a DM, comment a keyword, call, register, or book directly?"
+    },
+    {
+      "question_id": "Q02.05",
+      "priority": "E",
+      "question_text": "What information is requested before the prospect becomes a lead?"
+    },
+    {
+      "question_id": "Q02.06",
+      "priority": "D",
+      "question_text": "Do prospects expect a consultation, a list of homes, an affordability assessment, a financing conversation, an educational resource, or something else?"
+    },
+    {
+      "question_id": "Q02.07",
+      "priority": "D",
+      "question_text": "Are there important differences in intent between paid-social and organic-social leads?"
+    },
+    {
+      "question_id": "Q02.08",
+      "priority": "D",
+      "question_text": "Are any campaigns attracting people outside your service area or people who misunderstand your offer?"
+    },
+    {
+      "question_id": "Q02.09",
+      "priority": "D",
+      "question_text": "How are original source, campaign, ad, and subsequent interactions attributed in your CRM?"
+    },
+    {
+      "question_id": "Q02.10",
+      "priority": "D",
+      "question_text": "How much is spent per channel, and which marketing production/labor costs are tracked?"
+    },
+    {
+      "question_id": "Q02.11",
+      "priority": "O",
+      "question_text": "Which specific ads, hooks, videos, or offers seem to produce the most suitable prospects?"
+    },
+    {
+      "question_id": "Q02.12",
+      "priority": "O",
+      "question_text": "Are there documented differences between leads attracted by educational content, testimonials, property tours, and financing-related content?"
+    },
+    {
+      "question_id": "Q03.01",
+      "priority": "E",
+      "question_text": "What happens immediately after a prospect submits an inquiry?"
+    },
+    {
+      "question_id": "Q03.02",
+      "priority": "E",
+      "question_text": "How does that information enter the CRM currently in use?"
+    },
+    {
+      "question_id": "Q03.03",
+      "priority": "E",
+      "question_text": "Who receives the new lead, and how is that person selected?"
+    },
+    {
+      "question_id": "Q03.04",
+      "priority": "E",
+      "question_text": "Which VA or agent is responsible for the first contact?"
+    },
+    {
+      "question_id": "Q03.05",
+      "priority": "E",
+      "question_text": "What information can the assigned person see before contacting the prospect?"
+    },
+    {
+      "question_id": "Q03.06",
+      "priority": "E",
+      "question_text": "What happens if the assigned person is unavailable?"
+    },
+    {
+      "question_id": "Q03.07",
+      "priority": "D",
+      "question_text": "How are duplicate leads, existing contacts, past clients, or already represented buyers identified?"
+    },
+    {
+      "question_id": "Q03.08",
+      "priority": "D",
+      "question_text": "Are different lead sources prioritized differently?"
+    },
+    {
+      "question_id": "Q03.09",
+      "priority": "D",
+      "question_text": "How long does it usually take before a human makes the first meaningful outreach attempt?"
+    },
+    {
+      "question_id": "Q03.10",
+      "priority": "D",
+      "question_text": "What happens when a lead arrives outside normal coverage hours?"
+    },
+    {
+      "question_id": "Q03.11",
+      "priority": "D",
+      "question_text": "How do you detect unassigned, unworked, or incorrectly routed leads?"
+    },
+    {
+      "question_id": "Q03.12",
+      "priority": "O",
+      "question_text": "What fields, tags, stages, or triggers are currently used to organize different buyer types?"
+    },
+    {
+      "question_id": "Q04.01",
+      "priority": "E",
+      "question_text": "What are the exact responsibilities of each VA who handles buyer inquiries?"
+    },
+    {
+      "question_id": "Q04.02",
+      "priority": "E",
+      "question_text": "Are those VAs licensed or unlicensed, and who supervises their activities?"
+    },
+    {
+      "question_id": "Q04.03",
+      "priority": "E",
+      "question_text": "What is the first outreach method—telephone, SMS, WhatsApp, email, or another channel?"
+    },
+    {
+      "question_id": "Q04.04",
+      "priority": "E",
+      "question_text": "What is the exact opening script used when a new lead answers?"
+    },
+    {
+      "question_id": "Q04.05",
+      "priority": "E",
+      "question_text": "How does the VA establish relevance, explain the reason for calling, and gain permission to continue?"
+    },
+    {
+      "question_id": "Q04.06",
+      "priority": "E",
+      "question_text": "What qualifying or discovery questions are asked before offering an appointment?"
+    },
+    {
+      "question_id": "Q04.07",
+      "priority": "E",
+      "question_text": "How is the first appointment introduced and described?"
+    },
+    {
+      "question_id": "Q04.08",
+      "priority": "E",
+      "question_text": "What specific benefit does the VA tell the prospect they will receive from attending?"
+    },
+    {
+      "question_id": "Q04.09",
+      "priority": "E",
+      "question_text": "What is said when the prospect agrees to book?"
+    },
+    {
+      "question_id": "Q04.10",
+      "priority": "D",
+      "question_text": "What happens when the prospect says they are busy, just browsing, not ready, or unsure about purchasing?"
+    },
+    {
+      "question_id": "Q04.11",
+      "priority": "D",
+      "question_text": "What happens when the prospect does not answer the first call or text?"
+    },
+    {
+      "question_id": "Q04.12",
+      "priority": "D",
+      "question_text": "What is the actual follow-up sequence over subsequent days and weeks?"
+    },
+    {
+      "question_id": "Q04.13",
+      "priority": "D",
+      "question_text": "What causes the VA to stop contact, change strategy, escalate, or transfer the prospect?"
+    },
+    {
+      "question_id": "Q04.14",
+      "priority": "D",
+      "question_text": "Are appointments booked automatically, through a shared calendar, or manually?"
+    },
+    {
+      "question_id": "Q04.15",
+      "priority": "D",
+      "question_text": "How do you know whether the prospect understands what the appointment is for?"
+    },
+    {
+      "question_id": "Q04.16",
+      "priority": "O",
+      "question_text": "Are the appointment-setting scripts standardized, trained, monitored, and updated based on real conversations?"
+    },
+    {
+      "question_id": "Q04.17",
+      "priority": "O",
+      "question_text": "Which buyer questions repeatedly arise before the first appointment?"
+    },
+    {
+      "question_id": "Q05.01",
+      "priority": "E",
+      "question_text": "What qualifies a lead as cold, dormant, unresponsive, nurture-stage, or lost?"
+    },
+    {
+      "question_id": "Q05.02",
+      "priority": "E",
+      "question_text": "Who owns these leads—the original VA, assigned agent, another agent, or a dedicated reactivation role?"
+    },
+    {
+      "question_id": "Q05.03",
+      "priority": "E",
+      "question_text": "How are older lead lists assigned to agents?"
+    },
+    {
+      "question_id": "Q05.04",
+      "priority": "E",
+      "question_text": "What is the actual first reactivation script?"
+    },
+    {
+      "question_id": "Q05.05",
+      "priority": "E",
+      "question_text": "What information about the previous relationship is reviewed before calling?"
+    },
+    {
+      "question_id": "Q05.06",
+      "priority": "E",
+      "question_text": "How do agents determine whether the person's buying circumstances have changed?"
+    },
+    {
+      "question_id": "Q05.07",
+      "priority": "D",
+      "question_text": "What follow-up cadence is used, and does it vary by readiness and contact preference?"
+    },
+    {
+      "question_id": "Q05.08",
+      "priority": "D",
+      "question_text": "How are opt-outs, prior refusals, and channel permissions handled?"
+    },
+    {
+      "question_id": "Q05.09",
+      "priority": "D",
+      "question_text": "How is an appointment from reactivation attributed and recorded?"
+    },
+    {
+      "question_id": "Q05.10",
+      "priority": "D",
+      "question_text": "Do reactivated prospects follow the same first and second appointment structure?"
+    },
+    {
+      "question_id": "Q05.11",
+      "priority": "O",
+      "question_text": "Which prior reasons for delay are most commonly resolved before reactivation succeeds?"
+    },
+    {
+      "question_id": "Q06.01",
+      "priority": "E",
+      "question_text": "Who conducts appointment 1, and how is the responsible person assigned?"
+    },
+    {
+      "question_id": "Q06.02",
+      "priority": "E",
+      "question_text": "Is appointment 1 conducted by phone, video, or in person?"
+    },
+    {
+      "question_id": "Q06.03",
+      "priority": "E",
+      "question_text": "How much time generally passes between booking and the actual appointment?"
+    },
+    {
+      "question_id": "Q06.04",
+      "priority": "E",
+      "question_text": "What confirmation does the prospect receive immediately after booking?"
+    },
+    {
+      "question_id": "Q06.05",
+      "priority": "E",
+      "question_text": "What is the prospect told they need to prepare?"
+    },
+    {
+      "question_id": "Q06.06",
+      "priority": "E",
+      "question_text": "What educational resources, links, documents, or videos currently arrive before the meeting?"
+    },
+    {
+      "question_id": "Q06.07",
+      "priority": "D",
+      "question_text": "What reminders occur, through which channels, and at what times?"
+    },
+    {
+      "question_id": "Q06.08",
+      "priority": "D",
+      "question_text": "Who verifies that the prospect is still planning to attend?"
+    },
+    {
+      "question_id": "Q06.09",
+      "priority": "D",
+      "question_text": "What happens when a buyer cancels, requests to reschedule, or does not attend?"
+    },
+    {
+      "question_id": "Q06.10",
+      "priority": "D",
+      "question_text": "What are the most common known reasons for first-appointment no-shows?"
+    },
+    {
+      "question_id": "Q06.11",
+      "priority": "O",
+      "question_text": "What does the assigned agent wish every prospect understood before the appointment began?"
+    },
+    {
+      "question_id": "Q06.12",
+      "priority": "O",
+      "question_text": "What questions could a short educational video answer before appointment 1?"
+    },
+    {
+      "question_id": "Q07.01",
+      "priority": "E",
+      "question_text": "Walk me through the first five minutes. How does the agent greet the prospect?"
+    },
+    {
+      "question_id": "Q07.02",
+      "priority": "E",
+      "question_text": "How does the agent introduce themselves, the team, and the purpose of the appointment?"
+    },
+    {
+      "question_id": "Q07.03",
+      "priority": "E",
+      "question_text": "Is there an established agenda or script?"
+    },
+    {
+      "question_id": "Q07.04",
+      "priority": "E",
+      "question_text": "What is the prospect told will happen during the meeting and afterward?"
+    },
+    {
+      "question_id": "Q07.05",
+      "priority": "E",
+      "question_text": "What questions identify the prospect's reason for buying?"
+    },
+    {
+      "question_id": "Q07.06",
+      "priority": "E",
+      "question_text": "How are desired timing, urgency, and readiness established?"
+    },
+    {
+      "question_id": "Q07.07",
+      "priority": "E",
+      "question_text": "How are household needs and participating decision-makers discussed?"
+    },
+    {
+      "question_id": "Q07.08",
+      "priority": "E",
+      "question_text": "How does the agent learn which cities, property types, and features the buyer prefers?"
+    },
+    {
+      "question_id": "Q07.09",
+      "priority": "E",
+      "question_text": "What is asked about the buyer's desired monthly housing expenditure and purchase budget?"
+    },
+    {
+      "question_id": "Q07.10",
+      "priority": "E",
+      "question_text": "How are existing representation relationships identified?"
+    },
+    {
+      "question_id": "Q07.11",
+      "priority": "E",
+      "question_text": "What exactly does the agent teach about the overall homebuying process?"
+    },
+    {
+      "question_id": "Q07.12",
+      "priority": "E",
+      "question_text": "How is the team's role explained?"
+    },
+    {
+      "question_id": "Q07.13",
+      "priority": "E",
+      "question_text": "What proof or examples are presented to demonstrate competence?"
+    },
+    {
+      "question_id": "Q07.14",
+      "priority": "E",
+      "question_text": "Are compensation, buyer representation agreements, services, duration, and termination discussed? If so, how and when?"
+    },
+    {
+      "question_id": "Q07.15",
+      "priority": "E",
+      "question_text": "Are financing, credit, down payment, assistance programs, closing costs, or lender introductions discussed?"
+    },
+    {
+      "question_id": "Q07.16",
+      "priority": "E",
+      "question_text": "Are market conditions or available geographic options introduced?"
+    },
+    {
+      "question_id": "Q07.17",
+      "priority": "E",
+      "question_text": "What information or understanding must the agent obtain before ending the meeting?"
+    },
+    {
+      "question_id": "Q07.18",
+      "priority": "E",
+      "question_text": "Under what circumstances is appointment 2 offered?"
+    },
+    {
+      "question_id": "Q07.19",
+      "priority": "E",
+      "question_text": "What are the exact words or script used to invite the buyer to appointment 2?"
+    },
+    {
+      "question_id": "Q07.20",
+      "priority": "E",
+      "question_text": "What specific value is promised for appointment 2?"
+    },
+    {
+      "question_id": "Q07.21",
+      "priority": "E",
+      "question_text": "Who schedules appointment 2, and when?"
+    },
+    {
+      "question_id": "Q07.22",
+      "priority": "E",
+      "question_text": "What does the buyer explicitly agree to do before that meeting?"
+    },
+    {
+      "question_id": "Q07.23",
+      "priority": "E",
+      "question_text": "What happens if the buyer refuses or postpones the second appointment?"
+    },
+    {
+      "question_id": "Q07.24",
+      "priority": "D",
+      "question_text": "Which questions or objections most frequently interrupt the meeting?"
+    },
+    {
+      "question_id": "Q07.25",
+      "priority": "D",
+      "question_text": "What parts of the appointment are repeated almost identically for every buyer?"
+    },
+    {
+      "question_id": "Q07.26",
+      "priority": "D",
+      "question_text": "Which parts require personalized professional judgment?"
+    },
+    {
+      "question_id": "Q07.27",
+      "priority": "D",
+      "question_text": "Where do agents struggle to maintain the buyer's understanding or attention?"
+    },
+    {
+      "question_id": "Q07.28",
+      "priority": "D",
+      "question_text": "How do different agents conduct this appointment differently?"
+    },
+    {
+      "question_id": "Q07.29",
+      "priority": "D",
+      "question_text": "What distinguishes appointments that progress from appointments that do not?"
+    },
+    {
+      "question_id": "Q07.30",
+      "priority": "O",
+      "question_text": "What would an exceptionally well-prepared buyer already know before joining this appointment?"
+    },
+    {
+      "question_id": "Q08.01",
+      "priority": "E",
+      "question_text": "At what stage is financing first discussed with the buyer?"
+    },
+    {
+      "question_id": "Q08.02",
+      "priority": "E",
+      "question_text": "Who introduces the lender or recommends obtaining preapproval?"
+    },
+    {
+      "question_id": "Q08.03",
+      "priority": "E",
+      "question_text": "Can buyers use their own lender, and how is that handled?"
+    },
+    {
+      "question_id": "Q08.04",
+      "priority": "E",
+      "question_text": "Who determines whether the prospect has been prequalified or preapproved?"
+    },
+    {
+      "question_id": "Q08.05",
+      "priority": "E",
+      "question_text": "Does lender contact occur before appointment 1, during it, afterward, or at another stage?"
+    },
+    {
+      "question_id": "Q08.06",
+      "priority": "E",
+      "question_text": "What does the buyer need to complete before the second appointment?"
+    },
+    {
+      "question_id": "Q08.07",
+      "priority": "E",
+      "question_text": "What specific lender information is communicated back to the licensed agent, and through what authorized process?"
+    },
+    {
+      "question_id": "Q08.08",
+      "priority": "E",
+      "question_text": "Who explains the difference between the maximum loan-supported purchase amount and the buyer's preferred spending limit?"
+    },
+    {
+      "question_id": "Q08.09",
+      "priority": "E",
+      "question_text": "How are down payments, cash-to-close, estimated monthly payments, taxes, insurance, HOA costs, and other ongoing ownership expenses addressed?"
+    },
+    {
+      "question_id": "Q08.10",
+      "priority": "E",
+      "question_text": "How is the buyer's financial comfort level documented without collecting unnecessary sensitive information?"
+    },
+    {
+      "question_id": "Q08.11",
+      "priority": "D",
+      "question_text": "What happens if a buyer is preapproved for more than they want to spend?"
+    },
+    {
+      "question_id": "Q08.12",
+      "priority": "D",
+      "question_text": "What happens if the desired location is not feasible within the buyer's chosen budget?"
+    },
+    {
+      "question_id": "Q08.13",
+      "priority": "D",
+      "question_text": "What happens if the lender cannot approve the buyer?"
+    },
+    {
+      "question_id": "Q08.14",
+      "priority": "D",
+      "question_text": "What happens when the lender is delayed or cannot obtain necessary information?"
+    },
+    {
+      "question_id": "Q08.15",
+      "priority": "D",
+      "question_text": "Is there a defined requalification or readiness-follow-up process?"
+    },
+    {
+      "question_id": "Q08.16",
+      "priority": "D",
+      "question_text": "What percentage of first-appointment buyers reach the second appointment with verified financing readiness?"
+    },
+    {
+      "question_id": "Q08.17",
+      "priority": "O",
+      "question_text": "Which financing-related misconceptions repeatedly consume agent appointment time?"
+    },
+    {
+      "question_id": "Q08.18",
+      "priority": "O",
+      "question_text": "What general financing concepts could be responsibly taught in advance without implying a specific loan approval?"
+    },
+    {
+      "question_id": "Q09.01",
+      "priority": "E",
+      "question_text": "What triggers the transition from appointment 1 to appointment 2?"
+    },
+    {
+      "question_id": "Q09.02",
+      "priority": "E",
+      "question_text": "How soon is appointment 2 usually scheduled?"
+    },
+    {
+      "question_id": "Q09.03",
+      "priority": "E",
+      "question_text": "Who owns the prospect during the interval?"
+    },
+    {
+      "question_id": "Q09.04",
+      "priority": "E",
+      "question_text": "What communications does the prospect receive immediately after appointment 1?"
+    },
+    {
+      "question_id": "Q09.05",
+      "priority": "E",
+      "question_text": "Are there educational materials, financing tasks, questionnaires, property examples, or other assignments?"
+    },
+    {
+      "question_id": "Q09.06",
+      "priority": "E",
+      "question_text": "Who checks whether those tasks are completed?"
+    },
+    {
+      "question_id": "Q09.07",
+      "priority": "E",
+      "question_text": "What prerequisites must be met before appointment 2 proceeds?"
+    },
+    {
+      "question_id": "Q09.08",
+      "priority": "E",
+      "question_text": "What exactly is appointment 2 promised to accomplish?"
+    },
+    {
+      "question_id": "Q09.09",
+      "priority": "D",
+      "question_text": "What happens if the buyer does not complete financing tasks?"
+    },
+    {
+      "question_id": "Q09.10",
+      "priority": "D",
+      "question_text": "What happens if the buyer stops responding?"
+    },
+    {
+      "question_id": "Q09.11",
+      "priority": "D",
+      "question_text": "Are reminders different from those used for appointment 1?"
+    },
+    {
+      "question_id": "Q09.12",
+      "priority": "D",
+      "question_text": "What causes buyers to lose interest between appointments?"
+    },
+    {
+      "question_id": "Q09.13",
+      "priority": "D",
+      "question_text": "What information do agents repeatedly have to explain at the beginning of appointment 2?"
+    },
+    {
+      "question_id": "Q09.14",
+      "priority": "O",
+      "question_text": "What would the ideal buyer understand before joining appointment 2?"
+    },
+    {
+      "question_id": "Q09.15",
+      "priority": "O",
+      "question_text": "What preparation could help a buyer evaluate realistic alternatives without feeling pressured?"
+    },
+    {
+      "question_id": "Q10.01",
+      "priority": "E",
+      "question_text": "Who conducts appointment 2, and who else normally attends?"
+    },
+    {
+      "question_id": "Q10.02",
+      "priority": "E",
+      "question_text": "What are the prerequisites?"
+    },
+    {
+      "question_id": "Q10.03",
+      "priority": "E",
+      "question_text": "What software is used for the live video meeting?"
+    },
+    {
+      "question_id": "Q10.04",
+      "priority": "E",
+      "question_text": "Walk through the opening five minutes."
+    },
+    {
+      "question_id": "Q10.05",
+      "priority": "E",
+      "question_text": "What agenda is presented?"
+    },
+    {
+      "question_id": "Q10.06",
+      "priority": "E",
+      "question_text": "What information has the agent prepared before the meeting?"
+    },
+    {
+      "question_id": "Q10.07",
+      "priority": "E",
+      "question_text": "How is the buyer's lender-supported purchasing range presented?"
+    },
+    {
+      "question_id": "Q10.08",
+      "priority": "E",
+      "question_text": "How is their personal spending limit confirmed?"
+    },
+    {
+      "question_id": "Q10.09",
+      "priority": "E",
+      "question_text": "How are monthly payments and other ownership expenses addressed?"
+    },
+    {
+      "question_id": "Q10.10",
+      "priority": "E",
+      "question_text": "How is the buyer's understanding checked?"
+    },
+    {
+      "question_id": "Q10.11",
+      "priority": "D",
+      "question_text": "What happens when their expectations differ materially from the available options?"
+    },
+    {
+      "question_id": "Q10.12",
+      "priority": "E",
+      "question_text": "How does the agent decide which areas to show?"
+    },
+    {
+      "question_id": "Q10.13",
+      "priority": "E",
+      "question_text": "How are the buyer's preferred locations compared with realistic alternatives?"
+    },
+    {
+      "question_id": "Q10.14",
+      "priority": "E",
+      "question_text": "What maps, listings, screen shares, or visual aids are used?"
+    },
+    {
+      "question_id": "Q10.15",
+      "priority": "E",
+      "question_text": "How are property type, condition, size, commute, expenses, and other buyer priorities considered?"
+    },
+    {
+      "question_id": "Q10.16",
+      "priority": "E",
+      "question_text": "How are actual available homes selected for presentation?"
+    },
+    {
+      "question_id": "Q10.17",
+      "priority": "E",
+      "question_text": "What does the agent say when the buyer's preferred area is outside their spending range?"
+    },
+    {
+      "question_id": "Q10.18",
+      "priority": "E",
+      "question_text": "How do agents help buyers consider tradeoffs without pressuring them into unsuitable locations?"
+    },
+    {
+      "question_id": "Q10.19",
+      "priority": "D",
+      "question_text": "What concerns do buyers raise about moving farther from their first-choice area?"
+    },
+    {
+      "question_id": "Q10.20",
+      "priority": "D",
+      "question_text": "Which alternative markets are most frequently rejected, and why?"
+    },
+    {
+      "question_id": "Q10.21",
+      "priority": "E",
+      "question_text": "Is there a formal presentation or is the meeting conversational?"
+    },
+    {
+      "question_id": "Q10.22",
+      "priority": "E",
+      "question_text": "What sequence does the agent follow?"
+    },
+    {
+      "question_id": "Q10.23",
+      "priority": "E",
+      "question_text": "What questions are used to determine whether the buyer understands and accepts an area or property type?"
+    },
+    {
+      "question_id": "Q10.24",
+      "priority": "E",
+      "question_text": "Are homes compared side by side?"
+    },
+    {
+      "question_id": "Q10.25",
+      "priority": "D",
+      "question_text": "How are misunderstandings, uncertainty, disappointment, or hesitation handled?"
+    },
+    {
+      "question_id": "Q10.26",
+      "priority": "D",
+      "question_text": "Which objections occur most often?"
+    },
+    {
+      "question_id": "Q10.27",
+      "priority": "D",
+      "question_text": "How do you distinguish a buyer who needs more education from one who genuinely does not want the available options?"
+    },
+    {
+      "question_id": "Q10.28",
+      "priority": "E",
+      "question_text": "What exact decision do you want the buyer to make by the end of appointment 2?"
+    },
+    {
+      "question_id": "Q10.29",
+      "priority": "E",
+      "question_text": "What conditions determine readiness to schedule tours?"
+    },
+    {
+      "question_id": "Q10.30",
+      "priority": "E",
+      "question_text": "What exact language is used to invite the buyer to see homes?"
+    },
+    {
+      "question_id": "Q10.31",
+      "priority": "E",
+      "question_text": "What is said about representation, required agreements, services, and compensation?"
+    },
+    {
+      "question_id": "Q10.32",
+      "priority": "E",
+      "question_text": "Who selects or approves the first property list?"
+    },
+    {
+      "question_id": "Q10.33",
+      "priority": "E",
+      "question_text": "How is the first tour date established?"
+    },
+    {
+      "question_id": "Q10.34",
+      "priority": "E",
+      "question_text": "What information is recorded before the appointment ends?"
+    },
+    {
+      "question_id": "Q10.35",
+      "priority": "E",
+      "question_text": "What happens if the buyer likes the process but does not want to tour?"
+    },
+    {
+      "question_id": "Q10.36",
+      "priority": "D",
+      "question_text": "Why do some second appointments end without a next step?"
+    },
+    {
+      "question_id": "Q10.37",
+      "priority": "O",
+      "question_text": "What would the best-prepared buyer already understand before this meeting?"
+    },
+    {
+      "question_id": "Q11.01",
+      "priority": "E",
+      "question_text": "At what stage do you consider someone a buyer client rather than merely a lead?"
+    },
+    {
+      "question_id": "Q11.02",
+      "priority": "E",
+      "question_text": "At what point are buyer representation agreements introduced, explained, and signed?"
+    },
+    {
+      "question_id": "Q11.03",
+      "priority": "E",
+      "question_text": "How are the agreement's services, term, compensation, and termination provisions discussed?"
+    },
+    {
+      "question_id": "Q11.04",
+      "priority": "E",
+      "question_text": "Who verifies that all required disclosures and agreements are completed before applicable services or tours?"
+    },
+    {
+      "question_id": "Q11.05",
+      "priority": "E",
+      "question_text": "Who creates the buyer's initial property list?"
+    },
+    {
+      "question_id": "Q11.06",
+      "priority": "E",
+      "question_text": "How are the buyer's preferences recorded and transferred to the showing agent?"
+    },
+    {
+      "question_id": "Q11.07",
+      "priority": "E",
+      "question_text": "Who coordinates property availability and scheduling?"
+    },
+    {
+      "question_id": "Q11.08",
+      "priority": "E",
+      "question_text": "Who conducts the tour?"
+    },
+    {
+      "question_id": "Q11.09",
+      "priority": "E",
+      "question_text": "What does the buyer receive before their first showing?"
+    },
+    {
+      "question_id": "Q11.10",
+      "priority": "D",
+      "question_text": "What happens when approved properties are no longer available?"
+    },
+    {
+      "question_id": "Q11.11",
+      "priority": "D",
+      "question_text": "How are buyers who change budget, geographic preference, or timing handled?"
+    },
+    {
+      "question_id": "Q11.12",
+      "priority": "D",
+      "question_text": "How often do buyers agree to tour but fail to schedule or attend?"
+    },
+    {
+      "question_id": "Q11.13",
+      "priority": "D",
+      "question_text": "Are buyers handed off between agents? If so, how is continuity maintained?"
+    },
+    {
+      "question_id": "Q11.14",
+      "priority": "D",
+      "question_text": "What happens when the buyer decides not to proceed?"
+    },
+    {
+      "question_id": "Q11.15",
+      "priority": "O",
+      "question_text": "What preparation would make the first tour more useful for both buyer and agent?"
+    },
+    {
+      "question_id": "Q12.01",
+      "priority": "E",
+      "question_text": "What are the ten most common buyer questions across the entire funnel?"
+    },
+    {
+      "question_id": "Q12.02",
+      "priority": "E",
+      "question_text": "What are the ten most common reasons buyers hesitate or decline to continue?"
+    },
+    {
+      "question_id": "Q12.03",
+      "priority": "E",
+      "question_text": "At which stage does each commonly appear?"
+    },
+    {
+      "question_id": "Q12.04",
+      "priority": "E",
+      "question_text": "What exact words do buyers use when raising those concerns?"
+    },
+    {
+      "question_id": "Q12.05",
+      "priority": "E",
+      "question_text": "How does the team currently respond?"
+    },
+    {
+      "question_id": "Q12.06",
+      "priority": "D",
+      "question_text": "Which concerns are informational misunderstandings?"
+    },
+    {
+      "question_id": "Q12.07",
+      "priority": "D",
+      "question_text": "Which concerns reflect genuine financing, affordability, timing, geographic, or household constraints?"
+    },
+    {
+      "question_id": "Q12.08",
+      "priority": "D",
+      "question_text": "Which concerns are about the agent's value, representation terms, or trust?"
+    },
+    {
+      "question_id": "Q12.09",
+      "priority": "D",
+      "question_text": "Which objections recur after the team believes they were already answered?"
+    },
+    {
+      "question_id": "Q12.10",
+      "priority": "D",
+      "question_text": "What reasons are logged for lost or deferred buyers?"
+    },
+    {
+      "question_id": "Q12.11",
+      "priority": "D",
+      "question_text": "What happens when a buyer chooses another agent or lender?"
+    },
+    {
+      "question_id": "Q12.12",
+      "priority": "D",
+      "question_text": "How are prospects who legitimately are not ready placed into appropriate future follow-up?"
+    },
+    {
+      "question_id": "Q12.13",
+      "priority": "O",
+      "question_text": "Which questions could be answered accurately through reusable videos?"
+    },
+    {
+      "question_id": "Q12.14",
+      "priority": "O",
+      "question_text": "What proof, demonstration, or explanation has actually helped buyers understand the process?"
+    },
+    {
+      "question_id": "Q13.01",
+      "priority": "E",
+      "question_text": "What are the owner's direct responsibilities in this funnel?"
+    },
+    {
+      "question_id": "Q13.02",
+      "priority": "E",
+      "question_text": "What does each of the four agents own?"
+    },
+    {
+      "question_id": "Q13.03",
+      "priority": "E",
+      "question_text": "What does each VA own?"
+    },
+    {
+      "question_id": "Q13.04",
+      "priority": "E",
+      "question_text": "Which roles conduct appointment 1 and appointment 2?"
+    },
+    {
+      "question_id": "Q13.05",
+      "priority": "E",
+      "question_text": "Who manages lender coordination?"
+    },
+    {
+      "question_id": "Q13.06",
+      "priority": "E",
+      "question_text": "Who owns prospect follow-up after each appointment?"
+    },
+    {
+      "question_id": "Q13.07",
+      "priority": "E",
+      "question_text": "Who has authority to change a lead stage, reassign a lead, or close an opportunity?"
+    },
+    {
+      "question_id": "Q13.08",
+      "priority": "E",
+      "question_text": "What happens if the assigned agent or VA is absent?"
+    },
+    {
+      "question_id": "Q13.09",
+      "priority": "D",
+      "question_text": "What training is provided to VAs and agents?"
+    },
+    {
+      "question_id": "Q13.10",
+      "priority": "D",
+      "question_text": "How is script adherence or consultation quality evaluated?"
+    },
+    {
+      "question_id": "Q13.11",
+      "priority": "D",
+      "question_text": "Are calls or meetings reviewed with appropriate recording permissions?"
+    },
+    {
+      "question_id": "Q13.12",
+      "priority": "D",
+      "question_text": "What performance reports does each person receive?"
+    },
+    {
+      "question_id": "Q13.13",
+      "priority": "D",
+      "question_text": "Which handoffs most frequently fail?"
+    },
+    {
+      "question_id": "Q13.14",
+      "priority": "D",
+      "question_text": "How is available capacity measured?"
+    },
+    {
+      "question_id": "Q13.15",
+      "priority": "D",
+      "question_text": "Who is responsible for supervising unlicensed activities?"
+    },
+    {
+      "question_id": "Q13.16",
+      "priority": "O",
+      "question_text": "Which repetitive explanations currently consume significant licensed-agent time?"
+    },
+    {
+      "question_id": "Q14.01",
+      "priority": "E",
+      "question_text": "What CRM and connected communication systems are currently in use?"
+    },
+    {
+      "question_id": "Q14.02",
+      "priority": "E",
+      "question_text": "What are the active buyer pipeline stages?"
+    },
+    {
+      "question_id": "Q14.03",
+      "priority": "E",
+      "question_text": "What triggers entry into and exit from each stage?"
+    },
+    {
+      "question_id": "Q14.04",
+      "priority": "E",
+      "question_text": "Which tasks and messages are automated?"
+    },
+    {
+      "question_id": "Q14.05",
+      "priority": "E",
+      "question_text": "Which actions still require manual execution?"
+    },
+    {
+      "question_id": "Q14.06",
+      "priority": "E",
+      "question_text": "Who maintains and approves CRM changes?"
+    },
+    {
+      "question_id": "Q14.07",
+      "priority": "D",
+      "question_text": "How are appointment bookings, cancellations, reschedules, and attendance recorded?"
+    },
+    {
+      "question_id": "Q14.08",
+      "priority": "D",
+      "question_text": "How is lender readiness captured without exposing unnecessary confidential data?"
+    },
+    {
+      "question_id": "Q14.09",
+      "priority": "D",
+      "question_text": "How are lead owners, backups, and overdue tasks monitored?"
+    },
+    {
+      "question_id": "Q14.10",
+      "priority": "D",
+      "question_text": "What happens when a prospect replies to an automated sequence?"
+    },
+    {
+      "question_id": "Q14.11",
+      "priority": "D",
+      "question_text": "How are marketing opt-outs and communication preferences enforced?"
+    },
+    {
+      "question_id": "Q14.12",
+      "priority": "D",
+      "question_text": "How are duplicate messages and conflicting automation triggers prevented?"
+    },
+    {
+      "question_id": "Q14.13",
+      "priority": "D",
+      "question_text": "Are any current pipeline numbers known to be inaccurate?"
+    },
+    {
+      "question_id": "Q14.14",
+      "priority": "O",
+      "question_text": "Can the system deliver different educational assets based on the buyer's stage?"
+    },
+    {
+      "question_id": "Q14.15",
+      "priority": "O",
+      "question_text": "Can video delivery and meaningful engagement be tracked?"
+    },
+    {
+      "question_id": "Q14.16",
+      "priority": "O",
+      "question_text": "What automation capabilities exist but are not currently used?"
+    },
+    {
+      "question_id": "Q15.01",
+      "priority": "E",
+      "question_text": "What period and source cohorts can be reviewed reliably?"
+    },
+    {
+      "question_id": "Q15.02",
+      "priority": "E",
+      "question_text": "How many unique buyer leads entered each major source cohort?"
+    },
+    {
+      "question_id": "Q15.03",
+      "priority": "E",
+      "question_text": "How many were valid and suitable?"
+    },
+    {
+      "question_id": "Q15.04",
+      "priority": "E",
+      "question_text": "How many were assigned and contacted?"
+    },
+    {
+      "question_id": "Q15.05",
+      "priority": "E",
+      "question_text": "How many produced two-way conversations?"
+    },
+    {
+      "question_id": "Q15.06",
+      "priority": "E",
+      "question_text": "How many booked appointment 1?"
+    },
+    {
+      "question_id": "Q15.07",
+      "priority": "E",
+      "question_text": "How many appointment 1 meetings were due and actually held?"
+    },
+    {
+      "question_id": "Q15.08",
+      "priority": "E",
+      "question_text": "How many progressed to appointment 2?"
+    },
+    {
+      "question_id": "Q15.09",
+      "priority": "E",
+      "question_text": "How many appointment 2 meetings were due and held?"
+    },
+    {
+      "question_id": "Q15.10",
+      "priority": "E",
+      "question_text": "How many obtained verified financing readiness?"
+    },
+    {
+      "question_id": "Q15.11",
+      "priority": "E",
+      "question_text": "How many signed representation agreements?"
+    },
+    {
+      "question_id": "Q15.12",
+      "priority": "E",
+      "question_text": "How many scheduled and completed their first tour?"
+    },
+    {
+      "question_id": "Q15.13",
+      "priority": "D",
+      "question_text": "How long did prospects take to progress between stages?"
+    },
+    {
+      "question_id": "Q15.14",
+      "priority": "D",
+      "question_text": "How many are still active or pending rather than lost?"
+    },
+    {
+      "question_id": "Q15.15",
+      "priority": "D",
+      "question_text": "How do these measures differ by lead source and responsible agent?"
+    },
+    {
+      "question_id": "Q15.16",
+      "priority": "D",
+      "question_text": "What does the team spend on advertising, content production, VA labor, appointment labor, CRM, and related acquisition activities?"
+    },
+    {
+      "question_id": "Q15.17",
+      "priority": "D",
+      "question_text": "What mature-cohort offer, contract, and closing data are available?"
+    },
+    {
+      "question_id": "Q15.18",
+      "priority": "D",
+      "question_text": "Is retained contribution after applicable compensation splits and variable costs measured?"
+    },
+    {
+      "question_id": "Q15.19",
+      "priority": "D",
+      "question_text": "Are the available reports accurate enough to calculate stage conversion, or do we first need a data-quality assessment?"
+    },
+    {
+      "question_id": "Q15.20",
+      "priority": "O",
+      "question_text": "Which specific operational targets has the owner established for lead response, appointments, qualified buyers, and closings?"
+    },
+    {
+      "question_id": "Q16.01",
+      "priority": "E",
+      "question_text": "Which educational videos, social posts, presentations, PDFs, and checklists already exist?"
+    },
+    {
+      "question_id": "Q16.02",
+      "priority": "E",
+      "question_text": "When are they shown or sent?"
+    },
+    {
+      "question_id": "Q16.03",
+      "priority": "E",
+      "question_text": "Which are specific to appointment 1?"
+    },
+    {
+      "question_id": "Q16.04",
+      "priority": "E",
+      "question_text": "Which are specific to appointment 2?"
+    },
+    {
+      "question_id": "Q16.05",
+      "priority": "E",
+      "question_text": "Who creates and approves buyer education?"
+    },
+    {
+      "question_id": "Q16.06",
+      "priority": "D",
+      "question_text": "Which buyer questions are already covered adequately by existing material?"
+    },
+    {
+      "question_id": "Q16.07",
+      "priority": "D",
+      "question_text": "Which recurring explanations are missing?"
+    },
+    {
+      "question_id": "Q16.08",
+      "priority": "D",
+      "question_text": "What client testimonials, case studies, process demonstrations, and other genuine proof are available with appropriate usage permissions?"
+    },
+    {
+      "question_id": "Q16.09",
+      "priority": "D",
+      "question_text": "Do agents consistently reference or reinforce educational assets during appointments?"
+    },
+    {
+      "question_id": "Q16.10",
+      "priority": "D",
+      "question_text": "Can prospects access the information easily on their preferred device and in their preferred language?"
+    },
+    {
+      "question_id": "Q16.11",
+      "priority": "O",
+      "question_text": "What information should a buyer understand before appointment 1?"
+    },
+    {
+      "question_id": "Q16.12",
+      "priority": "O",
+      "question_text": "What different information should a buyer understand before appointment 2?"
+    },
+    {
+      "question_id": "Q16.13",
+      "priority": "O",
+      "question_text": "Which questions require individualized advice and should not be delegated to prerecorded content?"
+    },
+    {
+      "question_id": "Q16.14",
+      "priority": "O",
+      "question_text": "Are there important buyer-segment variations that would require different explanations?"
+    }
+  ]
+}

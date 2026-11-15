@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+.DS_Store
+Thumbs.db
+# never commit real discovery output
+Business_Discovery_*.md
+*assessment*.json
+*-result.json
