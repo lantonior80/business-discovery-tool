@@ -6,13 +6,44 @@ It works inside a **ChatGPT Project** or a **Claude Project**. The owner just ch
 
 ---
 
-## Start here — paste this paragraph
+## Start here (about 2 minutes)
 
-Open **ChatGPT** or **Claude**, start a chat (inside a Project if you have one), and paste:
+### Step 1 — Open ChatGPT
+- Go to **chatgpt.com** and sign in, or sign up (it's free) if you don't have an account yet.
 
-> You're setting up the "Business Discovery Tool" for me. I am NOT technical, so explain each step in plain English, give me one step at a time, and wait for me to say "done" before moving on. Open this setup guide and follow it exactly: https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/SETUP.md. If you can't open links, tell me and I'll open https://github.com/lantonior80/business-discovery-tool myself. Don't start the questionnaire until setup is finished.
+### Step 2 — Make a new Project
+1. Find the menu on the **left side** of the screen. On a phone, tap **☰** at the top left to open it.
+2. Under **Projects**, tap **New project**.
+3. Type the name: `Business Discovery`
+4. Tap **Create project**.
 
-The assistant then walks you through about five clicks: make a Project, download five files, add them, paste the instructions, and start.
+### Step 3 — Start a chat inside the Project
+1. You're now on the Project's page, with its name at the top.
+2. There's **no "New chat" button** here. Just tap the **message box** on this page, where you'd normally type to ChatGPT.
+3. Copy the text in the gray box below. Tap the **copy icon** (two small squares) at its top right.
+4. Paste it into the message box and press **Enter** (or tap the send arrow).
+
+```text
+You're setting up the "Business Discovery Tool" for me. I am NOT technical,
+so explain each step in plain English, give me one step at a time, and wait
+for me to say "done" before moving on. Open this setup guide and follow it exactly:
+https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/SETUP.md
+If you can't open links, tell me and I'll open
+https://github.com/lantonior80/business-discovery-tool myself.
+Don't start the questionnaire until setup is finished.
+```
+
+**That's it.** ChatGPT now guides you through the rest, one step at a time. Do what it says, then type `done`.
+
+<details>
+<summary>Using Claude instead of ChatGPT?</summary>
+
+1. Go to **claude.ai** and sign in, or sign up (it's free) if you don't have an account yet.
+2. In the menu on the left, tap **Projects**.
+3. Tap **+ New project** (top right). Type the name `Business Discovery`, then tap **Create project**.
+4. On the Project's page, tap the **message box**, paste the text from the gray box above, and press **Enter**.
+
+</details>
 
 ---
 
