@@ -19,7 +19,7 @@ Ask which app they're using: **ChatGPT** or **Claude**, and whether this chat is
 
 - **Already in a Project:** go to step 2.
 - **Not in a Project:**
-  - **ChatGPT:** in the left sidebar, under **Projects**, click **New project**, name it `Business Discovery`, choose **Work** mode (not **Chat** mode), and click **Create project**. On the Project's page there's no "New chat" button: they just type in the message box on that page.
+  - **ChatGPT:** in the left sidebar, under **Projects**, click **+** to create a new project, name it `Business Discovery`, and click **Create project**. On the Project's page, select **Work** in the **Chat / Work** selector. There's no "New chat" button: they just type in the message box on that page.
   - **Claude:** click **Projects** in the left sidebar, click **+ New project**, name it `Business Discovery`, and click **Create project**. Then type in the message box on the Project's page.
   - Then ask them to paste the setup line again in that new Project chat, and continue there.
 - **They'd rather not use Projects:** explain kindly that the tool needs a Project, because that's where its five files and instructions are kept so every future chat can use them.
@@ -32,7 +32,7 @@ Show them this choice, in these words, and wait for their answer:
 >
 > **A. Manual setup (about 5 minutes).** You download 5 files by clicking links, then upload them into this Project and paste one block of text. I'll tell you exactly what to click.
 >
-> **B. Automated setup (ChatGPT only).** ChatGPT's Agent does the downloading and uploading for you. You just sign in to ChatGPT inside the Agent's browser window: your email, your password, and a verification code. If you've never set up a way to receive codes, you'll be asked to set one up then (a text message to your phone is usually easiest). If you already have one, the code is sent there.
+> **B. Automated setup (ChatGPT only).** I do the downloading and uploading for you. You just sign in to ChatGPT inside the browser window I open: your email, your password, and a verification code. If you've never set up a way to receive codes, you'll be asked to set one up then (a text message to your phone is usually easiest). If you already have one, the code is sent there.
 
 - **Using Claude:** only option A is available. Say so, and go to A1.
 - **A** → go to **A1**. **B** → go to **B1**.
@@ -80,37 +80,27 @@ Then go to **Step 3**.
 
 ## Automated setup (option B, ChatGPT only)
 
-### B1 — Turn on Agent mode
+The person already switched this Project chat to **Work** mode before pasting the setup line, so you can do this yourself. Don't ask them to switch any mode.
 
-You (this chat) can't start the Agent yourself; they switch it on. Tell them:
+### B1 — Tell them what will happen
 
-1. In the message box of **this same Project chat**, tap the **+** button.
-2. Choose **Agent mode**. (Or type `/agent` in the message box.)
-3. If they can't find Agent mode, it may not be included in their ChatGPT plan. Offer **manual setup** instead and go to A1.
-
-### B2 — Send the Agent its instructions
-
-With Agent mode on, ask them to copy this line, paste it in the message box and press **Enter**:
-
-```
-Run the automated setup for the Business Discovery Tool in this Project by following https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/AGENT_SETUP.md
-```
-
-### B3 — Tell them what happens next
-
-Before they send it, explain in plain English:
-- The Agent opens its own browser window and will ask them to **sign in to ChatGPT** there. They may need to tap **Take over** to type in it.
+In one short message, explain in plain English:
+- You'll open a browser window and ask them to **sign in to ChatGPT** there. They may need to tap **Take over** to type in it.
 - They enter their email and password, then a verification code. They pick how to receive the code: a text message to their phone is usually easiest. If they've never set this up, ChatGPT walks them through it first.
 - They type passwords and codes **only in that browser window**, never in the chat.
-- When signed in, they type **done** in the chat. The Agent does the rest, then gives them a link to a fresh chat.
+- When signed in, they type **done** in the chat. You do the rest.
 
-The Agent finishes with its own check and a "Setup complete" summary. Setup is then finished (see Step 3).
+### B2 — Run the automated setup
+
+Open https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/AGENT_SETUP.md and follow it yourself, starting with its step 1. It ends with its own check and a "Setup complete" summary. Setup is then finished (see Step 3).
+
+**If you can't open or control a browser,** the chat is probably still in Chat mode. Tell them to switch the **Chat / Work** selector to **Work** and paste the setup line again, or offer **manual setup** and go to A1. Never leave them without a clear next action.
 
 ---
 
 ## Step 3 — Check and finish
 
-**After automated setup:** the Agent already ran this check and gave them the summary below. Nothing more to do.
+**After automated setup:** you already ran this check and gave them the summary below. Nothing more to do.
 
 **After manual setup:**
 1. Ask them to **start a new chat inside the Project** (new instructions apply to new chats) and type `Check setup` there.

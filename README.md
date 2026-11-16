@@ -12,17 +12,19 @@ It works inside a **ChatGPT Project** or a **Claude Project**. The owner just ch
 - Go to **chatgpt.com** and sign in, or sign up (it's free) if you don't have an account yet.
 
 ### Step 2 — Make a new Project
-1. Find the menu on the **left side** of the screen. On a phone, tap **☰** at the top left to open it.
-2. Under **Projects**, tap **New project**.
+1. Tap the **three-line menu (☰)** on the left to open the side menu.
+2. Find **Projects** and tap **+** next to it to create a new project.
 3. Type the name: `Business Discovery`
-4. Choose **Work** mode, not **Chat** mode.
-5. Tap **Create project**.
+4. Tap **Create project**.
 
-### Step 3 — Start a chat inside the Project
+### Step 3 — Switch to Work mode
 1. You're now on the Project's page, with its name at the top.
-2. There's **no "New chat" button** here. Just tap the **message box** on this page, where you'd normally type to ChatGPT.
-3. Copy the line in the gray box below. Tap the **copy icon** (two small squares) at its right.
-4. Paste it into the message box and press **Enter** (or tap the send arrow).
+2. Find the **Chat / Work** mode selector and select **Work** (not Chat).
+
+### Step 4 — Start the setup
+1. There's **no "New chat" button** here. Just tap the **message box** on this page, where you'd normally type to ChatGPT.
+2. Copy the line in the gray box below. Tap the **copy icon** (two small squares) at its right.
+3. Paste it into the message box and press **Enter** (or tap the send arrow).
 
 ```text
 Set me up with the Business Discovery Tool by following this guide step by step: https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/SETUP.md
@@ -31,7 +33,7 @@ Set me up with the Business Discovery Tool by following this guide step by step:
 **That's it.** ChatGPT now asks how you'd like to set it up:
 
 - **A. Manual:** you download 5 files and upload them into the Project. ChatGPT tells you exactly what to click.
-- **B. Automated (ChatGPT only):** ChatGPT's Agent does the files for you. You only sign in to ChatGPT in the Agent's browser window, with your email, password and a verification code (it can text one to your phone).
+- **B. Automated (ChatGPT, Work mode):** ChatGPT does the files for you. You only sign in to ChatGPT in the browser window it opens, with your email, password and a verification code (it can text one to your phone).
 
 Either way, do what it says, one step at a time, then type `done`.
 
@@ -75,7 +77,7 @@ Either way, do what it says, one step at a time, then type `done`.
 ## For builders
 
 - [SETUP.md](SETUP.md): the step-by-step guide the AI follows during setup (manual or automated).
-- [AGENT_SETUP.md](AGENT_SETUP.md): the runbook ChatGPT's Agent follows for the automated setup.
+- [AGENT_SETUP.md](AGENT_SETUP.md): the runbook ChatGPT (Work mode) follows for the automated setup.
 - [TESTING.md](TESTING.md): the smoke test to run in a fictional Project before you share it.
 - `project-files/`: the five files that go into a Project, which are also attached to each [release](https://github.com/lantonior80/business-discovery-tool/releases/latest).
 - `instructions/PROJECT_INSTRUCTIONS.txt`: the instructions to paste (under 8,000 characters, so they fit ChatGPT and Claude).

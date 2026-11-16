@@ -5,7 +5,7 @@ Run this once in each new place you set it up (ChatGPT Project or Claude Project
 ## A. Setup (about 2 minutes, or 10 for the automated option)
 - [ ] Paste the one-line setup command from the README into a fresh Project chat. The assistant asks **manual or automated**, then gives one step at a time and waits for you.
 - [ ] **Manual:** all five files upload into the Project.
-- [ ] **Automated (separate test Project):** Agent mode turns on; the Agent asks you to sign in **in its browser window**, never in chat; after `done` it uploads all five files to Sources, saves the instructions, and gives you a fresh chat link without starting the questions.
+- [ ] **Automated (separate test Project):** in a Work-mode chat, ChatGPT starts without asking you to switch any mode; it asks you to sign in **in its browser window**, never in chat; after `done` it uploads all five files to Sources, saves the instructions, and gives you a fresh chat link without starting the questions.
 - [ ] In a new chat, `Check setup` lists all five files. If code runs, it reports `"valid": true`, `269` questions and `409` facets. If code can't run, it says so plainly, and doesn't pretend it ran.
 
 ## B. Interview behavior (about 10 minutes)
