@@ -8,6 +8,8 @@ It works inside a **ChatGPT Project** or a **Claude Project**. The owner just ch
 
 ## Start here (about 2 minutes)
 
+Prefer a one-page guide to send or print? **[Download the Start Here PDF](https://github.com/lantonior80/business-discovery-tool/raw/main/handout/Business_Discovery_Start_Here.pdf)**. It has the same steps as below.
+
 ### Step 1 — Open ChatGPT
 - Go to **chatgpt.com** and sign in, or sign up (it's free) if you don't have an account yet.
 
@@ -78,6 +80,7 @@ Either way, do what it says, one step at a time, then type `done`.
 
 - [SETUP.md](SETUP.md): the step-by-step guide the AI follows during setup (manual or automated).
 - [AGENT_SETUP.md](AGENT_SETUP.md): the runbook ChatGPT (Work mode) follows for the automated setup.
+- [handout/Business_Discovery_Start_Here.pdf](handout/Business_Discovery_Start_Here.pdf): the one-page beginner guide. Rebuild it with `python tools/build_start_pdf.py` (needs `reportlab` and `pymupdf`) whenever the start steps change.
 - [TESTING.md](TESTING.md): the smoke test to run in a fictional Project before you share it.
 - `project-files/`: the five files that go into a Project, which are also attached to each [release](https://github.com/lantonior80/business-discovery-tool/releases/latest).
 - `instructions/PROJECT_INSTRUCTIONS.txt`: the instructions to paste (under 8,000 characters, so they fit ChatGPT and Claude).
