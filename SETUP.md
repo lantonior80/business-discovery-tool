@@ -1,14 +1,15 @@
 # Business Discovery Tool — setup guide (for the AI assistant)
 
-**You are the AI assistant reading this because the person you're talking to pasted the setup paragraph.**
+**You are the AI assistant reading this because the person you're talking to pasted the setup line.**
 Walk them through the steps below. They are not technical. Rules for you:
 
 - Give **one step at a time** in plain English, then wait for them to say "done" (or similar) before the next step.
 - Do the thinking for them. Never ask them to edit a file or use a terminal.
-- Chat apps can't add Project files or change Project settings by themselves, so **they click; you guide**. Tell them exactly what to click.
+- In manual setup, chat apps can't add Project files or change Project settings by themselves, so **they click; you guide**. Tell them exactly what to click.
 - If they can't find a button, ask them to paste a screenshot (on Windows: Windows + Shift + S, then Ctrl + V in the chat; on Mac: Cmd + Shift + 4, then paste) and point to it.
-- Don't start the questionnaire until step 5. Don't ask them any business questions during setup.
-- Keep a short checklist in your messages, e.g. "Step 2 of 5 ✅".
+- Never ask for a password or verification code in chat.
+- Don't start the questionnaire until setup is finished. Don't ask them any business questions during setup.
+- Keep a short checklist in your messages, e.g. "Manual setup — step 2 of 4 ✅".
 
 ---
 
@@ -18,12 +19,29 @@ Ask which app they're using: **ChatGPT** or **Claude**, and whether this chat is
 
 - **Already in a Project:** go to step 2.
 - **Not in a Project:**
-  - **ChatGPT:** in the left sidebar click **New project**, name it `Business Discovery`, and create it. Open it and start a new chat inside it.
-  - **Claude:** click **Projects** in the left sidebar, click **Create project**, name it `Business Discovery`, and create it.
-  - Then ask them to paste the setup paragraph again in a chat inside that new Project, and continue there.
+  - **ChatGPT:** in the left sidebar, under **Projects**, click **New project**, name it `Business Discovery`, choose **Work** mode (not **Chat** mode), and click **Create project**. On the Project's page there's no "New chat" button: they just type in the message box on that page.
+  - **Claude:** click **Projects** in the left sidebar, click **+ New project**, name it `Business Discovery`, and click **Create project**. Then type in the message box on the Project's page.
+  - Then ask them to paste the setup line again in that new Project chat, and continue there.
 - **They'd rather not use Projects:** explain kindly that the tool needs a Project, because that's where its five files and instructions are kept so every future chat can use them.
 
-## Step 2 — Download the five tool files
+## Step 2 — Let them choose: manual or automated
+
+Show them this choice, in these words, and wait for their answer:
+
+> **How would you like to set it up?**
+>
+> **A. Manual setup (about 5 minutes).** You download 5 files by clicking links, then upload them into this Project and paste one block of text. I'll tell you exactly what to click.
+>
+> **B. Automated setup (ChatGPT only).** ChatGPT's Agent does the downloading and uploading for you. You just sign in to ChatGPT inside the Agent's browser window: your email, your password, and a verification code. If you've never set up a way to receive codes, you'll be asked to set one up then (a text message to your phone is usually easiest). If you already have one, the code is sent there.
+
+- **Using Claude:** only option A is available. Say so, and go to A1.
+- **A** → go to **A1**. **B** → go to **B1**.
+
+---
+
+## Manual setup (option A)
+
+### A1 — Download the five tool files
 
 Ask them to click each link below. Each one downloads a file, usually into their **Downloads** folder.
 
@@ -41,38 +59,72 @@ Tell them:
 The five separate links are usually easiest. If they prefer one download, there is a zip at https://github.com/lantonior80/business-discovery-tool/releases/latest/download/business-discovery-project-files.zip
 which must be unzipped first: double-click it on a Mac, or right-click → **Extract All** on Windows.
 
-## Step 3 — Add the five files to the Project
+### A2 — Add the five files to the Project
 
-- **ChatGPT:** open the Project's page (click its name in the sidebar). Click **Add files** (it may be under the Project's **⋯** menu → **Files**). Choose all five files from Downloads, then wait until each shows as uploaded.
+- **ChatGPT:** open the Project's page (click its name in the sidebar). Click **Sources** (or **Add files**; it may be under the Project's **⋯** menu), then **Add sources** → **Upload**. Choose all five files from Downloads, then wait until each shows as uploaded.
 - **Claude:** open the Project. In the Project knowledge area on the right, click **+** / **Add content** → **Upload from device**, and select all five files.
 
 Ask them to tell you when all **five** files appear in the Project's file list. If their plan allows fewer files and an upload is refused, tell them which file is missing. All five are required.
 
-## Step 4 — Paste the instructions
+### A3 — Paste the instructions
 
 Open the instructions file at https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/instructions/PROJECT_INSTRUCTIONS.txt. Show its **entire text exactly as written, inside one code block**, so they can use the code block's **Copy** button. Don't shorten it, summarize it or change any word. If you can't open that link, ask them to open it in their browser, press Ctrl + A (Cmd + A on a Mac) to select everything, and copy it.
 
 Then:
-- **ChatGPT:** on the Project's page, open the Project's **⋯** menu (or settings) → **Instructions**. Paste and click **Save**.
+- **ChatGPT:** on the Project's page, open the Project's **⋯** menu → **Project settings** → **Instructions**. Paste and click **Save**.
 - **Claude:** on the Project's page, find **Project instructions** → **Edit** / **Set project instructions**. Paste and click **Save**.
 
-## Step 5 — Check and start
+Then go to **Step 3**.
 
-Ask them to **start a new chat inside the Project**, since new instructions apply to new chats, and type:
+---
+
+## Automated setup (option B, ChatGPT only)
+
+### B1 — Turn on Agent mode
+
+You (this chat) can't start the Agent yourself; they switch it on. Tell them:
+
+1. In the message box of **this same Project chat**, tap the **+** button.
+2. Choose **Agent mode**. (Or type `/agent` in the message box.)
+3. If they can't find Agent mode, it may not be included in their ChatGPT plan. Offer **manual setup** instead and go to A1.
+
+### B2 — Send the Agent its instructions
+
+With Agent mode on, ask them to copy this line, paste it in the message box and press **Enter**:
 
 ```
-Check setup
+Run the automated setup for the Business Discovery Tool in this Project by following https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/AGENT_SETUP.md
 ```
 
-The tool should list the five files and, if a code tool is available, run its built-in check. If anything is missing, come back to this guide. When it says all five files are present, they type:
+### B3 — Tell them what happens next
 
-```
-Start quick discovery
-```
+Before they send it, explain in plain English:
+- The Agent opens its own browser window and will ask them to **sign in to ChatGPT** there. They may need to tap **Take over** to type in it.
+- They enter their email and password, then a verification code. They pick how to receive the code: a text message to their phone is usually easiest. If they've never set this up, ChatGPT walks them through it first.
+- They type passwords and codes **only in that browser window**, never in the chat.
+- When signed in, they type **done** in the chat. The Agent does the rest, then gives them a link to a fresh chat.
 
-Tell them, in plain English, before you finish:
-- It asks one short question at a time and takes about 12 minutes. "Skip" and "I don't know" are fine.
-- They can say **Stop** at any time, and it saves a report file.
-- **Keep the report file.** To continue another day, they start a new chat in the same Project, upload the file and type `Resume discovery`.
+The Agent finishes with its own check and a "Setup complete" summary. Setup is then finished (see Step 3).
+
+---
+
+## Step 3 — Check and finish
+
+**After automated setup:** the Agent already ran this check and gave them the summary below. Nothing more to do.
+
+**After manual setup:**
+1. Ask them to **start a new chat inside the Project** (new instructions apply to new chats) and type `Check setup` there.
+2. It should list the five files and, if a code tool is available, run its built-in check. Ask them to come back to **this** chat and tell you what it said (or paste a screenshot).
+3. If anything is missing, go back to the step that fixes it (A2 for files, A3 for instructions).
+4. When all five files are present, finish with this summary, filled in with what actually happened (never claim a check that didn't run):
+
+> **Setup complete.**
+> - All five files added to **<Project name>**.
+> - Tool instructions saved.
+> - Setup check: <passed: 269 questions, 409 facets | files present, but the code check couldn't run there>.
+> - The questionnaire has **not** started.
+>
+> When you're ready, go to the chat where you typed `Check setup` and type **Start quick discovery**.
+> It asks one question at a time, takes about 12 minutes, and accepts "skip" or "I don't know". Say **Stop** at any time to get your report file. **Keep that file:** to continue another day, start a new chat in the Project, upload it and type `Resume discovery`.
 
 Setup is complete. You can stop here.

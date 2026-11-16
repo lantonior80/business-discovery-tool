@@ -8,7 +8,7 @@ from _helpers import PROJECT, ROOT, vc
 FILES = ["DISCOVERY_GUIDE.md", "QUESTION_BANK.md", "COVERAGE_RUBRIC.json", "MANIFEST.json", "validate_coverage.py"]
 INSTR = ROOT / "instructions" / "PROJECT_INSTRUCTIONS.txt"
 # Words that must never appear in the public tool (private origin, people, fictional QA case).
-FORBIDDEN = ["Liliana", "Alder Lane", "Northmere", "husband", "Southern California", "GoHighLevel", "Hormozi", "Krista", "P27", "C:\\Users", "/Users/", "useai"]
+FORBIDDEN = ["Liliana", "Alder Lane", "Northmere", "husband", "Southern California", "GoHighLevel", "Hormozi", "Krista", "P27", "C:\\Users", "/Users/", "useai", "Analisys", "g-p-"]
 
 
 def tracked_text_files():
@@ -45,6 +45,16 @@ class Hub(unittest.TestCase):
     def test_readme_paragraph_points_to_setup(self):
         readme = (ROOT / "README.md").read_text(encoding="utf-8")
         self.assertIn("raw.githubusercontent.com/lantonior80/business-discovery-tool/main/SETUP.md", readme)
+
+    def test_setup_offers_manual_and_automated(self):
+        setup = (ROOT / "SETUP.md").read_text(encoding="utf-8")
+        for s in ("Manual setup", "Automated setup", "main/AGENT_SETUP.md"):
+            self.assertIn(s, setup)
+        agent = (ROOT / "AGENT_SETUP.md").read_text(encoding="utf-8")
+        self.assertIn("instructions/PROJECT_INSTRUCTIONS.txt", agent)
+        self.assertIn("SHA256SUMS.txt", agent)
+        for f in FILES:
+            self.assertIn(f, agent)
 
     def test_relative_links_exist(self):
         for md in ROOT.glob("*.md"):
