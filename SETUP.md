@@ -117,6 +117,6 @@ Open https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/
 > When you're ready, go to the chat where you typed `Check setup` and type `Start quick discovery`.
 
 In that summary, write **only** `Start quick discovery` in code format (inside backticks), so they can tap it to copy. Everything else stays normal text.
-> It asks one question at a time, takes about 12 minutes, and accepts "skip" or "I don't know". Say **Stop** at any time to get your report file. **Keep that file:** to continue another day, start a new chat in the Project, upload it and type `Resume discovery`.
+> It asks one question at a time, starts by mapping how people find your business, takes about 15–20 minutes, and accepts "skip" or "I don't know". Say **Stop** at any time to get your report file. **Keep that file:** to continue another day, start a new chat in the Project, upload it and type `Resume discovery`.
 
 Setup is complete. You can stop here.

@@ -2,7 +2,7 @@
 
 **A friendly AI interviewer that maps how a real-estate team turns leads into buyers, one short question at a time, and saves the answers as a shareable report.**
 
-It works inside a **ChatGPT Project** or a **Claude Project**. The owner just chats with it, by typing or voice. Behind the scenes it tracks 269 discovery questions, never asks the same thing twice, stops after about 12 minutes, and hands back one report file that can be picked up again later.
+It works inside a **ChatGPT Project** or a **Claude Project**. The owner just chats with it, by typing or voice. Behind the scenes it tracks 269 discovery questions, never asks the same thing twice, starts by mapping how people first find the business, stops after about 15–20 minutes, and hands back one report file that can be picked up again later.
 
 ---
 

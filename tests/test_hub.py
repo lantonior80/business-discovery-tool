@@ -56,6 +56,15 @@ class Hub(unittest.TestCase):
         for f in FILES:
             self.assertIn(f, agent)
 
+    def test_opening_maps_lead_sources_first(self):
+        guide = (PROJECT / "DISCOVERY_GUIDE.md").read_text(encoding="utf-8")
+        opening = guide.index("### Opening — how strangers find the business")
+        self.assertLess(opening, guide.index("After the opening, choose the highest-value"))
+        for qid in ("Q02.01", "Q02.02", "Q02.03", "Q02.04", "Q03.01", "Q03.02"):
+            self.assertIn(qid, guide[opening:opening + 4000])
+        self.assertIn("not** count toward the 12-minute budget or the six-answer fallback", guide)
+        self.assertIn("how strangers find the business", INSTR.read_text(encoding="utf-8"))
+
     def test_relative_links_exist(self):
         for md in ROOT.glob("*.md"):
             for target in re.findall(r"\]\(([^)#:]+)\)", md.read_text(encoding="utf-8")):

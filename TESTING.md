@@ -10,10 +10,11 @@ Run this once in each new place you set it up (ChatGPT Project or Claude Project
 
 ## B. Interview behavior (about 10 minutes)
 - [ ] `Start quick discovery` → a short intro, then **exactly one** question. No list of questions and no form.
+- [ ] The **first** question is about where leads come from (ads, posts, referrals…), **not** what happens when an inquiry arrives. It then follows your biggest source: what people are asked to do, where it lands (landing page, DMs…), what's promised, and where it goes first. Only after that does it ask what happens when an inquiry reaches the team.
 - [ ] It doesn't assume facts you never gave, such as how many agents or VAs you have or which CRM you use.
 - [ ] Answer "I don't know" once and "skip" once. It accepts both and moves on.
 - [ ] It never re-asks something you already answered.
-- [ ] After **six real answers**, when it can't time the chat, it stops asking on its own and gives a snapshot.
+- [ ] After the opening plus **six more real answers**, when it can't time the chat, it stops asking on its own and gives a snapshot.
 
 ## C. Stop, export and resume (about 8 minutes)
 - [ ] In a second test chat, answer two questions, then say `Stop`. You get the report with **no** extra question and no "want to continue?".
