@@ -51,7 +51,7 @@ Check each file is non-empty and its SHA-256 matches `SHA256SUMS.txt`. Don't ren
 
 ## 7. Hand back
 - Leave the Sources page showing the five files and take a screenshot as proof (hide unrelated chats).
-- Tell the person, in plain English: setup is done; open the fresh chat (give its link) and type `Start quick discovery` when ready. It asks one short question at a time, takes about 12 minutes, accepts "skip" and "I don't know", and **Stop** saves a report file they should keep. To continue later: new chat in the Project, upload the report, type `Resume discovery`.
+- Tell the person, in plain English: setup is done; open the fresh chat (give its link) and type `Start quick discovery` when ready. Write **only** `Start quick discovery` in code format (inside backticks) so they can tap it to copy; everything else is normal text. It asks one short question at a time, takes about 12 minutes, accepts "skip" and "I don't know", and **Stop** saves a report file they should keep. To continue later: new chat in the Project, upload the report, type `Resume discovery`.
 - Report honestly what was verified and anything that wasn't. Don't call setup complete if a file, the saved instructions or the check is missing.
 
 ## Checklist
