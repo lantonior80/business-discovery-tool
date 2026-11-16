@@ -6,11 +6,14 @@
 - Never ask for their password or verification code in chat. They type those **only** in your browser, during the sign-in handoff.
 - Don't promise which verification method appears. The live sign-in page decides (text message, authenticator app, email, etc.).
 - Don't start the questionnaire. Don't ask business questions. Never type `Start quick discovery` for them.
+- Don't ask questions you can answer yourself. The only things you need from them are the sign-in and, rarely, a decision about existing Project instructions.
 - Don't delete or replace anything that's already in their Project without asking first.
 - Labels, buttons and tool APIs change. Read the live page and your live tool documentation; the code below is only an example from a successful run.
 
-## 1. Confirm the target
-Ask which Project to set up (usually `Business Discovery`) and get a yes to upload five files and save its instructions.
+## 1. Use this Project
+Install into the Project this chat is in. **Don't ask which Project, and don't ask for permission:** they made this Project for the tool, and choosing automated setup is their yes. Note its name and go straight on.
+
+Never end a message by announcing what you will do next. Either do it, or end with exactly one clear thing for them to do (for example "Sign in, then type **done**").
 
 ## 2. Download and verify the five files
 From https://github.com/lantonior80/business-discovery-tool/releases/latest download, all from the **same** release:
@@ -21,12 +24,12 @@ Check each file is non-empty and its SHA-256 matches `SHA256SUMS.txt`. Don't ren
 
 ## 3. Hand sign-in to the person
 1. Open https://chatgpt.com in your cloud browser (not any other browser session).
-2. If it already shows their account and Project, skip to step 4.
+2. If it already shows their account and this Project, skip to step 4.
 3. Otherwise open **Log in** and hand the browser to them for authentication (for example `tab.requestUserTakeover("authentication")`). Send them this message:
 
    > Please sign in to ChatGPT in the browser window I just opened. Tap **Take over** if you see it. Enter your email and password. ChatGPT will then ask for a code: choose how to receive it (a text message to your phone is usually easiest). If you've never set up a way to get codes, it will ask you to set one up now: follow its steps. When you're signed in, type **done** here.
 
-4. After "done", read the page. Require real signed-in evidence and the target Project visible in the sidebar. "Done" alone is not proof. Reuse this tab; don't start a second sign-in.
+4. After "done", read the page. Require real signed-in evidence and this Project visible in the sidebar. "Done" alone is not proof. Reuse this tab; don't start a second sign-in.
 
 ## 4. Upload the five files to the Project's Sources
 1. Open the Project (sidebar → its name → **Project home**) and confirm the heading matches.
