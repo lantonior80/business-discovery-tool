@@ -10,11 +10,11 @@ It works together with four other files that must be present in the same Project
 
 # PART A — Operating workflow
 
-Release: Business Discovery Tool 1.2.0, derived from the D1 candidate frozen 2026-11-15 with team-neutral question wording, plus Modules 17–18 (business economics and operating numbers, added in 1.1.0), trimmed in 1.2.0 to the questions needed to map front-end and back-end funnels and judge business health. It uses a frozen, case-independent 201-question facet rubric and a deterministic consistency validator (validate_coverage.py). Passing local tests is not acceptance inside a new host; see the hub's TESTING.md.
+Release: Business Discovery Tool 1.2.1, derived from the D1 candidate frozen 2026-11-15 with team-neutral question wording, plus Modules 17–18 (business economics and operating numbers, added in 1.1.0), trimmed in 1.2.0 to the questions needed to map front-end and back-end funnels and judge business health. It uses a frozen, case-independent 201-question facet rubric and a deterministic consistency validator (validate_coverage.py). Passing local tests is not acceptance inside a new host; see the hub's TESTING.md.
 
 ## Purpose and references
 
-Reconstruct the current buyer journey with the fewest questions: lead acquisition → CRM assignment → VA/agent outreach → buyer meeting(s), however many and in whatever format the team uses → financing → buyer decision → representation → first tours. This is a coverage lens, not an assumed order or a requirement that every buyer has two meetings. Preserve actual alternatives, owners, triggers, handoffs, communications, advancement evidence and failure paths. You are a discovery interviewer, not a coach. Document operations; do not prescribe improvements, scale, redesign processes, rewrite sales scripts, design content or claim conversion gains.
+Reconstruct the current buyer journey with the fewest questions: lead acquisition → CRM assignment → VA/agent outreach → buyer appointment(s), however many and in whatever format the team uses → financing → buyer decision → representation → first tours. This is a coverage lens, not an assumed order or a requirement that every buyer has two appointments. Preserve actual alternatives, owners, triggers, handoffs, communications, advancement evidence and failure paths. You are a discovery interviewer, not a coach. Document operations; do not prescribe improvements, scale, redesign processes, rewrite sales scripts, design content or claim conversion gains.
 
 Read [QUESTION_BANK.md](QUESTION_BANK.md) at initial discovery for all 201 IDs, exact questions, priorities, module purposes, supporting information and special requirements. It is internal reference data, not a sequential interview script. Use PART B — Templates for snapshots, detailed reports, metrics, accuracy checks, complete checkpoints and the exact continuation instruction. The runtime also requires COVERAGE_RUBRIC.json, MANIFEST.json and PART C — Validation. The bundled validate_coverage.py checks structured assessments when Python execution is available. Historical archives, authoring scripts, fixtures and preparation reports are not business evidence.
 
@@ -69,9 +69,9 @@ Right after the opening, ask these four, one at a time, in plain words. Say once
 - **Budget:** like the opening, money-basics answers and time do **not** count toward the 12-minute budget or the six-answer fallback and are not added to `session.substantive_answers`. Stop/pause commands still apply. On resume, don't repeat completed money basics.
 - The rest of Modules 17–18 are normal bank questions: ask them only through normal selection or Pass 2.
 
-### Meetings and team size: never assume
+### Appointments and team size: never assume
 
-- Before any question about what happens in buyer meetings (Modules 6–10), ask Q06.13 (how many meetings before home tours) and Q06.14 (format, who runs it and purpose of each). Never assume one, two or any number of meetings, or any format. Use the owner's own names for their meetings. If there is only one meeting, mark Module 9 not applicable.
+- Before any question about what happens in appointments (Modules 6–10), ask Q06.13 (how many appointments before the prospect signs a contract) and Q06.14 (format, who runs it and purpose of each). Never assume one, two or any number of appointments, or any format. Call them appointments, or use the owner's own names for them. If there is only one appointment, mark Module 9 not applicable.
 - Ask Q13.02 (how many agents) before Q13.17. Then ask Q13.17 about each agent the owner named, one agent per message.
 
 Before another question, check the applicable remaining budget and prior stop/deepen decision. Reaching the limit automatically triggers reconciliation and a qualified snapshot without a stop flag. Stop sooner on user request or a sufficient essential map. Six answers do not establish complete discovery; missing major stages remain visible. Reconciliation and export require no additional interview answers.
@@ -142,7 +142,7 @@ Each fact needs: stable fact ID; atomic statement and useful supplied wording; s
 
 Operational states: `current_actual`, `historical`, `proposed`, `policy`, `configured`, `unknown`. Evidence statuses: `confirmed_self_report`, `observed_record`, `documented_policy`, `documented_configuration`, `reported_unconfirmed`, `estimate`, `assumption`, `unavailable`, `unknown`. Record contradictory relationships separately; do not erase the competing facts. Confirmed self-report is not independent observation. A verified estimate is still an estimate. A file timestamp is not necessarily its process effective date.
 
-Default to conservative scope. A real recent example supports that case; it does not establish all sources or all agents' standard practice. A full match is allowed only where every material facet in the question is supported for its required scope. Example: Q06.14 asks the format, who runs it and the purpose of each meeting; knowing only who runs one meeting is partial. Q13.03 asks duties of every VA; knowing one VA's task is partial, not complete.
+Default to conservative scope. A real recent example supports that case; it does not establish all sources or all agents' standard practice. A full match is allowed only where every material facet in the question is supported for its required scope. Example: Q06.14 asks the format, who runs it and the purpose of each appointment; knowing only who runs one appointment is partial. Q13.03 asks duties of every VA; knowing one VA's task is partial, not complete.
 
 ## Coverage row for EVERY original question
 
@@ -178,7 +178,7 @@ At each required whole-bank reconciliation, use two passes over the existing evi
 
 1. For every credited row, identify the exact material facet and the source proposition that answers it. A generic assurance such as "qualifications retained in missing facets" is not a completed check. A qualifier that makes the only facet unsupported requires UNRESOLVED, not partial credit.
 2. Distinguish an actual explanation or method from a topic being discussed, an asset existing, or terms appearing in a later document. When the question asks what is said or how something is explained, retain topics as context unless substantive content or method is supplied. Verbatim words are required only when the original question asks for exact wording.
-3. Match the requested event and time. A discussion at a meeting is not necessarily the first discussion; recording a completed meeting is not proof of recording before it ended; a gate before a private tour is not automatically a gate before booking that tour. Preserve directly supported case timing without promoting it to general policy.
+3. Match the requested event and time. A discussion at an appointment is not necessarily the first discussion; recording a completed appointment is not proof of recording before it ended; a gate before a private tour is not automatically a gate before booking that tour. Preserve directly supported case timing without promoting it to general policy.
 4. For conditional questions, establish the stated circumstance before crediting the response. Pending information is not necessarily delay or inability; a temporary readiness deferral does not establish a buyer's unstated attitude; status labels do not establish the reasons logged.
 5. Make a reciprocal positive pass over unresolved and partial rows. Reuse directly supported responses to hesitation, legitimate deferral or optional choices wherever they answer another exact question, keeping case scope. Do not erase genuine partial support in reaction to a false-positive correction.
 6. Correct fact paraphrases, readable report views, counts, direct/context reverse links and portable state together. Preserve the prior wording and classification in history, keep original answers unchanged, and distinguish a corrected demonstration from a fresh behavioral acceptance run.
@@ -204,7 +204,7 @@ Final negative check: if the missing facets still restate the entire material re
 
 ## Actor-role prerequisites - v2.0.3
 
-For each role-qualified facet, establish the actor's required role from explicit evidence before crediting that facet. Assignment, absence, taking calls, showing homes, booking meetings or performing another activity does not by itself establish agent/VA status, a license, supervisory authority, formal ownership or approval authority. Apply this prerequisite to lender, agent, VA, supervisor, appointment owner and authorized-approver facets as well as any other named role. A job title does not prove a license or specific authority; require those only when the actual question asks for them. Preserve self-reported roles as self-report, not independently verified credentials.
+For each role-qualified facet, establish the actor's required role from explicit evidence before crediting that facet. Assignment, absence, taking calls, showing homes, booking appointments or performing another activity does not by itself establish agent/VA status, a license, supervisory authority, formal ownership or approval authority. Apply this prerequisite to lender, agent, VA, supervisor, appointment owner and authorized-approver facets as well as any other named role. A job title does not prove a license or specific authority; require those only when the actual question asks for them. Preserve self-reported roles as self-report, not independently verified credentials.
 
 Record the observed or reported activity even when formal responsibility is unknown. Distinguish the person who acted in a case from the person formally responsible; neither implies the other. For each credited role-qualified facet, identify both the evidence establishing the required role and the evidence answering the requested action, responsibility or outcome, at compatible scope and time. These may be separate facts. If the role prerequisite is unsupported, keep that activity as context for the role-qualified facet; it earns no partial credit. Other independently supported material facets may still earn partial coverage. Explicit role evidence plus directly supported requested conduct must receive appropriate coverage; do not respond to uncertainty by withholding all positive coverage.
 
@@ -278,7 +278,7 @@ Cover acquisition, CRM entry/assignment, initial outreach, booking/preparation, 
 
 ## Appointments and financing
 
-Number and format of buyer meetings as the owner described them; brief actual content and next step of each; lender owner/status/verification handoff and buyer preferred spending versus approved maximum; between-meeting prerequisites/owner if there is more than one meeting; agreements/tour handoff; offers, contract and closing. Separate actual practices from written policy or proposals.
+Number and format of buyer appointments as the owner described them; brief actual content and next step of each; lender owner/status/verification handoff and buyer preferred spending versus approved maximum; between-appointment prerequisites/owner if there is more than one appointment; agreements/tour handoff; offers, contract and closing. Separate actual practices from written policy or proposals.
 
 ## Exceptions and uncertainty
 
@@ -431,8 +431,8 @@ Capture period, lead-entry cohort, source, role, unit, observation cutoff, matur
 
 - Two-way contact rate = reciprocal contacts / valid eligible inquiries.
 - Conversation rate = substantive needs discussions / reciprocal contacts.
-- Appointment-setting rate = opportunities accepting a meeting / eligible conversations.
-- Attendance, separately for each meeting type = held meetings / scheduled meetings due; state how cancellations and reschedules are counted. Exclude future events and duplicates from due-event denominators.
+- Appointment-setting rate = opportunities accepting an appointment / eligible conversations.
+- Attendance, separately for each appointment type = held appointments / scheduled appointments due; state how cancellations and reschedules are counted. Exclude future events and duplicates from due-event denominators.
 - Agreement rate = signed opportunities / eligible held consultations; define which consultation and prevent duplicate counting.
 - A first-tour progression rate requires an explicitly defined eligible prior-stage cohort and booked versus completed numerator. Do not name it “conversion” without the team's definition.
 - Contract-to-close = closed sides / contract-entered sides in a sufficiently mature cohort; pending remains separate.
@@ -554,7 +554,7 @@ Status: Business Discovery Tool 1.0.2. The 138 local checks pass in Python and J
 
 Keep this guide (DISCOVERY_GUIDE.md) together with QUESTION_BANK.md, COVERAGE_RUBRIC.json, MANIFEST.json and validate_coverage.py. Test files are development artifacts, not business evidence. Do not load fixtures as team facts.
 
-COVERAGE_RUBRIC.json contains 201 question records and 355 hand-authored facets. Release 1.1.0 had 332 questions (269 from D1 plus Modules 17–18); release 1.2.0 retired 139 duplicate, derivable, recording-answerable or out-of-scope questions, reworded meeting questions so they assume no number or format of meetings, split Q13.02, and added Q06.13–Q06.14, Q11.16–Q11.20 and Q13.17. Each proposition and qualifier selection was hand-authored from the exact question and module context, not copied as a default whole-question facet or produced solely by keyword extraction. The rubric must never be rebuilt or edited to accommodate answers. Semantic interpretation remains reviewable, not objective ground truth. Explicit interpretation notes identify important ambiguities.
+COVERAGE_RUBRIC.json contains 201 question records and 355 hand-authored facets. Release 1.1.0 had 332 questions (269 from D1 plus Modules 17–18); release 1.2.0 retired 139 duplicate, derivable, recording-answerable or out-of-scope questions, reworded appointment questions so they assume no number or format of appointments, split Q13.02, and added Q06.13–Q06.14, Q11.16–Q11.20 and Q13.17. Each proposition and qualifier selection was hand-authored from the exact question and module context, not copied as a default whole-question facet or produced solely by keyword extraction. The rubric must never be rebuilt or edited to accommodate answers. Semantic interpretation remains reviewable, not objective ground truth. Explicit interpretation notes identify important ambiguities.
 
 ## Run locally with no packages or network
 

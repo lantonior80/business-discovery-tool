@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.1 — 2026-11-18
+- Questions say **appointments** instead of "meetings" throughout.
+- Q06.13 now counts appointments up to signing a contract: "How many appointments does a prospect usually have with your team before they sign a contract?" Q07.19 and Q10.28 use the same point.
+- Q15.08–Q15.09 count "later appointments" instead of a "second appointment", and the scoring rubric's background labels no longer assume a first or second appointment.
+- Same 201 questions and IDs. The wording changed, so the hashes changed.
+
 ## 1.2.0 — 2026-11-18
 - **Trimmed from 332 to 201 questions (355 facets).** 139 questions were retired:
   - 82 duplicates

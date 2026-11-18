@@ -13,6 +13,7 @@ Run this once in each new place you set it up (ChatGPT Project or Claude Project
 - [ ] The **first** question is about where leads come from (ads, posts, referrals…), **not** what happens when an inquiry arrives. It then follows your biggest source: what people are asked to do, where it lands (landing page, DMs…), what's promised, and where it goes first. Only after that does it ask what happens when an inquiry reaches the team.
 - [ ] Right after that opening come four **money basics**, one at a time: deals and commission in the last 12 months, what the team keeps per deal, the cost to win a client, and repeat and referral closings. Give made-up numbers. It says estimates are fine and **never comments** on your numbers (no "that's good", no comparisons or ratios).
 - [ ] It doesn't assume facts you never gave, such as how many agents or VAs you have or which CRM you use.
+- [ ] Before asking about appointments, it asks **how many appointments a prospect has before signing a contract** and what type each one is. It never says "appointment 1/2" or "video call" unless you did. Before asking what each agent owns, it asks how many agents you have.
 - [ ] Answer "I don't know" once and "skip" once. It accepts both and moves on.
 - [ ] It never re-asks something you already answered.
 - [ ] After the opening, the money basics and **six more real answers**, when it can't time the chat, it stops asking on its own and gives a snapshot.

@@ -97,7 +97,12 @@ class Hub(unittest.TestCase):
         self.assertEqual(ids.index("Q13.17"), ids.index("Q13.02") + 1)
         self.assertNotIn("California", bank)
         guide = (PROJECT / "DISCOVERY_GUIDE.md").read_text(encoding="utf-8")
-        self.assertIn("### Meetings and team size: never assume", guide)
+        self.assertIn("### Appointments and team size: never assume", guide)
+        q0613 = dict(qs)["Q06.13"]
+        self.assertIn("appointments", q0613)
+        self.assertIn("sign a contract", q0613)
+        for qid, text in qs:
+            self.assertNotRegex(text, r"(?i)\bmeetings?\b|before touring homes|\ba appointment", qid)
 
     def test_relative_links_exist(self):
         for md in ROOT.glob("*.md"):

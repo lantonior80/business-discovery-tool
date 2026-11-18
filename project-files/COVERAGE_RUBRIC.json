@@ -1157,7 +1157,7 @@
       "facets": [
         {
           "facet_id": "Q04.06.F01",
-          "proposition": "Qualifying or discovery questions before offering first meeting",
+          "proposition": "Qualifying or discovery questions before offering first appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -1171,7 +1171,7 @@
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Qualifying or discovery questions before offering first meeting",
+            "event": "Qualifying or discovery questions before offering first appointment",
             "population": "new-lead outreach and VA appointment setting",
             "time": "before question-named event",
             "unit": "question-specific person, action, item or event"
@@ -1607,21 +1607,21 @@
     {
       "question_id": "Q06.13",
       "priority": "E",
-      "question_text": "How many meetings does a buyer usually have with the team before touring homes?",
+      "question_text": "How many appointments does a prospect usually have with your team before they sign a contract?",
       "mode": "factual",
-      "module_context": "first meeting scheduling and preparation",
+      "module_context": "appointment number, type, scheduling and preparation",
       "facets": [
         {
           "facet_id": "Q06.13.F01",
-          "proposition": "Usual number of meetings before home tours",
+          "proposition": "Usual number of appointments before the prospect signs a contract",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Usual number of meetings before home tours",
-            "population": "first meeting scheduling and preparation",
+            "event": "Usual number of appointments before the prospect signs a contract",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -1638,21 +1638,21 @@
     {
       "question_id": "Q06.14",
       "priority": "E",
-      "question_text": "For each of those meetings, is it by phone, video or in person, who runs it, and what is it for?",
+      "question_text": "For each of those appointments, is it by phone, video or in person, who runs it, and what is it for?",
       "mode": "factual",
-      "module_context": "first meeting scheduling and preparation",
+      "module_context": "appointment number, type, scheduling and preparation",
       "facets": [
         {
           "facet_id": "Q06.14.F01",
-          "proposition": "Format of each meeting",
+          "proposition": "Format of each appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Format of each meeting",
-            "population": "first meeting scheduling and preparation",
+            "event": "Format of each appointment",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -1661,15 +1661,15 @@
         },
         {
           "facet_id": "Q06.14.F02",
-          "proposition": "Who runs each meeting",
+          "proposition": "Who runs each appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Who runs each meeting",
-            "population": "first meeting scheduling and preparation",
+            "event": "Who runs each appointment",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -1678,15 +1678,15 @@
         },
         {
           "facet_id": "Q06.14.F03",
-          "proposition": "Purpose of each meeting",
+          "proposition": "Purpose of each appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Purpose of each meeting",
-            "population": "first meeting scheduling and preparation",
+            "event": "Purpose of each appointment",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -1703,9 +1703,9 @@
     {
       "question_id": "Q06.03",
       "priority": "E",
-      "question_text": "How much time generally passes between booking the first meeting and holding it?",
+      "question_text": "How much time generally passes between booking the first appointment and holding it?",
       "mode": "factual",
-      "module_context": "first meeting scheduling and preparation",
+      "module_context": "appointment number, type, scheduling and preparation",
       "facets": [
         {
           "facet_id": "Q06.03.F01",
@@ -1724,7 +1724,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "General booking-to-appointment elapsed time",
-            "population": "first meeting scheduling and preparation",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -1741,9 +1741,9 @@
     {
       "question_id": "Q06.04",
       "priority": "E",
-      "question_text": "What confirmation does the prospect receive immediately after booking a meeting?",
+      "question_text": "What confirmation does the prospect receive immediately after booking an appointment?",
       "mode": "factual",
-      "module_context": "first meeting scheduling and preparation",
+      "module_context": "appointment number, type, scheduling and preparation",
       "facets": [
         {
           "facet_id": "Q06.04.F01",
@@ -1768,7 +1768,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Confirmation received immediately after booking",
-            "population": "first meeting scheduling and preparation",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -1785,9 +1785,9 @@
     {
       "question_id": "Q06.05",
       "priority": "E",
-      "question_text": "What is the prospect told to prepare before a meeting?",
+      "question_text": "What is the prospect told to prepare before an appointment?",
       "mode": "factual",
-      "module_context": "first meeting scheduling and preparation",
+      "module_context": "appointment number, type, scheduling and preparation",
       "facets": [
         {
           "facet_id": "Q06.05.F01",
@@ -1799,7 +1799,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Preparation instructions communicated to prospect",
-            "population": "first meeting scheduling and preparation",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -1816,21 +1816,21 @@
     {
       "question_id": "Q06.07",
       "priority": "D",
-      "question_text": "What meeting reminders are sent, through which channels, and at what times, and who checks that the buyer still plans to attend?",
+      "question_text": "What appointment reminders are sent, through which channels, and at what times, and who checks that the buyer still plans to attend?",
       "mode": "factual",
-      "module_context": "first meeting scheduling and preparation",
+      "module_context": "appointment number, type, scheduling and preparation",
       "facets": [
         {
           "facet_id": "Q06.07.F01",
-          "proposition": "Meeting reminders, channels and timing",
+          "proposition": "Appointment reminders, channels and timing",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Meeting reminders, channels and timing",
-            "population": "first meeting scheduling and preparation",
+            "event": "Appointment reminders, channels and timing",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -1847,7 +1847,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Who checks the buyer still plans to attend",
-            "population": "first meeting scheduling and preparation",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -1864,9 +1864,9 @@
     {
       "question_id": "Q06.09",
       "priority": "D",
-      "question_text": "What happens when a buyer cancels, asks to reschedule, or does not attend a meeting?",
+      "question_text": "What happens when a buyer cancels, asks to reschedule, or does not attend an appointment?",
       "mode": "factual",
-      "module_context": "first meeting scheduling and preparation",
+      "module_context": "appointment number, type, scheduling and preparation",
       "facets": [
         {
           "facet_id": "Q06.09.F01",
@@ -1885,7 +1885,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Cancellation handling",
-            "population": "first meeting scheduling and preparation",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -1909,7 +1909,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Reschedule-request handling",
-            "population": "first meeting scheduling and preparation",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -1933,7 +1933,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Nonattendance handling",
-            "population": "first meeting scheduling and preparation",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -1950,21 +1950,21 @@
     {
       "question_id": "Q06.10",
       "priority": "D",
-      "question_text": "What are the most common known reasons buyers miss meetings?",
+      "question_text": "What are the most common known reasons buyers miss appointments?",
       "mode": "factual",
-      "module_context": "first meeting scheduling and preparation",
+      "module_context": "appointment number, type, scheduling and preparation",
       "facets": [
         {
           "facet_id": "Q06.10.F01",
-          "proposition": "Most common known reasons buyers miss meetings",
+          "proposition": "Most common known reasons buyers miss appointments",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Most common known reasons buyers miss meetings",
-            "population": "first meeting scheduling and preparation",
+            "event": "Most common known reasons buyers miss appointments",
+            "population": "appointment number, type, scheduling and preparation",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -1981,9 +1981,9 @@
     {
       "question_id": "Q07.02",
       "priority": "E",
-      "question_text": "How does the person running a meeting introduce themselves, the team, and the purpose of the meeting?",
+      "question_text": "How does the person running an appointment introduce themselves, the team, and the purpose of the appointment?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.02.F01",
@@ -2002,7 +2002,7 @@
           "bounds": {
             "actor": "agent as explicitly requested",
             "event": "Agent self-introduction",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2026,7 +2026,7 @@
           "bounds": {
             "actor": "agent as explicitly requested",
             "event": "Agent introduction of team",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2050,7 +2050,7 @@
           "bounds": {
             "actor": "agent as explicitly requested",
             "event": "Agent explanation of appointment purpose",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2067,13 +2067,13 @@
     {
       "question_id": "Q07.03",
       "priority": "E",
-      "question_text": "Is there an established agenda or script for each meeting?",
+      "question_text": "Is there an established agenda or script for each appointment?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.03.F01",
-          "proposition": "Whether an established first meeting agenda or script exists",
+          "proposition": "Whether an established agenda or script exists for each appointment",
           "required_for_full": true,
           "allows_some": false,
           "mode": "factual",
@@ -2087,8 +2087,8 @@
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Whether an established first meeting agenda or script exists",
-            "population": "first meeting conduct",
+            "event": "Whether an established agenda or script exists for each appointment",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2099,7 +2099,7 @@
       "semantic_review": {
         "reviewed": true,
         "basis": "Exact question, module purpose, local referents and generic semantic rules only",
-        "notes": "Established recurring topic outline may be an agenda; formal, written or ordered is not required. An isolated meeting description is not automatically established. Qualified existence questions can be answered by supported absence of the full predicate; do not demand a nonexistent process, permission or inaccurate number. A negative answer does not certify all possible contrary facts absent."
+        "notes": "Established recurring topic outline may be an agenda; formal, written or ordered is not required. An isolated appointment description is not automatically established. Qualified existence questions can be answered by supported absence of the full predicate; do not demand a nonexistent process, permission or inaccurate number. A negative answer does not certify all possible contrary facts absent."
       }
     },
     {
@@ -2107,7 +2107,7 @@
       "priority": "E",
       "question_text": "What questions identify the prospect's reason for buying?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.05.F01",
@@ -2119,7 +2119,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Questions eliciting reason for buying",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2138,7 +2138,7 @@
       "priority": "E",
       "question_text": "How are desired timing, urgency, and readiness established?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.06.F01",
@@ -2150,7 +2150,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Establishing desired timing",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2167,7 +2167,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Establishing urgency",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2184,7 +2184,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Establishing readiness",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2203,7 +2203,7 @@
       "priority": "E",
       "question_text": "How are household needs and participating decision-makers discussed?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.07.F01",
@@ -2215,7 +2215,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Discussion of household needs",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2232,7 +2232,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Discussion of participating decision-makers",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2251,7 +2251,7 @@
       "priority": "E",
       "question_text": "How does the agent learn which cities, property types, and features the buyer prefers?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.08.F01",
@@ -2270,7 +2270,7 @@
           "bounds": {
             "actor": "agent as explicitly requested",
             "event": "Agent method eliciting city preferences",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2294,7 +2294,7 @@
           "bounds": {
             "actor": "agent as explicitly requested",
             "event": "Agent method eliciting property-type preferences",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2318,7 +2318,7 @@
           "bounds": {
             "actor": "agent as explicitly requested",
             "event": "Agent method eliciting feature preferences",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2337,7 +2337,7 @@
       "priority": "E",
       "question_text": "What is asked about the buyer's desired monthly housing expenditure and purchase budget?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.09.F01",
@@ -2349,7 +2349,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Inquiry about desired monthly expenditure",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2366,7 +2366,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Inquiry about purchase budget",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2385,7 +2385,7 @@
       "priority": "E",
       "question_text": "How are existing representation relationships identified?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.10.F01",
@@ -2397,7 +2397,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Identifying existing representation relationships",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2416,7 +2416,7 @@
       "priority": "E",
       "question_text": "What exactly does the agent teach about the overall homebuying process?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.11.F01",
@@ -2435,7 +2435,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Exact teaching content about overall homebuying process",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2454,7 +2454,7 @@
       "priority": "E",
       "question_text": "What proof or examples are presented to demonstrate competence?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.13.F01",
@@ -2466,7 +2466,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Proof or examples presented to demonstrate competence",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2485,7 +2485,7 @@
       "priority": "E",
       "question_text": "Are market conditions or available geographic options introduced?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.16.F01",
@@ -2497,7 +2497,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Whether market conditions are introduced",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2514,7 +2514,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Whether geographic options are introduced",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -2531,13 +2531,13 @@
     {
       "question_id": "Q07.17",
       "priority": "E",
-      "question_text": "What information or understanding must the team obtain before a meeting ends?",
+      "question_text": "What information or understanding must the team obtain before an appointment ends?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.17.F01",
-          "proposition": "Required agent information or understanding before meeting end",
+          "proposition": "Required agent information or understanding before appointment end",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -2563,8 +2563,8 @@
           ],
           "bounds": {
             "actor": "agent as explicitly requested",
-            "event": "Required agent information or understanding before meeting end",
-            "population": "first meeting conduct",
+            "event": "Required agent information or understanding before appointment end",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "before question-named event",
             "unit": "question-specific person, action, item or event"
           },
@@ -2581,9 +2581,9 @@
     {
       "question_id": "Q07.19",
       "priority": "E",
-      "question_text": "What exact words are used to invite the buyer to the next step, whether another meeting or home tours?",
+      "question_text": "What exact words are used to invite the prospect to the next step, whether another appointment or signing a contract?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.19.F01",
@@ -2595,7 +2595,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Exact words inviting the buyer to the next step",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -2614,7 +2614,7 @@
       "priority": "E",
       "question_text": "What happens if the buyer refuses or postpones the next step?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.23.F01",
@@ -2626,7 +2626,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Handling when the buyer refuses or postpones the next step",
-            "population": "first meeting conduct",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -2643,13 +2643,13 @@
     {
       "question_id": "Q07.28",
       "priority": "D",
-      "question_text": "How do different agents run these meetings differently?",
+      "question_text": "How do different agents run these appointments differently?",
       "mode": "factual",
-      "module_context": "first meeting conduct",
+      "module_context": "appointment conduct (each appointment the owner described)",
       "facets": [
         {
           "facet_id": "Q07.28.F01",
-          "proposition": "Differences in first meeting execution across agents",
+          "proposition": "Differences in appointment execution across agents",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -2663,8 +2663,8 @@
           ],
           "bounds": {
             "actor": "agent as explicitly requested",
-            "event": "Differences in first meeting execution across agents",
-            "population": "first meeting conduct",
+            "event": "Differences in appointment execution across agents",
+            "population": "appointment conduct (each appointment the owner described)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3175,21 +3175,21 @@
     {
       "question_id": "Q09.01",
       "priority": "E",
-      "question_text": "If buyers have more than one meeting, what triggers moving from one meeting to the next?",
+      "question_text": "If buyers have more than one appointment, what triggers moving from one appointment to the next?",
       "mode": "factual",
-      "module_context": "interval from first meeting to second meeting",
+      "module_context": "interval between appointments, when there is more than one",
       "facets": [
         {
           "facet_id": "Q09.01.F01",
-          "proposition": "Trigger for moving to the next meeting",
+          "proposition": "Trigger for moving to the next appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Trigger for moving to the next meeting",
-            "population": "interval from first meeting to second meeting",
+            "event": "Trigger for moving to the next appointment",
+            "population": "interval between appointments, when there is more than one",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -3206,13 +3206,13 @@
     {
       "question_id": "Q09.02",
       "priority": "E",
-      "question_text": "How soon is the next meeting usually scheduled?",
+      "question_text": "How soon is the next appointment usually scheduled?",
       "mode": "factual",
-      "module_context": "interval from first meeting to second meeting",
+      "module_context": "interval between appointments, when there is more than one",
       "facets": [
         {
           "facet_id": "Q09.02.F01",
-          "proposition": "Usual time to schedule second meeting",
+          "proposition": "Usual time to schedule the next appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -3226,8 +3226,8 @@
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Usual time to schedule second meeting",
-            "population": "interval from first meeting to second meeting",
+            "event": "Usual time to schedule the next appointment",
+            "population": "interval between appointments, when there is more than one",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3244,13 +3244,13 @@
     {
       "question_id": "Q09.04",
       "priority": "E",
-      "question_text": "What communications does the buyer receive right after a meeting?",
+      "question_text": "What communications does the buyer receive right after an appointment?",
       "mode": "factual",
-      "module_context": "interval from first meeting to second meeting",
+      "module_context": "interval between appointments, when there is more than one",
       "facets": [
         {
           "facet_id": "Q09.04.F01",
-          "proposition": "Communications received immediately after first meeting",
+          "proposition": "Communications received immediately after first appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -3270,8 +3270,8 @@
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Communications received immediately after first meeting",
-            "population": "interval from first meeting to second meeting",
+            "event": "Communications received immediately after first appointment",
+            "population": "interval between appointments, when there is more than one",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3288,9 +3288,9 @@
     {
       "question_id": "Q09.05",
       "priority": "E",
-      "question_text": "Between meetings, are there educational materials, financing tasks, questionnaires, property examples, or other assignments?",
+      "question_text": "Between appointments, are there educational materials, financing tasks, questionnaires, property examples, or other assignments?",
       "mode": "factual",
-      "module_context": "interval from first meeting to second meeting",
+      "module_context": "interval between appointments, when there is more than one",
       "facets": [
         {
           "facet_id": "Q09.05.F01",
@@ -3302,7 +3302,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Whether inter-appointment assignments or resources exist",
-            "population": "interval from first meeting to second meeting",
+            "population": "interval between appointments, when there is more than one",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3319,21 +3319,21 @@
     {
       "question_id": "Q09.07",
       "priority": "E",
-      "question_text": "What must be done before the next meeting can go ahead?",
+      "question_text": "What must be done before the next appointment can go ahead?",
       "mode": "factual",
-      "module_context": "interval from first meeting to second meeting",
+      "module_context": "interval between appointments, when there is more than one",
       "facets": [
         {
           "facet_id": "Q09.07.F01",
-          "proposition": "Prerequisites before the next meeting",
+          "proposition": "Prerequisites before the next appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Prerequisites before the next meeting",
-            "population": "interval from first meeting to second meeting",
+            "event": "Prerequisites before the next appointment",
+            "population": "interval between appointments, when there is more than one",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -3350,21 +3350,21 @@
     {
       "question_id": "Q09.08",
       "priority": "E",
-      "question_text": "What exactly is the next meeting promised to accomplish?",
+      "question_text": "What exactly is the next appointment promised to accomplish?",
       "mode": "factual",
-      "module_context": "interval from first meeting to second meeting",
+      "module_context": "interval between appointments, when there is more than one",
       "facets": [
         {
           "facet_id": "Q09.08.F01",
-          "proposition": "What the next meeting is promised to accomplish",
+          "proposition": "What the next appointment is promised to accomplish",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "What the next meeting is promised to accomplish",
-            "population": "interval from first meeting to second meeting",
+            "event": "What the next appointment is promised to accomplish",
+            "population": "interval between appointments, when there is more than one",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
           },
@@ -3383,7 +3383,7 @@
       "priority": "D",
       "question_text": "What happens if the buyer does not complete financing tasks?",
       "mode": "factual",
-      "module_context": "interval from first meeting to second meeting",
+      "module_context": "interval between appointments, when there is more than one",
       "facets": [
         {
           "facet_id": "Q09.09.F01",
@@ -3402,7 +3402,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Handling incomplete financing tasks",
-            "population": "interval from first meeting to second meeting",
+            "population": "interval between appointments, when there is more than one",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3419,9 +3419,9 @@
     {
       "question_id": "Q09.10",
       "priority": "D",
-      "question_text": "What happens if the buyer stops responding between meetings?",
+      "question_text": "What happens if the buyer stops responding between appointments?",
       "mode": "factual",
-      "module_context": "interval from first meeting to second meeting",
+      "module_context": "interval between appointments, when there is more than one",
       "facets": [
         {
           "facet_id": "Q09.10.F01",
@@ -3440,7 +3440,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Handling prospect nonresponse between appointments",
-            "population": "interval from first meeting to second meeting",
+            "population": "interval between appointments, when there is more than one",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3457,13 +3457,13 @@
     {
       "question_id": "Q10.06",
       "priority": "E",
-      "question_text": "What does the agent prepare before a meeting?",
+      "question_text": "What does the agent prepare before an appointment?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.06.F01",
-          "proposition": "Agent-prepared information before second meeting",
+          "proposition": "Agent-prepared information before an appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -3483,8 +3483,8 @@
           ],
           "bounds": {
             "actor": "agent as explicitly requested",
-            "event": "Agent-prepared information before second meeting",
-            "population": "second meeting conduct and tour decision",
+            "event": "Agent-prepared information before an appointment",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "before question-named event",
             "unit": "question-specific person, action, item or event"
           },
@@ -3503,7 +3503,7 @@
       "priority": "E",
       "question_text": "How are property type, condition, size, commute, expenses, and other buyer priorities considered?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.15.F01",
@@ -3515,7 +3515,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Consideration of property type",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3532,7 +3532,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Consideration of condition",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3549,7 +3549,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Consideration of size",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3566,7 +3566,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Consideration of commute",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3583,7 +3583,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Consideration of expenses",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3600,7 +3600,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Consideration of other buyer priorities",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3619,7 +3619,7 @@
       "priority": "E",
       "question_text": "What does the agent say when the buyer's preferred area is outside their spending range?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.17.F01",
@@ -3644,7 +3644,7 @@
           "bounds": {
             "actor": "agent as explicitly requested",
             "event": "Agent words when preferred area exceeds spending range",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3663,7 +3663,7 @@
       "priority": "D",
       "question_text": "Which alternative markets are most frequently rejected, and why?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.20.F01",
@@ -3682,7 +3682,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Most frequently rejected alternative markets",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3706,7 +3706,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Reasons for rejection of markets established as belonging to the most-frequently-rejected set",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3727,13 +3727,13 @@
     {
       "question_id": "Q10.22",
       "priority": "E",
-      "question_text": "What sequence does the agent follow in the meeting where budget, areas and homes are discussed?",
+      "question_text": "What sequence does the agent follow in the appointment where budget, areas and homes are discussed?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.22.F01",
-          "proposition": "Agent second meeting sequence",
+          "proposition": "Agent sequence in the appointment where budget, areas and homes are discussed",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -3747,8 +3747,8 @@
           ],
           "bounds": {
             "actor": "agent as explicitly requested",
-            "event": "Agent second meeting sequence",
-            "population": "second meeting conduct and tour decision",
+            "event": "Agent sequence in the appointment where budget, areas and homes are discussed",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3767,7 +3767,7 @@
       "priority": "E",
       "question_text": "What questions are used to determine whether the buyer understands and accepts an area or property type?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.23.F01",
@@ -3779,7 +3779,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Questions checking understanding of area or property type",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3796,7 +3796,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Questions checking acceptance of area or property type",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3815,7 +3815,7 @@
       "priority": "D",
       "question_text": "How are misunderstandings, uncertainty, disappointment, or hesitation handled?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.25.F01",
@@ -3834,7 +3834,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Handling misunderstanding",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3858,7 +3858,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Handling uncertainty",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3882,7 +3882,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Handling disappointment",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3906,7 +3906,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Handling hesitation",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3925,7 +3925,7 @@
       "priority": "D",
       "question_text": "How do you distinguish a buyer who needs more education from one who genuinely does not want the available options?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.27.F01",
@@ -3937,7 +3937,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Distinguishing education need from genuine rejection of available options",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3954,13 +3954,13 @@
     {
       "question_id": "Q10.28",
       "priority": "E",
-      "question_text": "What exact decision should the buyer make by the end of the last meeting before home tours?",
+      "question_text": "What exact decision should the buyer make by the end of the last appointment before they sign a contract?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.28.F01",
-          "proposition": "Exact desired buyer decision by second meeting end",
+          "proposition": "Exact desired buyer decision by the end of the last appointment before signing a contract",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -3974,8 +3974,8 @@
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Exact desired buyer decision by second meeting end",
-            "population": "second meeting conduct and tour decision",
+            "event": "Exact desired buyer decision by the end of the last appointment before signing a contract",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -3994,7 +3994,7 @@
       "priority": "E",
       "question_text": "What conditions determine readiness to schedule tours?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.29.F01",
@@ -4013,7 +4013,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Conditions for readiness to schedule tours",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -4032,7 +4032,7 @@
       "priority": "E",
       "question_text": "What exact language is used to invite the buyer to see homes?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.30.F01",
@@ -4051,7 +4051,7 @@
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
             "event": "Exact tour invitation language",
-            "population": "second meeting conduct and tour decision",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
           },
@@ -4068,13 +4068,13 @@
     {
       "question_id": "Q10.34",
       "priority": "E",
-      "question_text": "What information is recorded before a meeting ends?",
+      "question_text": "What information is recorded before an appointment ends?",
       "mode": "factual",
-      "module_context": "second meeting conduct and tour decision",
+      "module_context": "appointment content: budget, areas and the decision to tour or sign",
       "facets": [
         {
           "facet_id": "Q10.34.F01",
-          "proposition": "Information recorded before second meeting ends",
+          "proposition": "Information recorded before an appointment ends",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -4094,8 +4094,8 @@
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Information recorded before second meeting ends",
-            "population": "second meeting conduct and tour decision",
+            "event": "Information recorded before an appointment ends",
+            "population": "appointment content: budget, areas and the decision to tour or sign",
             "time": "before question-named event",
             "unit": "question-specific person, action, item or event"
           },
@@ -5268,20 +5268,20 @@
     {
       "question_id": "Q13.04",
       "priority": "E",
-      "question_text": "Which roles run each kind of buyer meeting?",
+      "question_text": "Which roles run each kind of buyer appointment?",
       "mode": "factual",
       "module_context": "team responsibilities and capacity",
       "facets": [
         {
           "facet_id": "Q13.04.F01",
-          "proposition": "Roles running each kind of buyer meeting",
+          "proposition": "Roles running each kind of buyer appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Roles running each kind of buyer meeting",
+            "event": "Roles running each kind of buyer appointment",
             "population": "team responsibilities and capacity",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
@@ -5336,14 +5336,14 @@
       "facets": [
         {
           "facet_id": "Q13.06.F01",
-          "proposition": "Follow-up owner after first meeting",
+          "proposition": "Follow-up owner after first appointment",
           "required_for_full": true,
           "allows_some": false,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Follow-up owner after first meeting",
+            "event": "Follow-up owner after first appointment",
             "population": "team responsibilities and capacity",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
@@ -5353,14 +5353,14 @@
         },
         {
           "facet_id": "Q13.06.F02",
-          "proposition": "Follow-up owner after second meeting",
+          "proposition": "Follow-up owner after a later appointment",
           "required_for_full": true,
           "allows_some": false,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Follow-up owner after second meeting",
+            "event": "Follow-up owner after a later appointment",
             "population": "team responsibilities and capacity",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item or event"
@@ -6505,13 +6505,13 @@
     {
       "question_id": "Q15.06",
       "priority": "E",
-      "question_text": "How many booked a first meeting?",
+      "question_text": "How many booked a first appointment?",
       "mode": "factual",
       "module_context": "funnel measurement with defined entry cohorts and cutoff",
       "facets": [
         {
           "facet_id": "Q15.06.F01",
-          "proposition": "First meeting booked count",
+          "proposition": "First appointment booked count",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -6531,7 +6531,7 @@
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "First meeting booked count",
+            "event": "First appointment booked count",
             "population": "funnel measurement with defined entry cohorts and cutoff",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific metric unit and cohort, with observation cutoff"
@@ -6549,13 +6549,13 @@
     {
       "question_id": "Q15.07",
       "priority": "E",
-      "question_text": "How many first meetings were due and actually held?",
+      "question_text": "How many first appointments were due and actually held?",
       "mode": "factual",
       "module_context": "funnel measurement with defined entry cohorts and cutoff",
       "facets": [
         {
           "facet_id": "Q15.07.F01",
-          "proposition": "First meeting due count",
+          "proposition": "First appointment due count",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -6569,13 +6569,13 @@
             {
               "qualifier_id": "Q15.07.F01.due",
               "kind": "due",
-              "requirement": "Meeting due by observation cutoff, not future bookings",
+              "requirement": "Appointment due by observation cutoff, not future bookings",
               "partial_population_allowed": false
             }
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "First meeting due count",
+            "event": "First appointment due count",
             "population": "funnel measurement with defined entry cohorts and cutoff",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific metric unit and cohort, with observation cutoff"
@@ -6585,7 +6585,7 @@
         },
         {
           "facet_id": "Q15.07.F02",
-          "proposition": "First meeting held count",
+          "proposition": "First appointment held count",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -6599,13 +6599,13 @@
             {
               "qualifier_id": "Q15.07.F02.held",
               "kind": "held",
-              "requirement": "Meeting actually held",
+              "requirement": "Appointment actually held",
               "partial_population_allowed": false
             }
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "First meeting held count",
+            "event": "First appointment held count",
             "population": "funnel measurement with defined entry cohorts and cutoff",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific metric unit and cohort, with observation cutoff"
@@ -6623,13 +6623,13 @@
     {
       "question_id": "Q15.08",
       "priority": "E",
-      "question_text": "If the team holds a second meeting, how many progressed to it?",
+      "question_text": "If prospects have more than one appointment, how many progressed to a later appointment?",
       "mode": "factual",
       "module_context": "funnel measurement with defined entry cohorts and cutoff",
       "facets": [
         {
           "facet_id": "Q15.08.F01",
-          "proposition": "Second meeting progressed count",
+          "proposition": "Later appointment progressed count",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -6643,7 +6643,7 @@
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Second meeting progressed count",
+            "event": "Later appointment progressed count",
             "population": "funnel measurement with defined entry cohorts and cutoff",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific metric unit and cohort, with observation cutoff"
@@ -6661,13 +6661,13 @@
     {
       "question_id": "Q15.09",
       "priority": "E",
-      "question_text": "How many second meetings were due and held?",
+      "question_text": "How many later appointments were due and held?",
       "mode": "factual",
       "module_context": "funnel measurement with defined entry cohorts and cutoff",
       "facets": [
         {
           "facet_id": "Q15.09.F01",
-          "proposition": "Second meeting due count",
+          "proposition": "Later appointment due count",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -6681,13 +6681,13 @@
             {
               "qualifier_id": "Q15.09.F01.due",
               "kind": "due",
-              "requirement": "Meeting due by observation cutoff, not future bookings",
+              "requirement": "Appointment due by observation cutoff, not future bookings",
               "partial_population_allowed": false
             }
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Second meeting due count",
+            "event": "Later appointment due count",
             "population": "funnel measurement with defined entry cohorts and cutoff",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific metric unit and cohort, with observation cutoff"
@@ -6697,7 +6697,7 @@
         },
         {
           "facet_id": "Q15.09.F02",
-          "proposition": "Second meeting held count",
+          "proposition": "Later appointment held count",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
@@ -6711,13 +6711,13 @@
             {
               "qualifier_id": "Q15.09.F02.held",
               "kind": "held",
-              "requirement": "Meeting actually held",
+              "requirement": "Appointment actually held",
               "partial_population_allowed": false
             }
           ],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Second meeting held count",
+            "event": "Later appointment held count",
             "population": "funnel measurement with defined entry cohorts and cutoff",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific metric unit and cohort, with observation cutoff"
@@ -8683,20 +8683,20 @@
     {
       "question_id": "Q18.03",
       "priority": "D",
-      "question_text": "On which days and hours can a buyer book a first meeting, and how many start times are offered per hour?",
+      "question_text": "On which days and hours can a buyer book a first appointment, and how many start times are offered per hour?",
       "mode": "factual",
       "module_context": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
       "facets": [
         {
           "facet_id": "Q18.03.F01",
-          "proposition": "Days and hours a first meeting can be booked",
+          "proposition": "Days and hours a first appointment can be booked",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Days and hours a first meeting can be booked",
+            "event": "Days and hours a first appointment can be booked",
             "population": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
@@ -8731,20 +8731,20 @@
     {
       "question_id": "Q18.04",
       "priority": "D",
-      "question_text": "About how many first meetings happen the same day the lead is reached, or get moved earlier?",
+      "question_text": "About how many first appointments happen the same day the lead is reached, or get moved earlier?",
       "mode": "factual",
       "module_context": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
       "facets": [
         {
           "facet_id": "Q18.04.F01",
-          "proposition": "First meetings held the same day or moved earlier",
+          "proposition": "First appointments held the same day or moved earlier",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "First meetings held the same day or moved earlier",
+            "event": "First appointments held the same day or moved earlier",
             "population": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
@@ -8971,20 +8971,20 @@
     {
       "question_id": "Q18.09",
       "priority": "D",
-      "question_text": "How often is a decision-maker missing from a buyer meeting, and what happens then?",
+      "question_text": "How often is a decision-maker missing from a buyer appointment, and what happens then?",
       "mode": "factual",
       "module_context": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
       "facets": [
         {
           "facet_id": "Q18.09.F01",
-          "proposition": "How often a decision-maker is missing from a meeting",
+          "proposition": "How often a decision-maker is missing from an appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "How often a decision-maker is missing from a meeting",
+            "event": "How often a decision-maker is missing from an appointment",
             "population": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
@@ -9519,7 +9519,7 @@
     {
       "question_id": "Q18.20",
       "priority": "D",
-      "question_text": "Are ads judged mainly by cost per lead or by the meetings and closings they produce?",
+      "question_text": "Are ads judged mainly by cost per lead or by the appointments and closings they produce?",
       "mode": "factual",
       "module_context": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
       "facets": [
@@ -9759,20 +9759,20 @@
     {
       "question_id": "Q18.26",
       "priority": "D",
-      "question_text": "Of buyers who sign, about how many decide during a meeting versus after later follow-up, and when a meeting ends without a decision, how often is the next step booked before it ends?",
+      "question_text": "Of buyers who sign, about how many decide during an appointment versus after later follow-up, and when an appointment ends without a decision, how often is the next step booked before it ends?",
       "mode": "factual",
       "module_context": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
       "facets": [
         {
           "facet_id": "Q18.26.F01",
-          "proposition": "Signers deciding during a meeting versus after follow-up",
+          "proposition": "Signers deciding during an appointment versus after follow-up",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Signers deciding during a meeting versus after follow-up",
+            "event": "Signers deciding during an appointment versus after follow-up",
             "population": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
@@ -9782,14 +9782,14 @@
         },
         {
           "facet_id": "Q18.26.F02",
-          "proposition": "How often the next step is booked when a meeting ends undecided",
+          "proposition": "How often the next step is booked when an appointment ends undecided",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "How often the next step is booked when a meeting ends undecided",
+            "event": "How often the next step is booked when an appointment ends undecided",
             "population": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
@@ -9807,20 +9807,20 @@
     {
       "question_id": "Q18.27",
       "priority": "D",
-      "question_text": "About how long does each kind of meeting usually last, and is there a set time limit?",
+      "question_text": "About how long does each kind of appointment usually last, and is there a set time limit?",
       "mode": "factual",
       "module_context": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
       "facets": [
         {
           "facet_id": "Q18.27.F01",
-          "proposition": "Usual length of each kind of meeting",
+          "proposition": "Usual length of each kind of appointment",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Usual length of each kind of meeting",
+            "event": "Usual length of each kind of appointment",
             "population": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
@@ -9830,14 +9830,14 @@
         },
         {
           "facet_id": "Q18.27.F02",
-          "proposition": "Set time limit for meetings",
+          "proposition": "Set time limit for appointments",
           "required_for_full": true,
           "allows_some": true,
           "mode": "factual",
           "material_qualifiers": [],
           "bounds": {
             "actor": "question-named actor or responsible role; do not import an extra credential",
-            "event": "Set time limit for meetings",
+            "event": "Set time limit for appointments",
             "population": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific person, action, item, count or event"
@@ -9903,7 +9903,7 @@
     {
       "question_id": "Q18.30",
       "priority": "D",
-      "question_text": "Is there a written weekly or monthly standard or target for each role and for the team, such as lead response, meetings, signed buyers and closings, and what happens when someone falls below it?",
+      "question_text": "Is there a written weekly or monthly standard or target for each role and for the team, such as lead response, appointments, signed buyers and closings, and what happens when someone falls below it?",
       "mode": "factual",
       "module_context": "lead handling, team and proof operating numbers (owner-supplied; estimates allowed)",
       "facets": [

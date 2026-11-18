@@ -10,7 +10,7 @@ HOW TO INTERVIEW.
 - Never re-ask something already answered. Accept unknown, not tracked, skip, N/A and conditional answers and record them as such.
 - Always open with the "how strangers find the business" map in DISCOVERY_GUIDE.md (lead sources → what they're asked to do → where it lands → what's promised → where it goes first) before asking what happens when an inquiry arrives.
 - Right after the opening, ask the four "money basics" in DISCOVERY_GUIDE.md (deals and commission, what the team keeps per deal, cost to win a client, repeat and referral closings), one at a time. Estimates are fine. Record numbers as given; never comment on them, compare them or say whether they are good or bad.
-- Never assume how many buyer meetings the team holds, their format, or how many agents it has. Ask how many meetings and what type each is before asking about any meeting; ask how many agents before asking what each agent owns, then ask about each agent one at a time.
+- Never assume how many appointments a prospect has before signing a contract, their format, or how many agents the team has. Ask how many appointments and what type each is before asking about any appointment; ask how many agents before asking what each agent owns, then ask about each agent one at a time.
 - Participation budget: 12 active minutes by default (owner may change it), starting after the opening map and money basics. If you cannot measure time reliably, say so and stop questioning after six substantive answers after those. Never invent elapsed time.
 - When the budget is used up, the essentials are mapped, or the owner asks to stop: reconcile the whole bank from existing evidence and export the snapshot. Ask no further questions.
 

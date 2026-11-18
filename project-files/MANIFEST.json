@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "question_count": 201,
-  "bank_sha256": "17d8733759927bb45af67688e56001cb32c00c7d17c6da30e9dc35ec0ad06b22",
-  "rubric_sha256": "6af7dea220fbc7b2a2f8f8f733327a7a9e5943dc96b8ba603d1b591df3949ee1",
+  "bank_sha256": "0a10bebf14dc6dcd9390ee8e2b8477e442308dcbff8bd7c83694f4eb2815eeed",
+  "rubric_sha256": "48b7a7e07fe108d839cd0d51d3fe3c8766bfdeaa023024e950881ac6a16249f7",
   "source_hashes": {
-    "note": "Derived from the D1 candidate frozen 2026-11-15. Release 1.1.0 appended Modules 17-18. Release 1.2.0 removed 139 questions (duplicates, derivable, recording-answerable and out-of-scope), reworded meeting questions to assume no number or format of meetings, split Q13.02, and added Q06.13-Q06.14, Q11.16-Q11.20 and Q13.17. Kept IDs are unchanged.",
+    "note": "Derived from the D1 candidate frozen 2026-11-15. Release 1.1.0 appended Modules 17-18. Release 1.2.0 removed 139 questions (duplicates, derivable, recording-answerable and out-of-scope), reworded meeting questions to assume no number or format of meetings, split Q13.02, and added Q06.13-Q06.14, Q11.16-Q11.20 and Q13.17. Kept IDs are unchanged. Release 1.2.1 says appointments instead of meetings and counts appointments up to signing a contract.",
     "d1_bank_sha256": "1cec14fe2d6d797c5cc55cc988c96d4685c5b7787176769ad60c3545b25ac0cf",
     "d1_rubric_sha256": "b9612d5452d94521825626480c7ada12c99446494423e6ad4754545334e90da6"
   },
@@ -172,52 +172,52 @@
     {
       "question_id": "Q06.13",
       "priority": "E",
-      "question_text": "How many meetings does a buyer usually have with the team before touring homes?"
+      "question_text": "How many appointments does a prospect usually have with your team before they sign a contract?"
     },
     {
       "question_id": "Q06.14",
       "priority": "E",
-      "question_text": "For each of those meetings, is it by phone, video or in person, who runs it, and what is it for?"
+      "question_text": "For each of those appointments, is it by phone, video or in person, who runs it, and what is it for?"
     },
     {
       "question_id": "Q06.03",
       "priority": "E",
-      "question_text": "How much time generally passes between booking the first meeting and holding it?"
+      "question_text": "How much time generally passes between booking the first appointment and holding it?"
     },
     {
       "question_id": "Q06.04",
       "priority": "E",
-      "question_text": "What confirmation does the prospect receive immediately after booking a meeting?"
+      "question_text": "What confirmation does the prospect receive immediately after booking an appointment?"
     },
     {
       "question_id": "Q06.05",
       "priority": "E",
-      "question_text": "What is the prospect told to prepare before a meeting?"
+      "question_text": "What is the prospect told to prepare before an appointment?"
     },
     {
       "question_id": "Q06.07",
       "priority": "D",
-      "question_text": "What meeting reminders are sent, through which channels, and at what times, and who checks that the buyer still plans to attend?"
+      "question_text": "What appointment reminders are sent, through which channels, and at what times, and who checks that the buyer still plans to attend?"
     },
     {
       "question_id": "Q06.09",
       "priority": "D",
-      "question_text": "What happens when a buyer cancels, asks to reschedule, or does not attend a meeting?"
+      "question_text": "What happens when a buyer cancels, asks to reschedule, or does not attend an appointment?"
     },
     {
       "question_id": "Q06.10",
       "priority": "D",
-      "question_text": "What are the most common known reasons buyers miss meetings?"
+      "question_text": "What are the most common known reasons buyers miss appointments?"
     },
     {
       "question_id": "Q07.02",
       "priority": "E",
-      "question_text": "How does the person running a meeting introduce themselves, the team, and the purpose of the meeting?"
+      "question_text": "How does the person running an appointment introduce themselves, the team, and the purpose of the appointment?"
     },
     {
       "question_id": "Q07.03",
       "priority": "E",
-      "question_text": "Is there an established agenda or script for each meeting?"
+      "question_text": "Is there an established agenda or script for each appointment?"
     },
     {
       "question_id": "Q07.05",
@@ -267,12 +267,12 @@
     {
       "question_id": "Q07.17",
       "priority": "E",
-      "question_text": "What information or understanding must the team obtain before a meeting ends?"
+      "question_text": "What information or understanding must the team obtain before an appointment ends?"
     },
     {
       "question_id": "Q07.19",
       "priority": "E",
-      "question_text": "What exact words are used to invite the buyer to the next step, whether another meeting or home tours?"
+      "question_text": "What exact words are used to invite the prospect to the next step, whether another appointment or signing a contract?"
     },
     {
       "question_id": "Q07.23",
@@ -282,7 +282,7 @@
     {
       "question_id": "Q07.28",
       "priority": "D",
-      "question_text": "How do different agents run these meetings differently?"
+      "question_text": "How do different agents run these appointments differently?"
     },
     {
       "question_id": "Q08.01",
@@ -332,32 +332,32 @@
     {
       "question_id": "Q09.01",
       "priority": "E",
-      "question_text": "If buyers have more than one meeting, what triggers moving from one meeting to the next?"
+      "question_text": "If buyers have more than one appointment, what triggers moving from one appointment to the next?"
     },
     {
       "question_id": "Q09.02",
       "priority": "E",
-      "question_text": "How soon is the next meeting usually scheduled?"
+      "question_text": "How soon is the next appointment usually scheduled?"
     },
     {
       "question_id": "Q09.04",
       "priority": "E",
-      "question_text": "What communications does the buyer receive right after a meeting?"
+      "question_text": "What communications does the buyer receive right after an appointment?"
     },
     {
       "question_id": "Q09.05",
       "priority": "E",
-      "question_text": "Between meetings, are there educational materials, financing tasks, questionnaires, property examples, or other assignments?"
+      "question_text": "Between appointments, are there educational materials, financing tasks, questionnaires, property examples, or other assignments?"
     },
     {
       "question_id": "Q09.07",
       "priority": "E",
-      "question_text": "What must be done before the next meeting can go ahead?"
+      "question_text": "What must be done before the next appointment can go ahead?"
     },
     {
       "question_id": "Q09.08",
       "priority": "E",
-      "question_text": "What exactly is the next meeting promised to accomplish?"
+      "question_text": "What exactly is the next appointment promised to accomplish?"
     },
     {
       "question_id": "Q09.09",
@@ -367,12 +367,12 @@
     {
       "question_id": "Q09.10",
       "priority": "D",
-      "question_text": "What happens if the buyer stops responding between meetings?"
+      "question_text": "What happens if the buyer stops responding between appointments?"
     },
     {
       "question_id": "Q10.06",
       "priority": "E",
-      "question_text": "What does the agent prepare before a meeting?"
+      "question_text": "What does the agent prepare before an appointment?"
     },
     {
       "question_id": "Q10.15",
@@ -392,7 +392,7 @@
     {
       "question_id": "Q10.22",
       "priority": "E",
-      "question_text": "What sequence does the agent follow in the meeting where budget, areas and homes are discussed?"
+      "question_text": "What sequence does the agent follow in the appointment where budget, areas and homes are discussed?"
     },
     {
       "question_id": "Q10.23",
@@ -412,7 +412,7 @@
     {
       "question_id": "Q10.28",
       "priority": "E",
-      "question_text": "What exact decision should the buyer make by the end of the last meeting before home tours?"
+      "question_text": "What exact decision should the buyer make by the end of the last appointment before they sign a contract?"
     },
     {
       "question_id": "Q10.29",
@@ -427,7 +427,7 @@
     {
       "question_id": "Q10.34",
       "priority": "E",
-      "question_text": "What information is recorded before a meeting ends?"
+      "question_text": "What information is recorded before an appointment ends?"
     },
     {
       "question_id": "Q11.01",
@@ -557,7 +557,7 @@
     {
       "question_id": "Q13.04",
       "priority": "E",
-      "question_text": "Which roles run each kind of buyer meeting?"
+      "question_text": "Which roles run each kind of buyer appointment?"
     },
     {
       "question_id": "Q13.05",
@@ -677,22 +677,22 @@
     {
       "question_id": "Q15.06",
       "priority": "E",
-      "question_text": "How many booked a first meeting?"
+      "question_text": "How many booked a first appointment?"
     },
     {
       "question_id": "Q15.07",
       "priority": "E",
-      "question_text": "How many first meetings were due and actually held?"
+      "question_text": "How many first appointments were due and actually held?"
     },
     {
       "question_id": "Q15.08",
       "priority": "E",
-      "question_text": "If the team holds a second meeting, how many progressed to it?"
+      "question_text": "If prospects have more than one appointment, how many progressed to a later appointment?"
     },
     {
       "question_id": "Q15.09",
       "priority": "E",
-      "question_text": "How many second meetings were due and held?"
+      "question_text": "How many later appointments were due and held?"
     },
     {
       "question_id": "Q15.10",
@@ -892,12 +892,12 @@
     {
       "question_id": "Q18.03",
       "priority": "D",
-      "question_text": "On which days and hours can a buyer book a first meeting, and how many start times are offered per hour?"
+      "question_text": "On which days and hours can a buyer book a first appointment, and how many start times are offered per hour?"
     },
     {
       "question_id": "Q18.04",
       "priority": "D",
-      "question_text": "About how many first meetings happen the same day the lead is reached, or get moved earlier?"
+      "question_text": "About how many first appointments happen the same day the lead is reached, or get moved earlier?"
     },
     {
       "question_id": "Q18.05",
@@ -922,7 +922,7 @@
     {
       "question_id": "Q18.09",
       "priority": "D",
-      "question_text": "How often is a decision-maker missing from a buyer meeting, and what happens then?"
+      "question_text": "How often is a decision-maker missing from a buyer appointment, and what happens then?"
     },
     {
       "question_id": "Q18.10",
@@ -972,7 +972,7 @@
     {
       "question_id": "Q18.20",
       "priority": "D",
-      "question_text": "Are ads judged mainly by cost per lead or by the meetings and closings they produce?"
+      "question_text": "Are ads judged mainly by cost per lead or by the appointments and closings they produce?"
     },
     {
       "question_id": "Q18.22",
@@ -997,12 +997,12 @@
     {
       "question_id": "Q18.26",
       "priority": "D",
-      "question_text": "Of buyers who sign, about how many decide during a meeting versus after later follow-up, and when a meeting ends without a decision, how often is the next step booked before it ends?"
+      "question_text": "Of buyers who sign, about how many decide during an appointment versus after later follow-up, and when an appointment ends without a decision, how often is the next step booked before it ends?"
     },
     {
       "question_id": "Q18.27",
       "priority": "D",
-      "question_text": "About how long does each kind of meeting usually last, and is there a set time limit?"
+      "question_text": "About how long does each kind of appointment usually last, and is there a set time limit?"
     },
     {
       "question_id": "Q18.28",
@@ -1012,7 +1012,7 @@
     {
       "question_id": "Q18.30",
       "priority": "D",
-      "question_text": "Is there a written weekly or monthly standard or target for each role and for the team, such as lead response, meetings, signed buyers and closings, and what happens when someone falls below it?"
+      "question_text": "Is there a written weekly or monthly standard or target for each role and for the team, such as lead response, appointments, signed buyers and closings, and what happens when someone falls below it?"
     }
   ]
 }
