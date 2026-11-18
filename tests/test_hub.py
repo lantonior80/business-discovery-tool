@@ -26,8 +26,8 @@ class Hub(unittest.TestCase):
 
     def test_package_loads_and_hashes_match(self):
         pkg = vc.load_package(str(PROJECT))
-        self.assertEqual(len(pkg["rubric"]["questions"]), 201)
-        self.assertEqual(sum(len(q["facets"]) for q in pkg["rubric"]["questions"]), 355)
+        self.assertEqual(len(pkg["rubric"]["questions"]), 204)
+        self.assertEqual(sum(len(q["facets"]) for q in pkg["rubric"]["questions"]), 362)
 
     def test_instructions_fit_8000_chars(self):
         text = INSTR.read_text(encoding="utf-8")
@@ -56,20 +56,30 @@ class Hub(unittest.TestCase):
         for f in FILES:
             self.assertIn(f, agent)
 
-    def test_opening_maps_lead_sources_first(self):
+    def test_core_script_is_coached_and_ordered(self):
         guide = (PROJECT / "DISCOVERY_GUIDE.md").read_text(encoding="utf-8")
-        opening = guide.index("### Opening — how strangers find the business")
-        money = guide.index("### Money basics (always next, after the opening)")
-        self.assertLess(opening, money)
-        self.assertLess(money, guide.index("After the opening and money basics, choose the highest-value"))
-        for qid in ("Q02.01", "Q02.02", "Q02.03", "Q02.04", "Q03.01", "Q03.02"):
-            self.assertIn(qid, guide[opening:money])
-        for qid in ("Q17.01", "Q17.02", "Q17.03", "Q17.04"):
-            self.assertIn(qid, guide[money:money + 3000])
-        self.assertIn("not** count toward the 12-minute budget or the six-answer fallback", guide)
+        first = guide.index("### First message (always)")
+        core = guide.index("### Core questions — the quick-discovery script")
+        end = guide.index("### Appointments and team size: never assume")
+        self.assertLess(first, core)
+        welcome = guide[first:core]
+        for s in ("13 short questions", "Voice", "upload", "Stop"):
+            self.assertIn(s, welcome)
+        script = guide[core:end]
+        opener = "Tell me about your business: in the last 12 months, about how many deals did you close, how much commission came in, how much did the business keep, and what's your goal for the next 12 months?"
+        self.assertIn(opener, script)
+        heads = re.findall(r"\n(\d+)\. \*\*", script)
+        self.assertEqual(heads, [str(i) for i in range(1, 14)])
+        for qid in ("Q17.01", "Q17.08", "Q17.22", "Q02.01", "Q02.02", "Q17.05", "Q17.34", "Q17.35", "Q17.23",
+                    "Q15.21", "Q18.08", "Q03.09", "Q06.13", "Q06.14", "Q17.03", "Q17.27", "Q11.18", "Q17.14", "Q13.02", "Q17.21"):
+            self.assertIn(qid, script)
+        self.assertIn("just examples", script)
+        self.assertIn("not** count toward the 12-minute budget or the six-answer fallback", script)
         instr = INSTR.read_text(encoding="utf-8")
-        self.assertIn("how strangers find the business", instr)
-        self.assertIn("money basics", instr)
+        self.assertIn("13-question core script", instr)
+        self.assertIn(opener, instr)
+        invite = (ROOT / "handout" / "INVITE_MESSAGE.md").read_text(encoding="utf-8")
+        self.assertIn("free diagnosis", invite)
 
     def test_new_modules_and_facts_only_handoff(self):
         bank = (PROJECT / "QUESTION_BANK.md").read_text(encoding="utf-8")

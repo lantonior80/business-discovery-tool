@@ -7149,6 +7149,105 @@
       }
     },
     {
+      "question_id": "Q15.21",
+      "priority": "E",
+      "question_text": "Roughly, out of every 100 leads, about how many talk with someone on the team, book an appointment, show up, sign a contract, and close?",
+      "mode": "factual",
+      "module_context": "funnel measurement with defined entry cohorts and cutoff",
+      "facets": [
+        {
+          "facet_id": "Q15.21.F01",
+          "proposition": "Leads per 100 who talk with someone",
+          "required_for_full": true,
+          "allows_some": true,
+          "mode": "factual",
+          "material_qualifiers": [],
+          "bounds": {
+            "actor": "question-named actor or responsible role; do not import an extra credential",
+            "event": "Leads per 100 who talk with someone",
+            "population": "funnel measurement with defined entry cohorts and cutoff",
+            "time": "stated operational period or explicitly bounded case",
+            "unit": "approximate count per 100 leads, owner estimate or report, labeled as such"
+          },
+          "scope_policy": "general_for_complete",
+          "interpretation_note": "Use the exact question and module referent. Owner estimates count when labeled as estimates. Lists of alternatives do not assert that every alternative exists. Explicit none can answer existence/inventory; unknown cannot. Some requires a genuine requested amount, method, item or component, never an adjacent fact."
+        },
+        {
+          "facet_id": "Q15.21.F02",
+          "proposition": "Leads per 100 who book an appointment",
+          "required_for_full": true,
+          "allows_some": true,
+          "mode": "factual",
+          "material_qualifiers": [],
+          "bounds": {
+            "actor": "question-named actor or responsible role; do not import an extra credential",
+            "event": "Leads per 100 who book an appointment",
+            "population": "funnel measurement with defined entry cohorts and cutoff",
+            "time": "stated operational period or explicitly bounded case",
+            "unit": "approximate count per 100 leads, owner estimate or report, labeled as such"
+          },
+          "scope_policy": "general_for_complete",
+          "interpretation_note": "Use the exact question and module referent. Owner estimates count when labeled as estimates. Lists of alternatives do not assert that every alternative exists. Explicit none can answer existence/inventory; unknown cannot. Some requires a genuine requested amount, method, item or component, never an adjacent fact."
+        },
+        {
+          "facet_id": "Q15.21.F03",
+          "proposition": "Leads per 100 who show up",
+          "required_for_full": true,
+          "allows_some": true,
+          "mode": "factual",
+          "material_qualifiers": [],
+          "bounds": {
+            "actor": "question-named actor or responsible role; do not import an extra credential",
+            "event": "Leads per 100 who show up",
+            "population": "funnel measurement with defined entry cohorts and cutoff",
+            "time": "stated operational period or explicitly bounded case",
+            "unit": "approximate count per 100 leads, owner estimate or report, labeled as such"
+          },
+          "scope_policy": "general_for_complete",
+          "interpretation_note": "Use the exact question and module referent. Owner estimates count when labeled as estimates. Lists of alternatives do not assert that every alternative exists. Explicit none can answer existence/inventory; unknown cannot. Some requires a genuine requested amount, method, item or component, never an adjacent fact."
+        },
+        {
+          "facet_id": "Q15.21.F04",
+          "proposition": "Leads per 100 who sign a contract",
+          "required_for_full": true,
+          "allows_some": true,
+          "mode": "factual",
+          "material_qualifiers": [],
+          "bounds": {
+            "actor": "question-named actor or responsible role; do not import an extra credential",
+            "event": "Leads per 100 who sign a contract",
+            "population": "funnel measurement with defined entry cohorts and cutoff",
+            "time": "stated operational period or explicitly bounded case",
+            "unit": "approximate count per 100 leads, owner estimate or report, labeled as such"
+          },
+          "scope_policy": "general_for_complete",
+          "interpretation_note": "Use the exact question and module referent. Owner estimates count when labeled as estimates. Lists of alternatives do not assert that every alternative exists. Explicit none can answer existence/inventory; unknown cannot. Some requires a genuine requested amount, method, item or component, never an adjacent fact."
+        },
+        {
+          "facet_id": "Q15.21.F05",
+          "proposition": "Leads per 100 who close",
+          "required_for_full": true,
+          "allows_some": true,
+          "mode": "factual",
+          "material_qualifiers": [],
+          "bounds": {
+            "actor": "question-named actor or responsible role; do not import an extra credential",
+            "event": "Leads per 100 who close",
+            "population": "funnel measurement with defined entry cohorts and cutoff",
+            "time": "stated operational period or explicitly bounded case",
+            "unit": "approximate count per 100 leads, owner estimate or report, labeled as such"
+          },
+          "scope_policy": "general_for_complete",
+          "interpretation_note": "Use the exact question and module referent. Owner estimates count when labeled as estimates. Lists of alternatives do not assert that every alternative exists. Explicit none can answer existence/inventory; unknown cannot. Some requires a genuine requested amount, method, item or component, never an adjacent fact."
+        }
+      ],
+      "semantic_review": {
+        "reviewed": true,
+        "basis": "Exact question, module purpose, local referents and generic semantic rules only",
+        "notes": "Authored propositions preserve requested independent conjunctions; alternatives remain alternatives. Qualified propositions are not split merely to award partial credit."
+      }
+    },
+    {
       "question_id": "Q16.01",
       "priority": "E",
       "question_text": "Which educational videos, social posts, presentations, PDFs, and checklists already exist?",
@@ -8621,6 +8720,68 @@
             "population": "business economics, client value and growth limits (owner-supplied figures; estimates allowed)",
             "time": "stated operational period or explicitly bounded case",
             "unit": "question-specific amount, count, share or duration, with its period; estimate allowed and labeled"
+          },
+          "scope_policy": "general_for_complete",
+          "interpretation_note": "Use the exact question and module referent. Owner estimates count when labeled as estimates. Lists of alternatives do not assert that every alternative exists. Explicit none can answer existence/inventory; unknown cannot. Some requires a genuine requested amount, method, item or component, never an adjacent fact."
+        }
+      ],
+      "semantic_review": {
+        "reviewed": true,
+        "basis": "Exact question, module purpose, local referents and generic semantic rules only",
+        "notes": "Authored propositions preserve requested independent conjunctions; alternatives remain alternatives. Qualified propositions are not split merely to award partial credit."
+      }
+    },
+    {
+      "question_id": "Q17.34",
+      "priority": "E",
+      "question_text": "In your own words, what is stopping the business from growing faster right now?",
+      "mode": "factual",
+      "module_context": "business economics, client value and growth limits (owner-supplied figures; estimates allowed)",
+      "facets": [
+        {
+          "facet_id": "Q17.34.F01",
+          "proposition": "Owner's own view of what is stopping faster growth",
+          "required_for_full": true,
+          "allows_some": true,
+          "mode": "factual",
+          "material_qualifiers": [],
+          "bounds": {
+            "actor": "question-named actor or responsible role; do not import an extra credential",
+            "event": "Owner's own view of what is stopping faster growth",
+            "population": "business economics, client value and growth limits (owner-supplied figures; estimates allowed)",
+            "time": "stated operational period or explicitly bounded case",
+            "unit": "owner's stated view, recorded as given"
+          },
+          "scope_policy": "general_for_complete",
+          "interpretation_note": "Use the exact question and module referent. Owner estimates count when labeled as estimates. Lists of alternatives do not assert that every alternative exists. Explicit none can answer existence/inventory; unknown cannot. Some requires a genuine requested amount, method, item or component, never an adjacent fact."
+        }
+      ],
+      "semantic_review": {
+        "reviewed": true,
+        "basis": "Exact question, module purpose, local referents and generic semantic rules only",
+        "notes": "Authored propositions preserve requested independent conjunctions; alternatives remain alternatives. Qualified propositions are not split merely to award partial credit."
+      }
+    },
+    {
+      "question_id": "Q17.35",
+      "priority": "E",
+      "question_text": "Why do you want to grow: what is your goal, your purpose, your why?",
+      "mode": "factual",
+      "module_context": "business economics, client value and growth limits (owner-supplied figures; estimates allowed)",
+      "facets": [
+        {
+          "facet_id": "Q17.35.F01",
+          "proposition": "Owner's reasons, goal and purpose for growing",
+          "required_for_full": true,
+          "allows_some": true,
+          "mode": "factual",
+          "material_qualifiers": [],
+          "bounds": {
+            "actor": "question-named actor or responsible role; do not import an extra credential",
+            "event": "Owner's reasons, goal and purpose for growing",
+            "population": "business economics, client value and growth limits (owner-supplied figures; estimates allowed)",
+            "time": "stated operational period or explicitly bounded case",
+            "unit": "owner's stated view, recorded as given"
           },
           "scope_policy": "general_for_complete",
           "interpretation_note": "Use the exact question and module referent. Owner estimates count when labeled as estimates. Lists of alternatives do not assert that every alternative exists. Explicit none can answer existence/inventory; unknown cannot. Some requires a genuine requested amount, method, item or component, never an adjacent fact."

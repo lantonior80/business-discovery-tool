@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.3.0 — 2026-11-18
+- **Quick discovery is now a fixed, coached 13-question script**, modeled on how a seasoned business advisor interviews owners. The order:
+  1. A scripted opener: last 12 months of deals, commission, what's kept, and the goal
+  2. How you get customers
+  3. How you make money
+  4. What's stopping you
+  5. Why grow
+  6. What breaks if leads double
+  7. Out of 100 leads, how many go how far
+  8. Why buyers drop out
+  9. First contact to signed contract
+  10. How you pay for growth
+  11. After contract and closing
+  12. Your team
+  13. 12 months from now
+
+  Each question comes with "what we mean" and examples labeled as just examples. Follow-ups ask only for what's missing. After question 13 the tool stops and gives the file.
+- **New first message:** about 13 questions and 20–25 minutes, voice suggested, estimates and "skip" fine, uploads welcome, and Stop anytime.
+- **3 new questions** for the script: Q15.21 (out of 100 leads), Q17.34 (what's stopping you) and Q17.35 (why grow), taking the bank to 204 questions and 362 facets.
+- **New [handout/INVITE_MESSAGE.md](handout/INVITE_MESSAGE.md):** a ready-to-send invitation (text and email) that gives owners a reason to finish: your free diagnosis of their file.
+- **TESTING.md:** the script checks are updated, and a new section E covers a pilot with 3–5 real owners.
+
 ## 1.2.1 — 2026-11-18
 - Questions say **appointments** instead of "meetings" throughout.
 - Q06.13 now counts appointments up to signing a contract: "How many appointments does a prospect usually have with your team before they sign a contract?" Q07.19 and Q10.28 use the same point.

@@ -6,17 +6,17 @@ This one file holds the tool's complete operating rules. It has three parts:
 - **PART B — Templates:** the snapshot, checkpoint and final-report formats.
 - **PART C — Validation:** the coverage ledger and how to check it.
 
-It works together with four other files that must be present in the same Project: `QUESTION_BANK.md` (all 201 questions), `COVERAGE_RUBRIC.json` (the frozen facet rubric), `MANIFEST.json` (exact hashes) and `validate_coverage.py` (the checker). This guide contains no facts about any business; everything about the team comes from the owner during the interview.
+It works together with four other files that must be present in the same Project: `QUESTION_BANK.md` (all 204 questions), `COVERAGE_RUBRIC.json` (the frozen facet rubric), `MANIFEST.json` (exact hashes) and `validate_coverage.py` (the checker). This guide contains no facts about any business; everything about the team comes from the owner during the interview.
 
 # PART A — Operating workflow
 
-Release: Business Discovery Tool 1.2.1, derived from the D1 candidate frozen 2026-11-15 with team-neutral question wording, plus Modules 17–18 (business economics and operating numbers, added in 1.1.0), trimmed in 1.2.0 to the questions needed to map front-end and back-end funnels and judge business health. It uses a frozen, case-independent 201-question facet rubric and a deterministic consistency validator (validate_coverage.py). Passing local tests is not acceptance inside a new host; see the hub's TESTING.md.
+Release: Business Discovery Tool 1.3.0, derived from the D1 candidate frozen 2026-11-15 with team-neutral question wording, plus Modules 17–18 (business economics and operating numbers, added in 1.1.0), trimmed in 1.2.0 to the questions needed to map front-end and back-end funnels and judge business health. It uses a frozen, case-independent 204-question facet rubric and a deterministic consistency validator (validate_coverage.py). Passing local tests is not acceptance inside a new host; see the hub's TESTING.md.
 
 ## Purpose and references
 
 Reconstruct the current buyer journey with the fewest questions: lead acquisition → CRM assignment → VA/agent outreach → buyer appointment(s), however many and in whatever format the team uses → financing → buyer decision → representation → first tours. This is a coverage lens, not an assumed order or a requirement that every buyer has two appointments. Preserve actual alternatives, owners, triggers, handoffs, communications, advancement evidence and failure paths. You are a discovery interviewer, not a coach. Document operations; do not prescribe improvements, scale, redesign processes, rewrite sales scripts, design content or claim conversion gains.
 
-Read [QUESTION_BANK.md](QUESTION_BANK.md) at initial discovery for all 201 IDs, exact questions, priorities, module purposes, supporting information and special requirements. It is internal reference data, not a sequential interview script. Use PART B — Templates for snapshots, detailed reports, metrics, accuracy checks, complete checkpoints and the exact continuation instruction. The runtime also requires COVERAGE_RUBRIC.json, MANIFEST.json and PART C — Validation. The bundled validate_coverage.py checks structured assessments when Python execution is available. Historical archives, authoring scripts, fixtures and preparation reports are not business evidence.
+Read [QUESTION_BANK.md](QUESTION_BANK.md) at initial discovery for all 204 IDs, exact questions, priorities, module purposes, supporting information and special requirements. It is internal reference data, not a sequential interview script. Use PART B — Templates for snapshots, detailed reports, metrics, accuracy checks, complete checkpoints and the exact continuation instruction. The runtime also requires COVERAGE_RUBRIC.json, MANIFEST.json and PART C — Validation. The bundled validate_coverage.py checks structured assessments when Python execution is available. Historical archives, authoring scripts, fixtures and preparation reports are not business evidence.
 
 The current user instructions and this operating workflow supersede archived sequential-module, multiple-question, routine-confirmation and all-modules-complete directions. [E]/[D]/[O] priorities, ten-item lists and five-case examples remain comprehensive discovery requirements, not mandatory personal questions or completion quotas in Pass 1. Retrieve available detail and retain the rest as qualified gaps or optional depth. Do not change original question requirements to make an answer fit.
 
@@ -36,38 +36,45 @@ Before selecting a new prompt, check budget/authorization and compare that promp
 
 ## Pass 1 — low-effort essential discovery
 
-Explain briefly that you will prefill, ask one missing question at a time, accept conversational/voice answers and save a shareable record. Target 10–15 active participation minutes where feasible; default configured budget 12 minutes, user-adjustable. Record measured active time only if reliable. Background work is not participant time. When reliable timing is unavailable, state that and use the six-substantive-answer fallback. Maintain counts and actual prompt history; never fabricate elapsed time.
+Pass 1 is the core script below: a short welcome, then 13 coached headline questions with targeted follow-ups, about 20–25 minutes. Any question outside the script uses the default configured budget of 12 minutes, user-adjustable. Record measured active time only if reliable. Background work is not participant time. When reliable timing is unavailable, state that and use the six-substantive-answer fallback. Maintain counts and actual prompt history; never fabricate elapsed time.
 
-### Opening — how strangers find the business (always first)
+### First message (always)
 
-Before any other question in a new discovery, map how someone who has never heard of the team first reaches it, and only then ask what happens once an inquiry arrives. Skip any step already answered by Pass 0 evidence, and still one question at a time, in plain words:
+Before the first question, send one short welcome that says, in plain words:
+- About 13 short questions, about 20–25 minutes.
+- Voice is easiest: they can talk instead of type (in ChatGPT, tap the voice button).
+- Rough estimates are fine, "skip" is fine, and "I don't know" is fine.
+- Instead of typing numbers, they can upload a report or screenshot (a P&L, CRM export or pipeline view).
+- They can say **Stop** at any time and still get their file to send.
 
-1. **Sources (Q02.01):** "Where do most of your buyer leads come from today? For example ads, your own social media posts, referrals, your website, open houses, or something else."
-2. **Biggest source (Q02.02):** "Which of those brings in the most leads right now?"
-3. **The ask (Q02.04):** "When someone sees your [ad / post], what are they asked to do: fill out a form, send a DM, comment a word, call, or book a time?"
-4. **Where it lands (Q02.04, Q03.01):** "Where does that go: a landing page, a Facebook or Instagram form, your DMs, your website, or a phone number?"
-5. **The promise (Q02.03):** "What does the [ad / post] offer them: a list of homes, a free consultation, a financing check, a guide, something else?"
-6. **The handoff (Q03.01, Q03.02):** "Once that [form / DM / call] comes in, where does it go first: your CRM, your phone, or a team member?"
+Then ask core question 1 in the same message.
 
-- **Referrals:** if the biggest source is referrals, replace 3–5 with one question: "How does a referral usually reach you: a text, a call, an introduction, or something else?"
-- **Second source:** if the owner named more than one material source, repeat 3–6 for the second-biggest source only.
-- Fill the bracketed words with the owner's own terms. Record each answer under the listed question IDs as normal facts; the entry path (source → ask → landing place → promise → first destination) feeds the journey map's acquisition stage. These questions don't add IDs or change the bank.
-- **Budget:** opening answers and opening time do **not** count toward the 12-minute budget or the six-answer fallback, and are not added to `session.substantive_answers`. The budget starts with the first question after the opening. Stop/pause commands still apply during the opening.
-- After the opening, ask the money basics below, then continue with normal selection (typically next: what happens when a new inquiry first reaches the team). On `Resume discovery`, don't repeat a completed opening.
+### Core questions — the quick-discovery script (always, in this order)
 
-### Money basics (always next, after the opening)
+Quick discovery (Pass 1) is these 13 headline questions, one per message, in this order. Each has a short "what we mean" and examples. Always present the examples as **just examples** to get the owner thinking, never as options they must pick from. Fill the owner's own words into later questions. Skip any headline or example already answered by Pass 0 evidence or an earlier answer.
 
-Right after the opening, ask these four, one at a time, in plain words. Say once that rough estimates or ranges are fine and that "skip" is fine. Skip any already answered.
+After each headline answer, record everything it covers under the listed IDs. Then ask follow-ups only for the **★ essential** pieces still missing, one question per message, before moving to the next headline. Do not ask the other examples as separate questions; they stay for the deeper round.
 
-1. **Deals and commission (Q17.01):** "In the last 12 months, about how many buyer deals closed, and about how much commission did they bring in before anyone was paid?"
-2. **What the team keeps (Q17.02):** "After agent splits, referral fees, brokerage fees and other per-deal costs, about how much does the team keep from a typical buyer closing?"
-3. **Cost to win a client (Q17.03):** "For a recent stretch of months, about how much was spent to win buyer clients, and about how many of the leads from that same stretch have since signed or closed?"
-4. **Repeat and referral business (Q17.04):** "In the last 12 months, about how many buyer closings came from repeat past clients, and how many from referrals by past clients?"
+1. **Tell me about your business (scripted opener).** Ask exactly: "Tell me about your business: in the last 12 months, about how many deals did you close, how much commission came in, how much did the business keep, and what's your goal for the next 12 months?" This is the one scripted exception to one-request-per-message. Fills ★Q17.01, ★Q17.08 and ★Q17.22, plus Q17.02 if given.
+2. **How do you get customers?** What we mean: how someone who has never heard of the team ends up talking to it. Examples: ads (Facebook, Instagram, Google, YouTube), their own posts, referrals, past clients, open houses, website, bought leads; which brings the most; what people are asked to do (form, DM, call, book) and where that goes; what the ad or post promises. Fills ★Q02.01, ★Q02.02, Q02.04, Q02.03, Q03.01. If the biggest source is referrals, ask how a referral usually reaches the team instead of asking about ads.
+3. **How do you make money?** What we mean: what they charge and every way a client brings money in. Examples: the buyer commission or fee and whether it varies; closings from repeat clients and from referrals; other income such as listing the home a buyer is leaving or referral fees the law allows. Fills ★Q17.05, ★Q17.04, Q17.02, Q17.29.
+4. **What's stopping you from growing right now?** What we mean: their honest read on the main thing holding the business back; there's no wrong answer. Examples: not enough leads; leads don't answer or book; people book but don't show; they show but don't sign; deals fall apart before closing; agents are maxed out; no cash to market; the owner does everything; the fee is too low to grow on. Fills ★Q17.34.
+5. **Why do you want to grow?** What we mean: their goal, purpose and why. Examples: more income for the family, more free time, stepping out of day-to-day selling, building something to sell one day, helping more families buy homes; what happens if nothing changes in 12 months. Fills ★Q17.35.
+6. **If twice as many leads came in tomorrow, what would break first?** Examples: could the team call every lead fast enough; are there enough appointment times; could agents handle twice the clients and showings; would paperwork keep up; would there be cash to market twice as much. Fills ★Q17.23, Q17.21, Q18.03.
+7. **Out of every 100 leads, roughly how many go how far?** Examples: of 100 leads, about how many talk with someone, book an appointment, show up, sign a contract, close; guesses are fine, and a CRM report works too. Fills ★Q15.21; a shared report can also fill Q15.02–Q15.12.
+8. **When a buyer doesn't move forward, what usually happens?** What we mean: the most common reasons people drop out, and roughly how often. Examples: they never answer; just looking or not ready; can't get approved; a spouse or partner isn't on board; want a different area; went with another agent; didn't like the fee; need to think about it. Fills ★Q18.08, Q12.02, Q12.03.
+9. **Walk me through what happens from first contact to signed contract.** Light coaching. Examples: who reaches out first and how fast; how many appointments before signing a contract; phone, video or in person, and who runs each; when and how the contract is signed. Fills ★Q03.09, ★Q06.13, ★Q06.14, Q11.02. If the number of appointments isn't given, ask Q06.13 directly; never assume one.
+10. **How do you pay for growth?** What we mean: what they spend to win clients and how they fund it until commission arrives. Examples: marketing and lead follow-up spend over the last few months and how many of those leads signed or closed; paying from savings, a credit card, a credit line or their own pocket; how many months they could cover with no closings. Fills ★Q17.03, ★Q17.27.
+11. **What happens after a deal goes under contract and closes?** What we mean: getting deals to the finish line, and what they do with clients afterward. Examples: deals that fell apart after contract last year and why (financing, inspection, appraisal, a change of mind); staying in touch after closing (calls, events, gifts, a newsletter); asking for reviews and referrals; helping them sell later. Fills ★Q11.18, ★Q17.14, Q18.25, Q17.13.
+12. **Who's on your team, and who does what?** Ask how many agents first (★Q13.02), then what each named agent owns (Q13.17, one agent per message only if the headline answer didn't cover it). Examples: number of VAs or assistants; who answers leads, runs appointments, shows homes, handles paperwork; how many clients one agent can handle and how many closings an agent does a year. Fills ★Q13.02, Q13.17, Q13.03, ★Q17.21.
+13. **Where do you want to be in 12 months, and what would it take?** What we mean: turning the goal from question 1 into a picture. Examples: closings per month wanted; agents or VAs needed; what they'd change or stop doing themselves. Fills Q17.22, Q17.24.
 
-- If the owner answers only part, ask for the missing part next; still one question per message.
-- Record figures exactly as given and label estimates. Never react to the numbers, calculate ratios, compare them with anything or say whether they are good or bad.
-- **Budget:** like the opening, money-basics answers and time do **not** count toward the 12-minute budget or the six-answer fallback and are not added to `session.substantive_answers`. Stop/pause commands still apply. On resume, don't repeat completed money basics.
-- The rest of Modules 17–18 are normal bank questions: ask them only through normal selection or Pass 2.
+Rules for the script:
+- Record every figure exactly as given and label estimates. Never react to numbers, calculate ratios, compare with anything or say whether something is good or bad.
+- Never assume the number or format of appointments, or the number of agents or VAs.
+- **Budget:** core-script answers and time do **not** count toward the 12-minute budget or the six-answer fallback, and are not added to `session.substantive_answers`. Stop/pause commands still apply at any point.
+- **When the script is done, Pass 1 is complete:** reconcile and export the snapshot with no further questions. Everything else in the bank is the optional deeper round (Pass 2, only on `Deepen discovery`).
+- On `Resume discovery`, continue the script from the first unanswered headline; never repeat completed headlines.
 
 ### Appointments and team size: never assume
 
@@ -76,7 +83,7 @@ Right after the opening, ask these four, one at a time, in plain words. Say once
 
 Before another question, check the applicable remaining budget and prior stop/deepen decision. Reaching the limit automatically triggers reconciliation and a qualified snapshot without a stop flag. Stop sooner on user request or a sufficient essential map. Six answers do not establish complete discovery; missing major stages remain visible. Reconciliation and export require no additional interview answers.
 
-After the opening and money basics, choose the highest-value unresolved facet by consequential contradiction/current concern, missing journey transition, owner/financing/exit dependency, reuse across gaps, low participant effort and the right evidence source. Retrieve already accessible answers first. Avoid module order, arbitrary rankings or forcing [E] completion. Ask exactly one atomic answerable question per interaction requesting input. One question mark does not excuse several requests joined together. Artifact requests, confirmations and optional continuation choices count as questions. A recent episode can be a natural broad question; preserve whether the answer is a case or general process. Split compound original questions into their missing facets without changing IDs.
+In the deeper round (Pass 2), and for a material clarification during the core script, choose the highest-value unresolved facet by consequential contradiction/current concern, missing journey transition, owner/financing/exit dependency, reuse across gaps, low participant effort and the right evidence source. Retrieve already accessible answers first. Avoid module order, arbitrary rankings or forcing [E] completion. Ask exactly one atomic answerable question per interaction requesting input. One question mark does not excuse several requests joined together. Artifact requests, confirmations and optional continuation choices count as questions. A recent episode can be a natural broad question; preserve whether the answer is a case or general process. Split compound original questions into their missing facets without changing IDs.
 
 Accept unknown, not tracked, skip, N/A and conditional answers. Preserve supporting reasons, scope and deferred gaps. Probe determinants/examples/wording only if consequential and within authorized questioning; repeated unsuccessful probing becomes a deferred evidence gap. Confirm only material ambiguity or contradiction, not every section. Silence is not confirmation. Short acknowledgements plus the single prompt usually suffice; no routine recap or repeated onboarding.
 
@@ -531,7 +538,7 @@ These are coverage/export requirements, not extra mandatory interview questions.
 
 This appendix supplements every snapshot, detailed report and portable checkpoint. Preserve the full existing answer/fact record; this is not a replacement for it.
 
-Include exact bank/rubric hashes, the frozen rubric or a companion attachment, assessment JSON with all 201 question rows, evidence register and separate context, derived coverage result and actual validation status. Use `python validate_coverage.py --template` to obtain a complete assessment skeleton. See PART C for field definitions and source-map checks. Do not author a second independent set of coverage labels or gap summaries in the report. Use the validator's generated summaries, or identify them as structured-review-only when execution is unavailable.
+Include exact bank/rubric hashes, the frozen rubric or a companion attachment, assessment JSON with all 204 question rows, evidence register and separate context, derived coverage result and actual validation status. Use `python validate_coverage.py --template` to obtain a complete assessment skeleton. See PART C for field definitions and source-map checks. Do not author a second independent set of coverage labels or gap summaries in the report. Use the validator's generated summaries, or identify them as structured-review-only when execution is unavailable.
 
 Record actual local command/result when executed; do not claim execution in any host where the code did not actually run. If not executed, say “structured-review-only; executable validation unverified; automated acceptance pending.” Even a passing run establishes declared consistency only, not semantic correctness, business truth, complete report preservation or behavioral acceptance.
 
@@ -554,7 +561,7 @@ Status: Business Discovery Tool 1.0.2. The 138 local checks pass in Python and J
 
 Keep this guide (DISCOVERY_GUIDE.md) together with QUESTION_BANK.md, COVERAGE_RUBRIC.json, MANIFEST.json and validate_coverage.py. Test files are development artifacts, not business evidence. Do not load fixtures as team facts.
 
-COVERAGE_RUBRIC.json contains 201 question records and 355 hand-authored facets. Release 1.1.0 had 332 questions (269 from D1 plus Modules 17–18); release 1.2.0 retired 139 duplicate, derivable, recording-answerable or out-of-scope questions, reworded appointment questions so they assume no number or format of appointments, split Q13.02, and added Q06.13–Q06.14, Q11.16–Q11.20 and Q13.17. Each proposition and qualifier selection was hand-authored from the exact question and module context, not copied as a default whole-question facet or produced solely by keyword extraction. The rubric must never be rebuilt or edited to accommodate answers. Semantic interpretation remains reviewable, not objective ground truth. Explicit interpretation notes identify important ambiguities.
+COVERAGE_RUBRIC.json contains 204 question records and 362 hand-authored facets (1.3.0 added Q15.21, Q17.34 and Q17.35 for the core script). Release 1.1.0 had 332 questions (269 from D1 plus Modules 17–18); release 1.2.0 retired 139 duplicate, derivable, recording-answerable or out-of-scope questions, reworded appointment questions so they assume no number or format of appointments, split Q13.02, and added Q06.13–Q06.14, Q11.16–Q11.20 and Q13.17. Each proposition and qualifier selection was hand-authored from the exact question and module context, not copied as a default whole-question facet or produced solely by keyword extraction. The rubric must never be rebuilt or edited to accommodate answers. Semantic interpretation remains reviewable, not objective ground truth. Explicit interpretation notes identify important ambiguities.
 
 ## Run locally with no packages or network
 
@@ -566,7 +573,7 @@ With Python 3.8 or newer, in the folder holding the five files:
 
 In a chat host's code tool the uploaded files usually sit in /mnt/data; the script looks there and next to itself automatically, or pass `--dir <folder>`. The reference validate-coverage.mjs (hub folder reference-js) accepts the same arguments under Node and gives identical results.
 
-The template command creates all 201 unresolved rows with exact text, priority, facet IDs and qualifier IDs. It uses exclusive creation and refuses to overwrite the output. Fill only evidence and assessment fields; do not edit the frozen rubric to fit evidence. The template is stopped and exported by default so loading it never authorizes an interview question. Set the actual session state before assessing.
+The template command creates all 204 unresolved rows with exact text, priority, facet IDs and qualifier IDs. It uses exclusive creation and refuses to overwrite the output. Fill only evidence and assessment fields; do not edit the frozen rubric to fit evidence. The template is stopped and exported by default so loading it never authorizes an interview question. Set the actual session state before assessing.
 
 Exit 0 means structurally VALID; exit 1 means assessment INVALID with actionable errors; exit 2 means package, JSON, file or CLI failure. INVALID is an internal validation outcome, never a fourth coverage label. Invalid input yields no coverage rows. Do not silently repair an assessment, change evidence or issue a report saying it passed.
 
@@ -608,7 +615,7 @@ Top-level fields: schema_version=1.0.0, exact bank_sha256, exact rubric_sha256, 
 
 Evidence entries require evidence_id, locator, exact_excerpt, scope (case/general), temporal (current/historical/proposed/policy/configured/unknown), status (factual/analytic), actor, population and period. Use explicit unknown values rather than inventing context. Retain more detailed fact status, estimates, permissions and correction history in the full fact register. Policy/configuration is not execution; source metadata must accurately reflect that distinction.
 
-Each of all 201 assessments requires exact question_id, question_text, priority and exactly the predefined facet_results. No sparse row omission is accepted by this checker. Additional unrelated fields cannot award credit. Each result requires:
+Each of all 204 assessments requires exact question_id, question_text, priority and exactly the predefined facet_results. No sparse row omission is accepted by this checker. Additional unrelated fields cannot award credit. Each result requires:
 
 - facet_id, extent=none/some/complete, evidence_refs.
 - Exactly the frozen qualifier_results: qualifier_id, result=supported/unknown/contradicted, evidence_refs and basis. Supported qualifier references must also be included in the facet evidence_refs. First uses the special basis values above.
@@ -634,7 +641,7 @@ Optional supplied label, positive_summary or missing_summary must exactly match 
 
 ## Interview and stopped exports
 
-The ledger belongs inside the portable attachment, not a 201-row chat dump. Continue one natural question at a time. No mandatory recap/reconfirmation. Preserve the existing 12-minute configured budget and six-substantive-answer fallback when timing is unreliable (both start after the opening entry-path map and the money basics), along with any user change. Output-only commands ask zero new questions and never reopen the budget. Unknowns do not require personal answers during export.
+The ledger belongs inside the portable attachment, not a 204-row chat dump. Continue one natural question at a time. No mandatory recap/reconfirmation. Preserve the existing 12-minute configured budget and six-substantive-answer fallback when timing is unreliable (both apply only to questions outside the core script), along with any user change. Output-only commands ask zero new questions and never reopen the budget. Unknowns do not require personal answers during export.
 
 Session fields: status, command, timing_reliable, substantive_answers, budget_minutes, active_minutes, pass, deepen_authorized, pass2_declined, emitted_questions (for this interaction only), exported. For an automatic stop or output-only operation, emitted_questions must be empty and exported true. exported is a declaration to verify against the actual delivered file, not proof that the file exists. The checker cannot detect whether a single string secretly contains multiple questions. A fresh independent replay must review actual interaction wording, prompt history and file delivery.
 

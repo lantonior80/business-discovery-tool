@@ -2,7 +2,7 @@
 
 **A friendly AI interviewer that maps how a real-estate team turns leads into buyers, one short question at a time, and saves the answers as a shareable report.**
 
-It works inside a **ChatGPT Project** or a **Claude Project**. The owner just chats with it, by typing or voice. Behind the scenes it tracks 201 discovery questions, never asks the same thing twice, starts by mapping how people first find the business and a few money basics, stops after about 20–25 minutes, and hands back one answers file for the owner to send to whoever shared the tool. The file records answers only: the tool never scores the business or gives advice.
+It works inside a **ChatGPT Project** or a **Claude Project**. The owner just chats with it, by typing or voice. Behind the scenes it tracks 204 discovery questions but asks only 13 coached core questions (about 20–25 minutes, voice welcome), never asks the same thing twice, and hands back one answers file for the owner to send to whoever shared the tool. The file records answers only: the tool never scores the business or gives advice.
 
 ---
 
@@ -68,7 +68,7 @@ Either way, do what it says, one step at a time, then type `done`.
 
 ## Included / you supply / not included
 
-- **Included:** the interviewer's rules, the 201-question bank, a frozen scoring rubric, and a checker (`validate_coverage.py`) that verifies the report's coverage math wherever the AI can run Python.
+- **Included:** the interviewer's rules, the 204-question bank, a frozen scoring rubric, and a checker (`validate_coverage.py`) that verifies the report's coverage math wherever the AI can run Python.
 - **You supply:** your own answers. If you like, you can also share files such as a sample script or a CRM screenshot. It ships with **no facts about any business**.
 - **Not included, on purpose:** advice, coaching, script rewriting, outreach to anyone, changes to your CRM or systems, or legal conclusions. It documents. It doesn't prescribe.
 
@@ -81,6 +81,7 @@ Either way, do what it says, one step at a time, then type `done`.
 - [SETUP.md](SETUP.md): the step-by-step guide the AI follows during setup (manual or automated).
 - [AGENT_SETUP.md](AGENT_SETUP.md): the runbook ChatGPT (Work mode) follows for the automated setup.
 - [handout/Business_Discovery_Start_Here.pdf](handout/Business_Discovery_Start_Here.pdf): the one-page beginner guide. Rebuild it with `python tools/build_start_pdf.py` (needs `reportlab` and `pymupdf`) whenever the start steps change.
+- [handout/INVITE_MESSAGE.md](handout/INVITE_MESSAGE.md): a ready-to-send invitation that gives owners a reason to finish (your free diagnosis of their file).
 - [TESTING.md](TESTING.md): the smoke test to run in a fictional Project before you share it.
 - `project-files/`: the five files that go into a Project, which are also attached to each [release](https://github.com/lantonior80/business-discovery-tool/releases/latest).
 - `instructions/PROJECT_INSTRUCTIONS.txt`: the instructions to paste (under 8,000 characters, so they fit ChatGPT and Claude).

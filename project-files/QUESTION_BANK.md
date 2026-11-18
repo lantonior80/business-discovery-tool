@@ -516,6 +516,8 @@ The AI should request available reports, not force guesses.
 15. **[D]** How do these measures differ by lead source and responsible agent?
 <!-- Q15.16 -->
 16. **[D]** What does the team spend on advertising, content production, VA labor, appointment labor, CRM, and related acquisition activities?
+<!-- Q15.21 -->
+17. **[E]** Roughly, out of every 100 leads, about how many talk with someone on the team, book an appointment, show up, sign a contract, and close?
 
 ### Calculation rules
 
@@ -618,6 +620,10 @@ Owners may give estimates or ranges; record which numbers come from reports and 
 27. **[O]** Does the team offer different service levels or a package price for buying and selling together, and about what share of clients chose each?
 <!-- Q17.33 -->
 28. **[D]** Do past clients get a credit, discount or bonus on their next deal, and does any client bring in recurring income such as property management or investor services, and about how much per year?
+<!-- Q17.34 -->
+29. **[E]** In your own words, what is stopping the business from growing faster right now?
+<!-- Q17.35 -->
+30. **[E]** Why do you want to grow: what is your goal, your purpose, your why?
 
 ### Supporting information
 
