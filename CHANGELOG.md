@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.1.0 — 2026-11-18
+- **Two new modules, 63 new questions (332 total, 538 facets):**
+  - **Module 17 — Business economics, client value and growth limits** (33 questions). Covers commission and closings, what the team keeps per deal, the cost to win and to serve a client, cash timing, repeat and referral business, the past-client database, offers after the first one, buyer-agreement terms, capacity and goals.
+  - **Module 18 — Lead handling, team and proof operating numbers** (30 questions). Covers follow-up attempts, answer rates, booking availability, lead grading, reasons buyers don't move forward, agent and VA turnover, call review, onboarding, role standards, ads and reviews.
+  - The 269 earlier questions and their 409 facets are unchanged.
+- **Money basics.** Right after the opening, quick discovery asks 4 money questions (Q17.01–Q17.04). Like the opening, they don't count toward the budget. Quick discovery is now about 20–25 minutes.
+- **Facts-only hand-off.** Nothing shown to the owner contains an evaluation, score, diagnosis or advice. The report's "preliminary diagnostic observations" section is now "contradictions and data gaps — facts only". The closing message tells the owner to send the file to the person who shared the tool, with a PDF copy available on request.
+- The checker (Python and the JavaScript reference) now expects 332 questions. The question bank, rubric and MANIFEST hashes changed, so assessments made with 1.0.x must start from a fresh template.
+
 ## 1.0.2 — 2026-11-15
 - Discovery now always opens by mapping how strangers find the business: lead sources → biggest source → what they're asked to do → where it lands (landing page, DMs…) → what's promised → where it goes first. Referrals get a short branch; a second source is mapped if named.
 - The opening reuses existing questions (Q02.01–Q02.04, Q03.01–Q03.02) and doesn't count toward the 12-minute budget or six-answer fallback. Quick discovery is now about 15–20 minutes.

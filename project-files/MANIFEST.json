@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "question_count": 269,
-  "bank_sha256": "51a6a62436d9a8765d4671c18ca45b69c40bb1e660905f7fa473108418a32b1a",
-  "rubric_sha256": "7770c9061cc53e4a9e1e23ad0df02f3fddf1ba2d945676ce62da741fdee91bae",
+  "question_count": 332,
+  "bank_sha256": "b8bf2899af155d6a1b5dddae3138eaae7bace6c6721446284a71f844e70cbd51",
+  "rubric_sha256": "00251485c781d0bfd2d93b74b4a1d59ed37982428ac3001235704d0b309c44dd",
   "source_hashes": {
-    "note": "Derived from the D1 candidate frozen 2026-11-15. Six question texts and their rubric propositions were made team-neutral; no facet, qualifier, priority or ID changed.",
+    "note": "Derived from the D1 candidate frozen 2026-11-15. Six question texts and their rubric propositions were made team-neutral; no D1 facet, qualifier, priority or ID changed. Release 1.1.0 appended Modules 17-18 (63 questions, 129 facets).",
     "d1_bank_sha256": "1cec14fe2d6d797c5cc55cc988c96d4685c5b7787176769ad60c3545b25ac0cf",
     "d1_rubric_sha256": "b9612d5452d94521825626480c7ada12c99446494423e6ad4754545334e90da6"
   },
@@ -1353,6 +1353,321 @@
       "question_id": "Q16.14",
       "priority": "O",
       "question_text": "Are there important buyer-segment variations that would require different explanations?"
+    },
+    {
+      "question_id": "Q17.01",
+      "priority": "E",
+      "question_text": "In the last 12 months, about how many buyer deals closed, and about how much commission did they bring in before anyone was paid?"
+    },
+    {
+      "question_id": "Q17.02",
+      "priority": "E",
+      "question_text": "After agent splits, referral fees, brokerage fees and other per-deal costs, about how much does the team keep from a typical buyer closing?"
+    },
+    {
+      "question_id": "Q17.03",
+      "priority": "E",
+      "question_text": "For a recent stretch of months, about how much was spent to win buyer clients, and about how many of the leads from that same stretch have since signed or closed?"
+    },
+    {
+      "question_id": "Q17.04",
+      "priority": "E",
+      "question_text": "In the last 12 months, about how many buyer closings came from repeat past clients, and how many came from referrals by past clients?"
+    },
+    {
+      "question_id": "Q17.05",
+      "priority": "D",
+      "question_text": "What commission rate or fee does the team charge buyers, does it vary by buyer type, and about what is the average purchase price?"
+    },
+    {
+      "question_id": "Q17.06",
+      "priority": "D",
+      "question_text": "When did the buyer fee last change and what happened to sign-ups afterward, do buyers pay any admin or transaction fee, and how often does the team reduce commission or give a rebate to win or keep a buyer?"
+    },
+    {
+      "question_id": "Q17.07",
+      "priority": "D",
+      "question_text": "Does the amount the team keeps per deal differ by lead source, price range or agent, and roughly how?"
+    },
+    {
+      "question_id": "Q17.08",
+      "priority": "D",
+      "question_text": "After every business cost, including the owner's pay if taken, about how much did the business keep last year?"
+    },
+    {
+      "question_id": "Q17.09",
+      "priority": "D",
+      "question_text": "Does the team track cost per lead, per held appointment and per closing, overall or by source, and which lead count is used?"
+    },
+    {
+      "question_id": "Q17.10",
+      "priority": "D",
+      "question_text": "How long does it usually take from a buyer lead's first contact until the commission check arrives?"
+    },
+    {
+      "question_id": "Q17.11",
+      "priority": "D",
+      "question_text": "Does any money come in during a buyer client's first 30 days, or is everything paid at closing, and how is marketing paid for while waiting?"
+    },
+    {
+      "question_id": "Q17.12",
+      "priority": "D",
+      "question_text": "Counting every past buyer client, about how many deals has the average client done with the team, including later purchases and sales?"
+    },
+    {
+      "question_id": "Q17.13",
+      "priority": "D",
+      "question_text": "About how many past clients are in the database, how many could still be reached today, how many heard from the team in the last 6 months, and how many are known to have used another agent since?"
+    },
+    {
+      "question_id": "Q17.14",
+      "priority": "D",
+      "question_text": "After closing, how often does a past client hear from the team personally, what is done, and about how much does it cost per year?"
+    },
+    {
+      "question_id": "Q17.15",
+      "priority": "D",
+      "question_text": "About what share of closed buyers left a review or testimonial, and what share sent at least one referral?"
+    },
+    {
+      "question_id": "Q17.16",
+      "priority": "D",
+      "question_text": "Besides the purchase, what other income has come from buyer clients, such as listing the home they left, a later sale, an investment purchase, rentals or referral fees the law allows, and roughly how many clients produced each?"
+    },
+    {
+      "question_id": "Q17.17",
+      "priority": "D",
+      "question_text": "What happens to leads who are not ready to buy yet, and of not-ready leads from a year or more ago, about how many later bought with the team?"
+    },
+    {
+      "question_id": "Q17.18",
+      "priority": "D",
+      "question_text": "Of buyers who sign with the team, about how many drop out before closing and why, how many go quiet for two weeks or more first, and when a buyer wants to stop, does anyone talk with them and about how many stay?"
+    },
+    {
+      "question_id": "Q17.19",
+      "priority": "D",
+      "question_text": "Thinking of the best 10–20% of past clients by commission plus repeat and referral business, what do they have in common?"
+    },
+    {
+      "question_id": "Q17.20",
+      "priority": "D",
+      "question_text": "Is there a step after which buyers become much more likely to close, such as preapproval or a first tour within a certain number of days?"
+    },
+    {
+      "question_id": "Q17.21",
+      "priority": "D",
+      "question_text": "How many buyer clients can one agent handle at a time, about how many closings does an agent do per year, and roughly what share of an agent's week goes to appointments and tours, follow-up, prospecting, and admin and training?"
+    },
+    {
+      "question_id": "Q17.22",
+      "priority": "E",
+      "question_text": "What revenue or closings goal does the owner have for the next 12 months?"
+    },
+    {
+      "question_id": "Q17.23",
+      "priority": "O",
+      "question_text": "If twice as many leads came in tomorrow, where would things break first, and which stage loses the most people in the team's own numbers?"
+    },
+    {
+      "question_id": "Q17.24",
+      "priority": "O",
+      "question_text": "Which would change the business most if it improved: more leads, more leads becoming clients, more money per client, more repeat and referral business, or depending less on any one person or source?"
+    },
+    {
+      "question_id": "Q17.25",
+      "priority": "D",
+      "question_text": "Which of these money numbers come from real reports, and which are the owner's best estimate?"
+    },
+    {
+      "question_id": "Q17.26",
+      "priority": "D",
+      "question_text": "Besides splits and fees, about how much does it cost the team to serve one buyer from signing to closing, such as showing time, a transaction coordinator, mileage, gifts or per-client software?"
+    },
+    {
+      "question_id": "Q17.27",
+      "priority": "D",
+      "question_text": "How does the team pay for leads and marketing before commission arrives, and about how many months of current spending could it cover with no closings?"
+    },
+    {
+      "question_id": "Q17.28",
+      "priority": "D",
+      "question_text": "What do the team's ads or lead forms offer people for getting in touch, and which offer brings the most leads and which brings the most closings?"
+    },
+    {
+      "question_id": "Q17.29",
+      "priority": "D",
+      "question_text": "From first contact to closing, what else does the team offer a buyer and in what order, such as a lender introduction, listing their current home, moving help or other referrals the law allows, and about how many said yes to each last year?"
+    },
+    {
+      "question_id": "Q17.30",
+      "priority": "D",
+      "question_text": "When a buyer declines the buyer agreement, is anything else offered, such as a shorter or single-property agreement, fewer services for a lower fee or listing alerts only, and about how many accept?"
+    },
+    {
+      "question_id": "Q17.31",
+      "priority": "D",
+      "question_text": "How long does the buyer agreement run, how can a buyer end it early, is a fee owed if they do, and is any fee waived for buyers who commit?"
+    },
+    {
+      "question_id": "Q17.32",
+      "priority": "O",
+      "question_text": "Does the team offer different service levels or a package price for buying and selling together, and about what share of clients chose each?"
+    },
+    {
+      "question_id": "Q17.33",
+      "priority": "D",
+      "question_text": "Do past clients get a credit, discount or bonus on their next deal, and does any client bring in recurring income such as property management or investor services, and about how much per year?"
+    },
+    {
+      "question_id": "Q18.01",
+      "priority": "D",
+      "question_text": "How many calls and texts does a new lead who doesn't answer get, over how many days, before moving to long-term follow-up?"
+    },
+    {
+      "question_id": "Q18.02",
+      "priority": "D",
+      "question_text": "Of calls to new leads, about how many get answered?"
+    },
+    {
+      "question_id": "Q18.03",
+      "priority": "D",
+      "question_text": "On which days and hours can a buyer book appointment 1, and how many start times are offered per hour?"
+    },
+    {
+      "question_id": "Q18.04",
+      "priority": "D",
+      "question_text": "About how many first appointments happen the same day the lead is reached, or get moved earlier?"
+    },
+    {
+      "question_id": "Q18.05",
+      "priority": "D",
+      "question_text": "When a booked buyer texts a question, about how long until someone replies, and is that tracked?"
+    },
+    {
+      "question_id": "Q18.06",
+      "priority": "D",
+      "question_text": "Does the team grade leads, about what share fall in each grade, and who gets the best ones?"
+    },
+    {
+      "question_id": "Q18.07",
+      "priority": "D",
+      "question_text": "Is anyone paid for appointments that actually happen, and how much compared with their pay per closing?"
+    },
+    {
+      "question_id": "Q18.08",
+      "priority": "D",
+      "question_text": "Of buyers who didn't move forward last quarter, about how many gave each reason, such as timing, money, a spouse or partner, wanting a different area, approach or agent, needing to think, or a bad past experience?"
+    },
+    {
+      "question_id": "Q18.09",
+      "priority": "D",
+      "question_text": "How often is a decision-maker missing from appointment 2, and what happens then?"
+    },
+    {
+      "question_id": "Q18.10",
+      "priority": "D",
+      "question_text": "In the last 12 months, how many agents and VAs joined, and how many left?"
+    },
+    {
+      "question_id": "Q18.11",
+      "priority": "D",
+      "question_text": "Which calls are recorded and kept, about how many were reviewed together last month, how are calls picked for review, and how often does each person's call get reviewed?"
+    },
+    {
+      "question_id": "Q18.12",
+      "priority": "O",
+      "question_text": "About how many new ads or ad versions are made per month, at what monthly spend did costs start climbing if spending was raised, and are the ad click rate and click-to-lead rate known?"
+    },
+    {
+      "question_id": "Q18.13",
+      "priority": "O",
+      "question_text": "Does the team keep a ranked list of its best ads or posts by leads or appointments, and does it track or test ad opening lines and calls to action?"
+    },
+    {
+      "question_id": "Q18.14",
+      "priority": "O",
+      "question_text": "About what share of the team's ads and posts feature the owner, versus agents or clients?"
+    },
+    {
+      "question_id": "Q18.15",
+      "priority": "D",
+      "question_text": "On which review sites does the team have reviews, about how many with what average rating, how many new ones arrive per month, when was the latest, and is a satisfaction score collected?"
+    },
+    {
+      "question_id": "Q18.16",
+      "priority": "O",
+      "question_text": "About how many social followers and email contacts does the team have?"
+    },
+    {
+      "question_id": "Q18.17",
+      "priority": "O",
+      "question_text": "How many client or past-client events does the team hold per year?"
+    },
+    {
+      "question_id": "Q18.18",
+      "priority": "O",
+      "question_text": "Which client-result numbers does the team keep, such as buyers helped per year, average days from signing to keys, or first-time buyers helped?"
+    },
+    {
+      "question_id": "Q18.19",
+      "priority": "O",
+      "question_text": "When does the team stop running an ad, how much and how fast is budget raised on an ad that works, and what share of new ads are new versions of ads that already worked?"
+    },
+    {
+      "question_id": "Q18.20",
+      "priority": "D",
+      "question_text": "Are ads judged mainly by cost per lead or by the appointments and closings they produce, and about how much commission is one held first appointment worth?"
+    },
+    {
+      "question_id": "Q18.21",
+      "priority": "O",
+      "question_text": "Have the team's best organic posts been run as paid ads and how did they do, and are separate versions made for each placement?"
+    },
+    {
+      "question_id": "Q18.22",
+      "priority": "D",
+      "question_text": "About how many hours a week do agents or VAs spend calling or texting leads who haven't booked, about how many appointments does an hour produce, and at what time of day do leads answer most?"
+    },
+    {
+      "question_id": "Q18.23",
+      "priority": "D",
+      "question_text": "If a booked buyer never replies to confirmations, is the appointment kept, cancelled or rebooked, and about how often does that happen?"
+    },
+    {
+      "question_id": "Q18.24",
+      "priority": "D",
+      "question_text": "When a buyer no-shows or says no, how long does the team keep contacting them, and about what share of the last 2 months' no-shows and no's has been contacted again?"
+    },
+    {
+      "question_id": "Q18.25",
+      "priority": "D",
+      "question_text": "Do agents ask for referrals at signing or at closing, and about what share of clients are asked?"
+    },
+    {
+      "question_id": "Q18.26",
+      "priority": "D",
+      "question_text": "Of buyers who sign, about how many decide during appointment 2 versus after later follow-up, and when appointment 2 ends without a decision, how often is the next meeting booked before it ends?"
+    },
+    {
+      "question_id": "Q18.27",
+      "priority": "D",
+      "question_text": "About how long do appointment 1 and appointment 2 usually last, and is there a set time limit?"
+    },
+    {
+      "question_id": "Q18.28",
+      "priority": "D",
+      "question_text": "How long after starting does a new VA or agent take a first live call or appointment, and what must they show or pass first?"
+    },
+    {
+      "question_id": "Q18.29",
+      "priority": "D",
+      "question_text": "How often does the owner or a team lead meet one-on-one with each VA and agent, and how often does the team train together?"
+    },
+    {
+      "question_id": "Q18.30",
+      "priority": "D",
+      "question_text": "Is there a written weekly or monthly standard for each role, and what happens when someone falls below it?"
     }
   ]
 }

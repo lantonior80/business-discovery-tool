@@ -46,12 +46,12 @@ Check each file is non-empty and its SHA-256 matches `SHA256SUMS.txt`. Don't ren
 
 ## 6. Check setup in a fresh chat
 1. Start a **new chat inside the Project** (not this agent chat). Type `Check setup` and send once.
-2. Wait for the complete answer. It should list all five files and say whether it ran `python validate_coverage.py --check-package` (expected: valid, 269 questions, 409 facets).
+2. Wait for the complete answer. It should list all five files and say whether it ran `python validate_coverage.py --check-package` (expected: valid, 332 questions, 538 facets).
 3. A checker pass alone is not enough. Require both: all five completed rows in Sources (step 4) **and** all five files readable in the fresh chat. If code can't run there, say so plainly; don't claim it ran.
 
 ## 7. Hand back
 - Leave the Sources page showing the five files and take a screenshot as proof (hide unrelated chats).
-- Tell the person, in plain English: setup is done; open the fresh chat (give its link) and type `Start quick discovery` when ready. Write **only** `Start quick discovery` in code format (inside backticks) so they can tap it to copy; everything else is normal text. It asks one short question at a time, starts by mapping how people find their business, takes about 15–20 minutes, accepts "skip" and "I don't know", and **Stop** saves a report file they should keep. To continue later: new chat in the Project, upload the report, type `Resume discovery`.
+- Tell the person, in plain English: setup is done; open the fresh chat (give its link) and type `Start quick discovery` when ready. Write **only** `Start quick discovery` in code format (inside backticks) so they can tap it to copy; everything else is normal text. It asks one short question at a time, starts by mapping how people find their business, takes about 20–25 minutes, accepts "skip" and "I don't know", and **Stop** saves a report file they should keep. To continue later: new chat in the Project, upload the report, type `Resume discovery`.
 - Report honestly what was verified and anything that wasn't. Don't call setup complete if a file, the saved instructions or the check is missing.
 
 ## Checklist

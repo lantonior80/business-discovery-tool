@@ -15,8 +15,8 @@ export function loadPackage(dir=HOME){
  if(sha256(bank)!==manifest.bank_sha256)errors.push('QUESTION_BANK.md: immutable bank hash mismatch');
  if(sha256(fs.readFileSync(path.join(dir,'COVERAGE_RUBRIC.json')))!==manifest.rubric_sha256)errors.push('COVERAGE_RUBRIC.json: frozen rubric hash mismatch');
  const qs=[...bank.toString('utf8').matchAll(/<!-- (Q\d{2}\.\d{2}) -->\s*\d+\. \*\*\[([EDO])\]\*\* ([^\r\n]+)/g)].map(m=>({question_id:m[1],priority:m[2],question_text:m[3]}));
- if(qs.length!==269||manifest.question_count!==269||!same(qs,manifest.question_manifest))errors.push('MANIFEST: exact 269 IDs/text/priorities do not match bank');
- if(!Array.isArray(rubric.questions)||rubric.questions.length!==269)errors.push('RUBRIC: exactly 269 questions required');
+ if(qs.length!==332||manifest.question_count!==332||!same(qs,manifest.question_manifest))errors.push('MANIFEST: exact 332 IDs/text/priorities do not match bank');
+ if(!Array.isArray(rubric.questions)||rubric.questions.length!==332)errors.push('RUBRIC: exactly 332 questions required');
  const seenQ=new Set(),seenF=new Set();
  for(const [i,q] of (rubric.questions||[]).entries()){
   if(seenQ.has(q.question_id))errors.push(q.question_id+': duplicate rubric question');seenQ.add(q.question_id);
@@ -106,7 +106,7 @@ export function validateAssessment(a,pkg=loadPackage(),sourceBinding=null){
  if(!Array.isArray(a.context))err('context','must be an array, separate from credit');
  for(const [i,c] of (Array.isArray(a.context)?a.context:[]).entries()){if(!c||typeof c!=='object'){err('context['+i+']','invalid entry');continue;}refs(c.evidence_refs,'context['+i+']');if(!nonempty(c.note))err('context['+i+']','note required');}
  const assessments=new Map();
- if(!Array.isArray(a.assessments)||a.assessments.length!==269)err('assessments','exactly 269 rows required, including unresolved rows');
+ if(!Array.isArray(a.assessments)||a.assessments.length!==332)err('assessments','exactly 332 rows required, including unresolved rows');
  for(const q of a.assessments||[]){if(!q||typeof q!=='object'){err('assessments','invalid row');continue;}if(assessments.has(q.question_id))err(q.question_id,'duplicate question');assessments.set(q.question_id,q);}
  const validIds=new Set(pkg.rubric.questions.map(q=>q.question_id));for(const id of assessments.keys())if(!validIds.has(id))err(String(id),'unknown question ID');
  for(const q of pkg.rubric.questions){
@@ -227,7 +227,7 @@ export function validateAssessment(a,pkg=loadPackage(),sourceBinding=null){
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)){
  try{
   const pkg=loadPackage();const args=process.argv.slice(2);
-  if(args[0]==='--check-package')console.log(JSON.stringify({valid:true,questions:269,facets:pkg.rubric.questions.reduce((n,q)=>n+q.facets.length,0),bank_sha256:pkg.manifest.bank_sha256,rubric_sha256:pkg.manifest.rubric_sha256},null,2));
+  if(args[0]==='--check-package')console.log(JSON.stringify({valid:true,questions:332,facets:pkg.rubric.questions.reduce((n,q)=>n+q.facets.length,0),bank_sha256:pkg.manifest.bank_sha256,rubric_sha256:pkg.manifest.rubric_sha256},null,2));
   else if(args[0]==='--template'){const text=JSON.stringify(blankAssessment(pkg),null,2)+'\n';if(args[1])fs.writeFileSync(args[1],text,{flag:'wx'});else process.stdout.write(text);}
   else if(args[0]){const si=args.indexOf('--sources');let binding=null;if(si>=0){if(!args[si+1])throw Error('--sources requires a JSON source-map path');const bytes=fs.readFileSync(args[si+1]);binding={map:JSON.parse(bytes.toString('utf8').replace(/^\uFEFF/,'')),sha256:sha256(bytes)};}const out=validateAssessment(parse(args[0]),pkg,binding);const text=JSON.stringify(out,null,2)+'\n';if(args[1]&&args[1]!=='--sources')fs.writeFileSync(args[1],text,{flag:'wx'});else process.stdout.write(text);if(!out.valid)process.exitCode=1;}
   else {console.error('Usage: node validate-coverage.mjs --check-package | --template [new.json] | assessment.json [new-result.json] [--sources source-map.json]');process.exitCode=2;}

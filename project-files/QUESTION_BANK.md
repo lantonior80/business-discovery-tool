@@ -1,6 +1,6 @@
 # Complete original question bank — reference data
 
-All 269 IDs, priorities, question text and module requirements are preserved. ID comments identify original Module.question numbers; they do not change the question wording. Read SKILL.md for operating cadence, one-question interviewing and stop/export precedence. Module purposes, supporting information, five-case examples, calculation rules and special instructions below remain coverage requirements; they do not authorize automatic questioning or completion beyond budget. The raw historical Part I/III–V/adaptive execution directions are outside this runtime.
+All 269 original IDs, priorities, question text and module requirements are preserved. Release 1.1.0 appends Modules 17–18 (63 questions) after Module 16. ID comments identify original Module.question numbers; they do not change the question wording. Read SKILL.md for operating cadence, one-question interviewing and stop/export precedence. Module purposes, supporting information, five-case examples, calculation rules and special instructions below remain coverage requirements; they do not authorize automatic questioning or completion beyond budget. The raw historical Part I/III–V/adaptive execution directions are outside this runtime.
 
 # PART II — COMPLETE FRAMEWORK DISCOVERY QUESTIONNAIRE
 
@@ -799,6 +799,162 @@ Video links, presentation materials, buyer guides, FAQs, testimonial permissions
 Record possible educational-video opportunities as observations only.
 
 Do not write or prescribe VSL 1 or VSL 2 during discovery.
+
+---
+
+## MODULE 17 — Business economics, client value, and growth limits
+
+**Purpose:** Record the business's own money numbers as the owner gives them (what a client is worth, what one costs to win and serve, how fast cash returns, what limits growth, and which offers follow the first one) so they can be evaluated later outside this interview.
+
+Owners may give estimates or ranges; record which numbers come from reports and which are estimates. Record figures exactly as given. Do not calculate ratios, compare them with benchmarks or comment on whether they are good or bad.
+
+### Questions
+
+<!-- Q17.01 -->
+1. **[E]** In the last 12 months, about how many buyer deals closed, and about how much commission did they bring in before anyone was paid?
+<!-- Q17.02 -->
+2. **[E]** After agent splits, referral fees, brokerage fees and other per-deal costs, about how much does the team keep from a typical buyer closing?
+<!-- Q17.03 -->
+3. **[E]** For a recent stretch of months, about how much was spent to win buyer clients, and about how many of the leads from that same stretch have since signed or closed?
+<!-- Q17.04 -->
+4. **[E]** In the last 12 months, about how many buyer closings came from repeat past clients, and how many came from referrals by past clients?
+<!-- Q17.05 -->
+5. **[D]** What commission rate or fee does the team charge buyers, does it vary by buyer type, and about what is the average purchase price?
+<!-- Q17.06 -->
+6. **[D]** When did the buyer fee last change and what happened to sign-ups afterward, do buyers pay any admin or transaction fee, and how often does the team reduce commission or give a rebate to win or keep a buyer?
+<!-- Q17.07 -->
+7. **[D]** Does the amount the team keeps per deal differ by lead source, price range or agent, and roughly how?
+<!-- Q17.08 -->
+8. **[D]** After every business cost, including the owner's pay if taken, about how much did the business keep last year?
+<!-- Q17.09 -->
+9. **[D]** Does the team track cost per lead, per held appointment and per closing, overall or by source, and which lead count is used?
+<!-- Q17.10 -->
+10. **[D]** How long does it usually take from a buyer lead's first contact until the commission check arrives?
+<!-- Q17.11 -->
+11. **[D]** Does any money come in during a buyer client's first 30 days, or is everything paid at closing, and how is marketing paid for while waiting?
+<!-- Q17.12 -->
+12. **[D]** Counting every past buyer client, about how many deals has the average client done with the team, including later purchases and sales?
+<!-- Q17.13 -->
+13. **[D]** About how many past clients are in the database, how many could still be reached today, how many heard from the team in the last 6 months, and how many are known to have used another agent since?
+<!-- Q17.14 -->
+14. **[D]** After closing, how often does a past client hear from the team personally, what is done, and about how much does it cost per year?
+<!-- Q17.15 -->
+15. **[D]** About what share of closed buyers left a review or testimonial, and what share sent at least one referral?
+<!-- Q17.16 -->
+16. **[D]** Besides the purchase, what other income has come from buyer clients, such as listing the home they left, a later sale, an investment purchase, rentals or referral fees the law allows, and roughly how many clients produced each?
+<!-- Q17.17 -->
+17. **[D]** What happens to leads who are not ready to buy yet, and of not-ready leads from a year or more ago, about how many later bought with the team?
+<!-- Q17.18 -->
+18. **[D]** Of buyers who sign with the team, about how many drop out before closing and why, how many go quiet for two weeks or more first, and when a buyer wants to stop, does anyone talk with them and about how many stay?
+<!-- Q17.19 -->
+19. **[D]** Thinking of the best 10–20% of past clients by commission plus repeat and referral business, what do they have in common?
+<!-- Q17.20 -->
+20. **[D]** Is there a step after which buyers become much more likely to close, such as preapproval or a first tour within a certain number of days?
+<!-- Q17.21 -->
+21. **[D]** How many buyer clients can one agent handle at a time, about how many closings does an agent do per year, and roughly what share of an agent's week goes to appointments and tours, follow-up, prospecting, and admin and training?
+<!-- Q17.22 -->
+22. **[E]** What revenue or closings goal does the owner have for the next 12 months?
+<!-- Q17.23 -->
+23. **[O]** If twice as many leads came in tomorrow, where would things break first, and which stage loses the most people in the team's own numbers?
+<!-- Q17.24 -->
+24. **[O]** Which would change the business most if it improved: more leads, more leads becoming clients, more money per client, more repeat and referral business, or depending less on any one person or source?
+<!-- Q17.25 -->
+25. **[D]** Which of these money numbers come from real reports, and which are the owner's best estimate?
+<!-- Q17.26 -->
+26. **[D]** Besides splits and fees, about how much does it cost the team to serve one buyer from signing to closing, such as showing time, a transaction coordinator, mileage, gifts or per-client software?
+<!-- Q17.27 -->
+27. **[D]** How does the team pay for leads and marketing before commission arrives, and about how many months of current spending could it cover with no closings?
+<!-- Q17.28 -->
+28. **[D]** What do the team's ads or lead forms offer people for getting in touch, and which offer brings the most leads and which brings the most closings?
+<!-- Q17.29 -->
+29. **[D]** From first contact to closing, what else does the team offer a buyer and in what order, such as a lender introduction, listing their current home, moving help or other referrals the law allows, and about how many said yes to each last year?
+<!-- Q17.30 -->
+30. **[D]** When a buyer declines the buyer agreement, is anything else offered, such as a shorter or single-property agreement, fewer services for a lower fee or listing alerts only, and about how many accept?
+<!-- Q17.31 -->
+31. **[D]** How long does the buyer agreement run, how can a buyer end it early, is a fee owed if they do, and is any fee waived for buyers who commit?
+<!-- Q17.32 -->
+32. **[O]** Does the team offer different service levels or a package price for buying and selling together, and about what share of clients chose each?
+<!-- Q17.33 -->
+33. **[D]** Do past clients get a credit, discount or bonus on their next deal, and does any client bring in recurring income such as property management or investor services, and about how much per year?
+
+### Supporting information
+
+Profit-and-loss summary, commission reports, closing lists by source, marketing spend, CRM stage reports, past-client database counts, buyer-agreement template.
+
+---
+
+## MODULE 18 — Lead handling, team, and proof operating numbers
+
+**Purpose:** Record the operating numbers behind lead follow-up, appointments, sales conversations, team cadence, advertising and proof that earlier modules do not ask for directly.
+
+Owners may give estimates or ranges; record which numbers come from reports and which are estimates. Record figures exactly as given. Do not calculate ratios, compare them with benchmarks or comment on whether they are good or bad.
+
+### Questions
+
+<!-- Q18.01 -->
+1. **[D]** How many calls and texts does a new lead who doesn't answer get, over how many days, before moving to long-term follow-up?
+<!-- Q18.02 -->
+2. **[D]** Of calls to new leads, about how many get answered?
+<!-- Q18.03 -->
+3. **[D]** On which days and hours can a buyer book appointment 1, and how many start times are offered per hour?
+<!-- Q18.04 -->
+4. **[D]** About how many first appointments happen the same day the lead is reached, or get moved earlier?
+<!-- Q18.05 -->
+5. **[D]** When a booked buyer texts a question, about how long until someone replies, and is that tracked?
+<!-- Q18.06 -->
+6. **[D]** Does the team grade leads, about what share fall in each grade, and who gets the best ones?
+<!-- Q18.07 -->
+7. **[D]** Is anyone paid for appointments that actually happen, and how much compared with their pay per closing?
+<!-- Q18.08 -->
+8. **[D]** Of buyers who didn't move forward last quarter, about how many gave each reason, such as timing, money, a spouse or partner, wanting a different area, approach or agent, needing to think, or a bad past experience?
+<!-- Q18.09 -->
+9. **[D]** How often is a decision-maker missing from appointment 2, and what happens then?
+<!-- Q18.10 -->
+10. **[D]** In the last 12 months, how many agents and VAs joined, and how many left?
+<!-- Q18.11 -->
+11. **[D]** Which calls are recorded and kept, about how many were reviewed together last month, how are calls picked for review, and how often does each person's call get reviewed?
+<!-- Q18.12 -->
+12. **[O]** About how many new ads or ad versions are made per month, at what monthly spend did costs start climbing if spending was raised, and are the ad click rate and click-to-lead rate known?
+<!-- Q18.13 -->
+13. **[O]** Does the team keep a ranked list of its best ads or posts by leads or appointments, and does it track or test ad opening lines and calls to action?
+<!-- Q18.14 -->
+14. **[O]** About what share of the team's ads and posts feature the owner, versus agents or clients?
+<!-- Q18.15 -->
+15. **[D]** On which review sites does the team have reviews, about how many with what average rating, how many new ones arrive per month, when was the latest, and is a satisfaction score collected?
+<!-- Q18.16 -->
+16. **[O]** About how many social followers and email contacts does the team have?
+<!-- Q18.17 -->
+17. **[O]** How many client or past-client events does the team hold per year?
+<!-- Q18.18 -->
+18. **[O]** Which client-result numbers does the team keep, such as buyers helped per year, average days from signing to keys, or first-time buyers helped?
+<!-- Q18.19 -->
+19. **[O]** When does the team stop running an ad, how much and how fast is budget raised on an ad that works, and what share of new ads are new versions of ads that already worked?
+<!-- Q18.20 -->
+20. **[D]** Are ads judged mainly by cost per lead or by the appointments and closings they produce, and about how much commission is one held first appointment worth?
+<!-- Q18.21 -->
+21. **[O]** Have the team's best organic posts been run as paid ads and how did they do, and are separate versions made for each placement?
+<!-- Q18.22 -->
+22. **[D]** About how many hours a week do agents or VAs spend calling or texting leads who haven't booked, about how many appointments does an hour produce, and at what time of day do leads answer most?
+<!-- Q18.23 -->
+23. **[D]** If a booked buyer never replies to confirmations, is the appointment kept, cancelled or rebooked, and about how often does that happen?
+<!-- Q18.24 -->
+24. **[D]** When a buyer no-shows or says no, how long does the team keep contacting them, and about what share of the last 2 months' no-shows and no's has been contacted again?
+<!-- Q18.25 -->
+25. **[D]** Do agents ask for referrals at signing or at closing, and about what share of clients are asked?
+<!-- Q18.26 -->
+26. **[D]** Of buyers who sign, about how many decide during appointment 2 versus after later follow-up, and when appointment 2 ends without a decision, how often is the next meeting booked before it ends?
+<!-- Q18.27 -->
+27. **[D]** About how long do appointment 1 and appointment 2 usually last, and is there a set time limit?
+<!-- Q18.28 -->
+28. **[D]** How long after starting does a new VA or agent take a first live call or appointment, and what must they show or pass first?
+<!-- Q18.29 -->
+29. **[D]** How often does the owner or a team lead meet one-on-one with each VA and agent, and how often does the team train together?
+<!-- Q18.30 -->
+30. **[D]** Is there a written weekly or monthly standard for each role, and what happens when someone falls below it?
+
+### Supporting information
+
+Dialer and call-answer reports, booking calendar settings, CRM grade fields, call recordings list, ad-platform reports, review-site counts, team roster changes, role scorecards.
 
 ---
 

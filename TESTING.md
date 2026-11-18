@@ -6,20 +6,22 @@ Run this once in each new place you set it up (ChatGPT Project or Claude Project
 - [ ] Paste the one-line setup command from the README into a fresh Project chat. The assistant asks **manual or automated**, then gives one step at a time and waits for you.
 - [ ] **Manual:** all five files upload into the Project.
 - [ ] **Automated (separate test Project):** in a Work-mode chat, ChatGPT starts without asking you to switch any mode; it asks you to sign in **in its browser window**, never in chat; after `done` it uploads all five files to Sources, saves the instructions, and gives you a fresh chat link without starting the questions.
-- [ ] In a new chat, `Check setup` lists all five files. If code runs, it reports `"valid": true`, `269` questions and `409` facets. If code can't run, it says so plainly, and doesn't pretend it ran.
+- [ ] In a new chat, `Check setup` lists all five files. If code runs, it reports `"valid": true`, `332` questions and `538` facets. If code can't run, it says so plainly, and doesn't pretend it ran.
 
 ## B. Interview behavior (about 10 minutes)
 - [ ] `Start quick discovery` → a short intro, then **exactly one** question. No list of questions and no form.
 - [ ] The **first** question is about where leads come from (ads, posts, referrals…), **not** what happens when an inquiry arrives. It then follows your biggest source: what people are asked to do, where it lands (landing page, DMs…), what's promised, and where it goes first. Only after that does it ask what happens when an inquiry reaches the team.
+- [ ] Right after that opening come four **money basics**, one at a time: deals and commission in the last 12 months, what the team keeps per deal, the cost to win a client, and repeat and referral closings. Give made-up numbers. It says estimates are fine and **never comments** on your numbers (no "that's good", no comparisons or ratios).
 - [ ] It doesn't assume facts you never gave, such as how many agents or VAs you have or which CRM you use.
 - [ ] Answer "I don't know" once and "skip" once. It accepts both and moves on.
 - [ ] It never re-asks something you already answered.
-- [ ] After the opening plus **six more real answers**, when it can't time the chat, it stops asking on its own and gives a snapshot.
+- [ ] After the opening, the money basics and **six more real answers**, when it can't time the chat, it stops asking on its own and gives a snapshot.
 
 ## C. Stop, export and resume (about 8 minutes)
 - [ ] In a second test chat, answer two questions, then say `Stop`. You get the report with **no** extra question and no "want to continue?".
 - [ ] The report is one Markdown file named like `Business_Discovery_<Team>_<date>_v01.md`. It downloads and opens.
 - [ ] The report contains your original answers, what's covered and what's missing, the full question list, and a checkpoint section.
+- [ ] The report has **no evaluation**: no scores, diagnosis, "biggest problem", benchmarks or advice. Its message tells you to send the file to the person who shared the tool with you, and says a PDF copy is available on request.
 - [ ] It states the validation result honestly: either the checker's real result, or exactly `structured-review-only; executable validation unverified; automated acceptance pending`.
 - [ ] New chat: upload that file and type `Resume discovery`. It remembers your answers and its count, and it doesn't start over or re-ask anything.
 - [ ] Resume the file from the six-answer chat (part B). It says the round is finished and asks **no** new question. It doesn't start a deeper round by itself.

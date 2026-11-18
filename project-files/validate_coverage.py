@@ -269,11 +269,11 @@ def load_package(dir=None):
     if sha256(rubric_bytes) != jget(manifest, "rubric_sha256"):
         errors.append("COVERAGE_RUBRIC.json: frozen rubric hash mismatch")
     qs = [{"question_id": m.group(1), "priority": m.group(2), "question_text": m.group(3)} for m in _BANK_RE.finditer(bank.decode("utf-8"))]
-    if len(qs) != 269 or not jeq(jget(manifest, "question_count"), 269) or not same(qs, jget(manifest, "question_manifest")):
-        errors.append("MANIFEST: exact 269 IDs/text/priorities do not match bank")
+    if len(qs) != 332 or not jeq(jget(manifest, "question_count"), 332) or not same(qs, jget(manifest, "question_manifest")):
+        errors.append("MANIFEST: exact 332 IDs/text/priorities do not match bank")
     questions = jget(rubric, "questions")
-    if not isinstance(questions, list) or len(questions) != 269:
-        errors.append("RUBRIC: exactly 269 questions required")
+    if not isinstance(questions, list) or len(questions) != 332:
+        errors.append("RUBRIC: exactly 332 questions required")
     seen_q, seen_f = set(), set()
     for i, q in enumerate(questions if isinstance(questions, list) else []):
         qid = jget(q, "question_id")
@@ -528,8 +528,8 @@ def validate_assessment(a, pkg=None, source_binding=None):
             err("context[" + str(i) + "]", "note required")
     assessments = {}
     alist = jget(a, "assessments")
-    if not _is_arr(alist) or len(alist) != 269:
-        err("assessments", "exactly 269 rows required, including unresolved rows")
+    if not _is_arr(alist) or len(alist) != 332:
+        err("assessments", "exactly 332 rows required, including unresolved rows")
     for q in alist if _is_arr(alist) else []:
         if not is_obj(q):
             err("assessments", "invalid row")
@@ -852,7 +852,7 @@ def main(argv=None):
         pkg = load_package(pkg_dir)
         if args and args[0] == "--check-package":
             facets = sum(len(q["facets"]) for q in pkg["rubric"]["questions"])
-            print(stringify({"valid": True, "questions": 269, "facets": facets, "bank_sha256": pkg["manifest"]["bank_sha256"], "rubric_sha256": pkg["manifest"]["rubric_sha256"]}, 2))
+            print(stringify({"valid": True, "questions": 332, "facets": facets, "bank_sha256": pkg["manifest"]["bank_sha256"], "rubric_sha256": pkg["manifest"]["rubric_sha256"]}, 2))
             return 0
         if args and args[0] == "--template":
             text = stringify(blank_assessment(pkg), 2) + "\n"

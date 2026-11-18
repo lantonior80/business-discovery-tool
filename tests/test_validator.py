@@ -428,7 +428,7 @@ class SuiteReproductions(unittest.TestCase):
     def test_blank_template_valid(self):
         r = validate(fresh())
         self.assertTrue(r["valid"])
-        self.assertEqual(r["counts"], {"fully_answered": 0, "partially_answered": 0, "unresolved": 269})
+        self.assertEqual(r["counts"], {"fully_answered": 0, "partially_answered": 0, "unresolved": 332})
 
 
 if __name__ == "__main__":

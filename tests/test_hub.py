@@ -26,8 +26,8 @@ class Hub(unittest.TestCase):
 
     def test_package_loads_and_hashes_match(self):
         pkg = vc.load_package(str(PROJECT))
-        self.assertEqual(len(pkg["rubric"]["questions"]), 269)
-        self.assertEqual(sum(len(q["facets"]) for q in pkg["rubric"]["questions"]), 409)
+        self.assertEqual(len(pkg["rubric"]["questions"]), 332)
+        self.assertEqual(sum(len(q["facets"]) for q in pkg["rubric"]["questions"]), 538)
 
     def test_instructions_fit_8000_chars(self):
         text = INSTR.read_text(encoding="utf-8")
@@ -59,11 +59,29 @@ class Hub(unittest.TestCase):
     def test_opening_maps_lead_sources_first(self):
         guide = (PROJECT / "DISCOVERY_GUIDE.md").read_text(encoding="utf-8")
         opening = guide.index("### Opening — how strangers find the business")
-        self.assertLess(opening, guide.index("After the opening, choose the highest-value"))
+        money = guide.index("### Money basics (always next, after the opening)")
+        self.assertLess(opening, money)
+        self.assertLess(money, guide.index("After the opening and money basics, choose the highest-value"))
         for qid in ("Q02.01", "Q02.02", "Q02.03", "Q02.04", "Q03.01", "Q03.02"):
-            self.assertIn(qid, guide[opening:opening + 4000])
+            self.assertIn(qid, guide[opening:money])
+        for qid in ("Q17.01", "Q17.02", "Q17.03", "Q17.04"):
+            self.assertIn(qid, guide[money:money + 3000])
         self.assertIn("not** count toward the 12-minute budget or the six-answer fallback", guide)
-        self.assertIn("how strangers find the business", INSTR.read_text(encoding="utf-8"))
+        instr = INSTR.read_text(encoding="utf-8")
+        self.assertIn("how strangers find the business", instr)
+        self.assertIn("money basics", instr)
+
+    def test_new_modules_and_facts_only_handoff(self):
+        bank = (PROJECT / "QUESTION_BANK.md").read_text(encoding="utf-8")
+        self.assertIn("## MODULE 17 —", bank)
+        self.assertIn("<!-- Q17.33 -->", bank)
+        self.assertIn("<!-- Q18.30 -->", bank)
+        guide = (PROJECT / "DISCOVERY_GUIDE.md").read_text(encoding="utf-8")
+        self.assertNotIn("Preliminary diagnostic observations", guide)
+        self.assertNotIn("failure point, strongest alternative explanation", guide)
+        line = "Download this file and send it to the person who shared this tool with you."
+        self.assertIn(line, guide)
+        self.assertIn(line, INSTR.read_text(encoding="utf-8"))
 
     def test_relative_links_exist(self):
         for md in ROOT.glob("*.md"):
