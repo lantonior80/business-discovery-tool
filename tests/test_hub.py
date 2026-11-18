@@ -26,8 +26,8 @@ class Hub(unittest.TestCase):
 
     def test_package_loads_and_hashes_match(self):
         pkg = vc.load_package(str(PROJECT))
-        self.assertEqual(len(pkg["rubric"]["questions"]), 332)
-        self.assertEqual(sum(len(q["facets"]) for q in pkg["rubric"]["questions"]), 538)
+        self.assertEqual(len(pkg["rubric"]["questions"]), 201)
+        self.assertEqual(sum(len(q["facets"]) for q in pkg["rubric"]["questions"]), 355)
 
     def test_instructions_fit_8000_chars(self):
         text = INSTR.read_text(encoding="utf-8")
@@ -82,6 +82,22 @@ class Hub(unittest.TestCase):
         line = "Download this file and send it to the person who shared this tool with you."
         self.assertIn(line, guide)
         self.assertIn(line, INSTR.read_text(encoding="utf-8"))
+
+    def test_trimmed_bank_assumes_no_meeting_count_or_team_size(self):
+        bank = (PROJECT / "QUESTION_BANK.md").read_text(encoding="utf-8")
+        qs = re.findall(r"<!-- (Q\d\d\.\d\d) -->\s*\d+\. \*\*\[[EDO]\]\*\* ([^\n]+)", bank)
+        ids = [q for q, _ in qs]
+        for qid in ("Q06.13", "Q06.14", "Q13.02", "Q13.17", "Q11.16", "Q11.17", "Q11.18", "Q11.19", "Q11.20"):
+            self.assertIn(qid, ids)
+        for qid in ("Q06.01", "Q06.11", "Q10.03", "Q16.10", "Q07.14", "Q13.14"):
+            self.assertNotIn(qid, ids, "retired question still present")
+        for qid, text in qs:
+            self.assertNotRegex(text, r"(?i)appointment [12]|second appointment|live video|four agents", qid)
+        self.assertLess(ids.index("Q06.13"), ids.index("Q06.03"))
+        self.assertEqual(ids.index("Q13.17"), ids.index("Q13.02") + 1)
+        self.assertNotIn("California", bank)
+        guide = (PROJECT / "DISCOVERY_GUIDE.md").read_text(encoding="utf-8")
+        self.assertIn("### Meetings and team size: never assume", guide)
 
     def test_relative_links_exist(self):
         for md in ROOT.glob("*.md"):

@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.2.0 — 2026-11-18
+- **Trimmed from 332 to 201 questions (355 facets).** 139 questions were retired:
+  - 82 duplicates
+  - 11 whose answers can be calculated from other answers
+  - 9 line-by-line script questions that a call recording or written script answers
+  - 35 not needed to map the funnels or judge business health (mostly educational-video planning)
+  - 2 replaced by the new meeting questions
+
+  Kept questions keep their IDs, and retired IDs are never reused.
+- **No assumed meetings.** Module 6 now first asks how many meetings a buyer has before home tours and what type each one is (Q06.13–Q06.14). Meeting questions in Modules 6–10 are worded for any number or format of meetings, and Module 9 applies only when there is more than one meeting.
+- **No assumed team size.** Q13.02 now asks how many agents the team has; the new Q13.17 then asks what each named agent owns, one agent at a time.
+- **Back-end questions added (Q11.16–Q11.20):** offers, contracts and closings after tours; time to offer and to close; deals that fell apart and why; who handles a deal to closing; and listings.
+- Removed leftovers from the private original: "four agents" and "California".
+- The checker now reads the question count from `MANIFEST.json` instead of a fixed number, identically in Python and the JavaScript reference. The rule tests run against a frozen copy of the 1.1.0 questions in `tests/fixtures/`, and a new test checks that Python and JavaScript give byte-identical output on the shipped package.
+
 ## 1.1.0 — 2026-11-18
 - **Two new modules, 63 new questions (332 total, 538 facets):**
   - **Module 17 — Business economics, client value and growth limits** (33 questions). Covers commission and closings, what the team keeps per deal, the cost to win and to serve a client, cash timing, repeat and referral business, the past-client database, offers after the first one, buyer-agreement terms, capacity and goals.

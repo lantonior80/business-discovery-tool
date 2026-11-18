@@ -46,7 +46,7 @@ Check each file is non-empty and its SHA-256 matches `SHA256SUMS.txt`. Don't ren
 
 ## 6. Check setup in a fresh chat
 1. Start a **new chat inside the Project** (not this agent chat). Type `Check setup` and send once.
-2. Wait for the complete answer. It should list all five files and say whether it ran `python validate_coverage.py --check-package` (expected: valid, 332 questions, 538 facets).
+2. Wait for the complete answer. It should list all five files and say whether it ran `python validate_coverage.py --check-package` (expected: valid, 201 questions, 355 facets).
 3. A checker pass alone is not enough. Require both: all five completed rows in Sources (step 4) **and** all five files readable in the fresh chat. If code can't run there, say so plainly; don't claim it ran.
 
 ## 7. Hand back

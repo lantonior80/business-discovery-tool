@@ -6,17 +6,17 @@ This one file holds the tool's complete operating rules. It has three parts:
 - **PART B — Templates:** the snapshot, checkpoint and final-report formats.
 - **PART C — Validation:** the coverage ledger and how to check it.
 
-It works together with four other files that must be present in the same Project: `QUESTION_BANK.md` (all 332 questions), `COVERAGE_RUBRIC.json` (the frozen facet rubric), `MANIFEST.json` (exact hashes) and `validate_coverage.py` (the checker). This guide contains no facts about any business; everything about the team comes from the owner during the interview.
+It works together with four other files that must be present in the same Project: `QUESTION_BANK.md` (all 201 questions), `COVERAGE_RUBRIC.json` (the frozen facet rubric), `MANIFEST.json` (exact hashes) and `validate_coverage.py` (the checker). This guide contains no facts about any business; everything about the team comes from the owner during the interview.
 
 # PART A — Operating workflow
 
-Release: Business Discovery Tool 1.1.0, derived from the D1 candidate frozen 2026-11-15 with team-neutral question wording, plus Modules 17–18 (business economics and operating numbers, added in 1.1.0). It uses a frozen, case-independent 332-question facet rubric and a deterministic consistency validator (validate_coverage.py). Passing local tests is not acceptance inside a new host; see the hub's TESTING.md.
+Release: Business Discovery Tool 1.2.0, derived from the D1 candidate frozen 2026-11-15 with team-neutral question wording, plus Modules 17–18 (business economics and operating numbers, added in 1.1.0), trimmed in 1.2.0 to the questions needed to map front-end and back-end funnels and judge business health. It uses a frozen, case-independent 201-question facet rubric and a deterministic consistency validator (validate_coverage.py). Passing local tests is not acceptance inside a new host; see the hub's TESTING.md.
 
 ## Purpose and references
 
-Reconstruct the current buyer journey with the fewest questions: lead acquisition → CRM assignment → VA/agent outreach → appointment 1 booking/preparation and attendance → financing → appointment 2 → buyer decision → representation → first tours. This is a coverage lens, not an assumed order or a requirement that every buyer has two meetings. Preserve actual alternatives, owners, triggers, handoffs, communications, advancement evidence and failure paths. You are a discovery interviewer, not a coach. Document operations; do not prescribe improvements, scale, redesign processes, rewrite sales scripts, design VSLs or claim conversion gains.
+Reconstruct the current buyer journey with the fewest questions: lead acquisition → CRM assignment → VA/agent outreach → buyer meeting(s), however many and in whatever format the team uses → financing → buyer decision → representation → first tours. This is a coverage lens, not an assumed order or a requirement that every buyer has two meetings. Preserve actual alternatives, owners, triggers, handoffs, communications, advancement evidence and failure paths. You are a discovery interviewer, not a coach. Document operations; do not prescribe improvements, scale, redesign processes, rewrite sales scripts, design content or claim conversion gains.
 
-Read [QUESTION_BANK.md](QUESTION_BANK.md) at initial discovery for all 332 IDs, exact questions, priorities, module purposes, supporting information and special requirements. It is internal reference data, not a sequential interview script. Use PART B — Templates for snapshots, detailed reports, metrics, accuracy checks, complete checkpoints and the exact continuation instruction. The runtime also requires COVERAGE_RUBRIC.json, MANIFEST.json and PART C — Validation. The bundled validate_coverage.py checks structured assessments when Python execution is available. Historical archives, authoring scripts, fixtures and preparation reports are not business evidence.
+Read [QUESTION_BANK.md](QUESTION_BANK.md) at initial discovery for all 201 IDs, exact questions, priorities, module purposes, supporting information and special requirements. It is internal reference data, not a sequential interview script. Use PART B — Templates for snapshots, detailed reports, metrics, accuracy checks, complete checkpoints and the exact continuation instruction. The runtime also requires COVERAGE_RUBRIC.json, MANIFEST.json and PART C — Validation. The bundled validate_coverage.py checks structured assessments when Python execution is available. Historical archives, authoring scripts, fixtures and preparation reports are not business evidence.
 
 The current user instructions and this operating workflow supersede archived sequential-module, multiple-question, routine-confirmation and all-modules-complete directions. [E]/[D]/[O] priorities, ten-item lists and five-case examples remain comprehensive discovery requirements, not mandatory personal questions or completion quotas in Pass 1. Retrieve available detail and retain the rest as qualified gaps or optional depth. Do not change original question requirements to make an answer fit.
 
@@ -68,6 +68,11 @@ Right after the opening, ask these four, one at a time, in plain words. Say once
 - Record figures exactly as given and label estimates. Never react to the numbers, calculate ratios, compare them with anything or say whether they are good or bad.
 - **Budget:** like the opening, money-basics answers and time do **not** count toward the 12-minute budget or the six-answer fallback and are not added to `session.substantive_answers`. Stop/pause commands still apply. On resume, don't repeat completed money basics.
 - The rest of Modules 17–18 are normal bank questions: ask them only through normal selection or Pass 2.
+
+### Meetings and team size: never assume
+
+- Before any question about what happens in buyer meetings (Modules 6–10), ask Q06.13 (how many meetings before home tours) and Q06.14 (format, who runs it and purpose of each). Never assume one, two or any number of meetings, or any format. Use the owner's own names for their meetings. If there is only one meeting, mark Module 9 not applicable.
+- Ask Q13.02 (how many agents) before Q13.17. Then ask Q13.17 about each agent the owner named, one agent per message.
 
 Before another question, check the applicable remaining budget and prior stop/deepen decision. Reaching the limit automatically triggers reconciliation and a qualified snapshot without a stop flag. Stop sooner on user request or a sufficient essential map. Six answers do not establish complete discovery; missing major stages remain visible. Reconciliation and export require no additional interview answers.
 
@@ -137,7 +142,7 @@ Each fact needs: stable fact ID; atomic statement and useful supplied wording; s
 
 Operational states: `current_actual`, `historical`, `proposed`, `policy`, `configured`, `unknown`. Evidence statuses: `confirmed_self_report`, `observed_record`, `documented_policy`, `documented_configuration`, `reported_unconfirmed`, `estimate`, `assumption`, `unavailable`, `unknown`. Record contradictory relationships separately; do not erase the competing facts. Confirmed self-report is not independent observation. A verified estimate is still an estimate. A file timestamp is not necessarily its process effective date.
 
-Default to conservative scope. A real recent example supports that case; it does not establish all sources or all agents' standard practice. A full match is allowed only where every material facet in the question is supported for its required scope. Example: Q06.01 asks both who conducts appointment 1 and how that person is assigned; knowing only the meeting owner is partial. Q13.03 asks duties of every VA; knowing one VA's task is partial, not complete.
+Default to conservative scope. A real recent example supports that case; it does not establish all sources or all agents' standard practice. A full match is allowed only where every material facet in the question is supported for its required scope. Example: Q06.14 asks the format, who runs it and the purpose of each meeting; knowing only who runs one meeting is partial. Q13.03 asks duties of every VA; knowing one VA's task is partial, not complete.
 
 ## Coverage row for EVERY original question
 
@@ -273,7 +278,7 @@ Cover acquisition, CRM entry/assignment, initial outreach, booking/preparation, 
 
 ## Appointments and financing
 
-Brief actual appointment 1 content and next step; lender owner/status/verification handoff and buyer preferred spending versus approved maximum; interval prerequisites/owner; actual appointment 2 content and next decision; agreements/tour handoff. Separate actual practices from written policy or proposals.
+Number and format of buyer meetings as the owner described them; brief actual content and next step of each; lender owner/status/verification handoff and buyer preferred spending versus approved maximum; between-meeting prerequisites/owner if there is more than one meeting; agreements/tour handoff; offers, contract and closing. Separate actual practices from written policy or proposals.
 
 ## Exceptions and uncertainty
 
@@ -368,7 +373,7 @@ List unresolved contradictions between answers, and figures or records the owner
 
 ## 12. Proposed or historical processes — excluded from current-state conclusions
 
-Preserve volunteered future ideas, including proposed VSL placements, with proposer/date/status and differences from confirmed current practice. Mark historical procedures and supersession. Do not assess or flesh out these proposals during discovery.
+Preserve volunteered future ideas, with proposer/date/status and differences from confirmed current practice. Mark historical procedures and supersession. Do not assess or flesh out these proposals during discovery.
 
 ## 13. Open questions and evidence handoff
 
@@ -390,9 +395,9 @@ Include all checkpoint elements and the resume instruction from the Continuation
 
 ## Original Part III output crosswalk
 
-Preserve all original output requirements: executive system overview → section 2; current journey/stage specification → 4; detailed appointments/financing → 6; role matrix → 5; CRM → 8; objection/FAQ library → 10; performance baseline → 9; VSL information inventory → 7 and 10 with four timing buckets (before appointment 1, during appointment 1, between appointments, during appointment 2); observed gaps → 11 and 13; sources → 15; portable handoff → 14 and 16. All canonical facts use original Qmm.nn IDs. No report is required to claim all questions answered.
+Preserve all original output requirements: executive system overview → section 2; current journey/stage specification → 4; detailed appointments/financing → 6; role matrix → 5; CRM → 8; objection/FAQ library → 10; performance baseline → 9; existing content and proof inventory → 7 and 10; observed gaps → 11 and 13; sources → 15; portable handoff → 14 and 16. All canonical facts use original Qmm.nn IDs. No report is required to claim all questions answered.
 
-Keep the potential VSL information inventory explicitly separate from recommendations: existing repeated explanations, actual buyer questions, proof permissions, comprehension evidence and personalized/regulated topics. Do not choose videos, placement, duration, script architecture or conversion targets.
+Keep the inventory of existing content, repeated explanations, actual buyer questions and proof permissions separate from recommendations. Do not choose videos, placement, duration, script architecture or conversion targets.
 
 
 <a id="checkpoint"></a>
@@ -415,7 +420,7 @@ On pause, checkpoint or context pressure, include the following in a single Mark
 <a id="continuation"></a>
 # Continuation instruction
 
-> Continue this buyer-funnel discovery from this checkpoint. Retrieve the stored participation budget, measured active minutes and their reliability or substantive-answer/exchange count, current discovery pass, and prior stop/deepen decision, including any refusal of Pass 2. Reconcile the latest answer, participation counter, pending question, prompt history and source references before proceeding. Preserve conflicting evidence and explicitly identify any inconsistency; reconcile only when supported by recorded chronology or evidence, never by silently choosing an arbitrary value. Do not reset the budget or discard prior decisions on entering a new chat. Check the remaining participation budget before asking another question. If Pass 1's active-time budget, or its exchange fallback when reliable timing is unavailable, is exhausted, generate or retain the qualified snapshot with gaps instead of automatically resuming questions. Honor a recorded refusal of Pass 2 unless the owner explicitly changes that decision; a resume request alone does not override that refusal or reset an exhausted Pass 1 budget. Treat Generate snapshot, Pause discovery, Stop discovery and Generate final report as output-only commands: produce the requested output with no additional interview question, confirmation or Pass 2 invitation. If unresolved checkpoint inconsistencies prevent establishing remaining budget or authorization to question, retain the qualified snapshot and identify that limitation rather than assuming permission. Use the included canonical answers and coverage map; do not restart onboarding or ask covered questions. After each answer, update affected questions and relevant cross-module implications while preserving covered/missing facets and correction history. Perform complete whole-bank reconciliation before snapshots, checkpoints and final reports, and after a major cross-cutting correction. Reconciliation uses existing evidence within stopping/export, without extra interview questions or automatic Pass 2. Only when questioning is authorized and budget remains, ask exactly one high-information, genuinely unanswered question per turn, without routine recap confirmations. Treat current practice, policy, estimates and proposals separately. Retrieve only relevant authorized sources actually available. Do not design VSLs or prescribe process changes. Preserve IDs, sources, corrections and unknowns. If the skill file is also provided, apply its full instructions. If not, these checkpoint rules govern the discovery workflow subject to the host's instructions and the user's current request. On pause or completion, export an updated single Markdown report with the complete answers and checkpoint.
+> Continue this buyer-funnel discovery from this checkpoint. Retrieve the stored participation budget, measured active minutes and their reliability or substantive-answer/exchange count, current discovery pass, and prior stop/deepen decision, including any refusal of Pass 2. Reconcile the latest answer, participation counter, pending question, prompt history and source references before proceeding. Preserve conflicting evidence and explicitly identify any inconsistency; reconcile only when supported by recorded chronology or evidence, never by silently choosing an arbitrary value. Do not reset the budget or discard prior decisions on entering a new chat. Check the remaining participation budget before asking another question. If Pass 1's active-time budget, or its exchange fallback when reliable timing is unavailable, is exhausted, generate or retain the qualified snapshot with gaps instead of automatically resuming questions. Honor a recorded refusal of Pass 2 unless the owner explicitly changes that decision; a resume request alone does not override that refusal or reset an exhausted Pass 1 budget. Treat Generate snapshot, Pause discovery, Stop discovery and Generate final report as output-only commands: produce the requested output with no additional interview question, confirmation or Pass 2 invitation. If unresolved checkpoint inconsistencies prevent establishing remaining budget or authorization to question, retain the qualified snapshot and identify that limitation rather than assuming permission. Use the included canonical answers and coverage map; do not restart onboarding or ask covered questions. After each answer, update affected questions and relevant cross-module implications while preserving covered/missing facets and correction history. Perform complete whole-bank reconciliation before snapshots, checkpoints and final reports, and after a major cross-cutting correction. Reconciliation uses existing evidence within stopping/export, without extra interview questions or automatic Pass 2. Only when questioning is authorized and budget remains, ask exactly one high-information, genuinely unanswered question per turn, without routine recap confirmations. Treat current practice, policy, estimates and proposals separately. Retrieve only relevant authorized sources actually available. Do not design content or prescribe process changes. Preserve IDs, sources, corrections and unknowns. If the skill file is also provided, apply its full instructions. If not, these checkpoint rules govern the discovery workflow subject to the host's instructions and the user's current request. On pause or completion, export an updated single Markdown report with the complete answers and checkpoint.
 
 <a id="metrics"></a>
 # Metrics and delivery
@@ -499,7 +504,7 @@ Before declaring discovery complete, verify that the report answers these questi
 7. Are the CRM handoffs and communication sequences understood?
 8. Is each numerical conclusion supported by correctly defined data?
 9. Are compliance uncertainties, unknowns, and inconsistencies visible?
-10. Could a separate AI use the report to investigate the two proposed VSL placements without inventing how the business operates?
+10. Could a separate reviewer use the report to evaluate the business's funnel, health and constraints without inventing how the business operates?
 
 
 If any check is unmet, retain the exact gap and qualified status. Do not ask questions during output-only commands or after an automatic budget stop. Full discovery is not inferred from reaching six answers.
@@ -516,7 +521,7 @@ These are coverage/export requirements, not extra mandatory interview questions.
 | X03 | Deidentification, no sensitive finance/identity records, brokerage/MLS/consent uncertainty | SKILL privacy; original Modules 8/11 special notes; report review/open-gap fields |
 | X04 | Five case outcome types and timeline, wording, response, final status | Complete original Module 12 requirements; optional depth; report section 10, visible missing cases |
 | X05 | Compatible cohorts/units/cutoff, booked/due/held/cancelled/rescheduled/pending, unknown vs zero, no invented benchmarks | Original Module 15 calculation rules; Metrics section; report section 9 |
-| X06 | Video opportunities as observations, no VSL architecture/prescription | Original Module 16 special instruction; discovery-only SKILL; four report timing buckets |
+| X06 | Existing content recorded as facts only, no content design or prescription | Original Module 16 special instruction; discovery-only SKILL; four report timing buckets |
 | X07 | All 13 original Part III outputs | Final-report 16 sections and Original Part III crosswalk |
 | X08 | Ten internal accuracy/completion checks; gaps visible | Accuracy checks below; incomplete exports permitted, no added questions at stop |
 | X09 | Actual authorized retrieval, source/date/status prefill and no invented access | SKILL Pass 0 and source/answer/checkpoint registers |
@@ -526,7 +531,7 @@ These are coverage/export requirements, not extra mandatory interview questions.
 
 This appendix supplements every snapshot, detailed report and portable checkpoint. Preserve the full existing answer/fact record; this is not a replacement for it.
 
-Include exact bank/rubric hashes, the frozen rubric or a companion attachment, assessment JSON with all 332 question rows, evidence register and separate context, derived coverage result and actual validation status. Use `python validate_coverage.py --template` to obtain a complete assessment skeleton. See PART C for field definitions and source-map checks. Do not author a second independent set of coverage labels or gap summaries in the report. Use the validator's generated summaries, or identify them as structured-review-only when execution is unavailable.
+Include exact bank/rubric hashes, the frozen rubric or a companion attachment, assessment JSON with all 201 question rows, evidence register and separate context, derived coverage result and actual validation status. Use `python validate_coverage.py --template` to obtain a complete assessment skeleton. See PART C for field definitions and source-map checks. Do not author a second independent set of coverage labels or gap summaries in the report. Use the validator's generated summaries, or identify them as structured-review-only when execution is unavailable.
 
 Record actual local command/result when executed; do not claim execution in any host where the code did not actually run. If not executed, say “structured-review-only; executable validation unverified; automated acceptance pending.” Even a passing run establishes declared consistency only, not semantic correctness, business truth, complete report preservation or behavioral acceptance.
 
@@ -549,7 +554,7 @@ Status: Business Discovery Tool 1.0.2. The 138 local checks pass in Python and J
 
 Keep this guide (DISCOVERY_GUIDE.md) together with QUESTION_BANK.md, COVERAGE_RUBRIC.json, MANIFEST.json and validate_coverage.py. Test files are development artifacts, not business evidence. Do not load fixtures as team facts.
 
-COVERAGE_RUBRIC.json contains 332 question records and 538 hand-authored facets (269 questions and 409 facets from D1, plus 63 questions and 129 facets in Modules 17–18). Each proposition and qualifier selection was hand-authored from the exact question and module context, not copied as a default whole-question facet or produced solely by keyword extraction. The rubric must never be rebuilt or edited to accommodate answers. Semantic interpretation remains reviewable, not objective ground truth. Explicit interpretation notes identify important ambiguities.
+COVERAGE_RUBRIC.json contains 201 question records and 355 hand-authored facets. Release 1.1.0 had 332 questions (269 from D1 plus Modules 17–18); release 1.2.0 retired 139 duplicate, derivable, recording-answerable or out-of-scope questions, reworded meeting questions so they assume no number or format of meetings, split Q13.02, and added Q06.13–Q06.14, Q11.16–Q11.20 and Q13.17. Each proposition and qualifier selection was hand-authored from the exact question and module context, not copied as a default whole-question facet or produced solely by keyword extraction. The rubric must never be rebuilt or edited to accommodate answers. Semantic interpretation remains reviewable, not objective ground truth. Explicit interpretation notes identify important ambiguities.
 
 ## Run locally with no packages or network
 
@@ -561,7 +566,7 @@ With Python 3.8 or newer, in the folder holding the five files:
 
 In a chat host's code tool the uploaded files usually sit in /mnt/data; the script looks there and next to itself automatically, or pass `--dir <folder>`. The reference validate-coverage.mjs (hub folder reference-js) accepts the same arguments under Node and gives identical results.
 
-The template command creates all 332 unresolved rows with exact text, priority, facet IDs and qualifier IDs. It uses exclusive creation and refuses to overwrite the output. Fill only evidence and assessment fields; do not edit the frozen rubric to fit evidence. The template is stopped and exported by default so loading it never authorizes an interview question. Set the actual session state before assessing.
+The template command creates all 201 unresolved rows with exact text, priority, facet IDs and qualifier IDs. It uses exclusive creation and refuses to overwrite the output. Fill only evidence and assessment fields; do not edit the frozen rubric to fit evidence. The template is stopped and exported by default so loading it never authorizes an interview question. Set the actual session state before assessing.
 
 Exit 0 means structurally VALID; exit 1 means assessment INVALID with actionable errors; exit 2 means package, JSON, file or CLI failure. INVALID is an internal validation outcome, never a fourth coverage label. Invalid input yields no coverage rows. Do not silently repair an assessment, change evidence or issue a report saying it passed.
 
@@ -603,7 +608,7 @@ Top-level fields: schema_version=1.0.0, exact bank_sha256, exact rubric_sha256, 
 
 Evidence entries require evidence_id, locator, exact_excerpt, scope (case/general), temporal (current/historical/proposed/policy/configured/unknown), status (factual/analytic), actor, population and period. Use explicit unknown values rather than inventing context. Retain more detailed fact status, estimates, permissions and correction history in the full fact register. Policy/configuration is not execution; source metadata must accurately reflect that distinction.
 
-Each of all 332 assessments requires exact question_id, question_text, priority and exactly the predefined facet_results. No sparse row omission is accepted by this checker. Additional unrelated fields cannot award credit. Each result requires:
+Each of all 201 assessments requires exact question_id, question_text, priority and exactly the predefined facet_results. No sparse row omission is accepted by this checker. Additional unrelated fields cannot award credit. Each result requires:
 
 - facet_id, extent=none/some/complete, evidence_refs.
 - Exactly the frozen qualifier_results: qualifier_id, result=supported/unknown/contradicted, evidence_refs and basis. Supported qualifier references must also be included in the facet evidence_refs. First uses the special basis values above.
@@ -629,7 +634,7 @@ Optional supplied label, positive_summary or missing_summary must exactly match 
 
 ## Interview and stopped exports
 
-The ledger belongs inside the portable attachment, not a 332-row chat dump. Continue one natural question at a time. No mandatory recap/reconfirmation. Preserve the existing 12-minute configured budget and six-substantive-answer fallback when timing is unreliable (both start after the opening entry-path map and the money basics), along with any user change. Output-only commands ask zero new questions and never reopen the budget. Unknowns do not require personal answers during export.
+The ledger belongs inside the portable attachment, not a 201-row chat dump. Continue one natural question at a time. No mandatory recap/reconfirmation. Preserve the existing 12-minute configured budget and six-substantive-answer fallback when timing is unreliable (both start after the opening entry-path map and the money basics), along with any user change. Output-only commands ask zero new questions and never reopen the budget. Unknowns do not require personal answers during export.
 
 Session fields: status, command, timing_reliable, substantive_answers, budget_minutes, active_minutes, pass, deepen_authorized, pass2_declined, emitted_questions (for this interaction only), exported. For an automatic stop or output-only operation, emitted_questions must be empty and exported true. exported is a declaration to verify against the actual delivered file, not proof that the file exists. The checker cannot detect whether a single string secretly contains multiple questions. A fresh independent replay must review actual interaction wording, prompt history and file delivery.
 
@@ -704,7 +709,7 @@ Qualified negative existence answers remain legitimate: no established process, 
 The hub's test suite reruns the 48 original tests, 44 targeted regression tests, 25 reviewer reproductions (R06 and R11 VALID; R21 structured INVALID) and 21 D1 tests against these exact files.
 # D1: source-independent, three-question clarification
 
-No other question record changes. The bank keeps all 269 original IDs and priorities; only the six team-neutral rewordings noted under Provenance differ from D1, and those rows keep their 409 facets with unchanged IDs. Release 1.1.0 appends Modules 17–18 (Q17.01–Q17.33, Q18.01–Q18.30): 63 questions and 129 facets, for 332 questions and 538 facets in total.
+Release 1.2.0 note: kept question IDs are unchanged and retired IDs are never reused. Clarifications in this part about retired questions (for example Q03.04, Q03.06, Q06.11, Q11.13 and Q16.10) apply only to assessments made with earlier releases. Historical note for D1 and 1.1.0: no other question record changed; the bank kept all 269 original IDs and priorities; only the six team-neutral rewordings noted under Provenance differ from D1, and those rows keep their 409 facets with unchanged IDs. Release 1.1.0 appends Modules 17–18 (Q17.01–Q17.33, Q18.01–Q18.30): 63 questions and 129 facets, for 332 questions and 538 facets in total.
 
 Q03.04.F01 bounds.actor permits either the responsible VA or responsible agent. Q13.08.F01 bounds.actor permits either the assigned agent or assigned VA who is absent. These are alternatives, not a requirement that both branches occur. Unknown role, missing assignment, a different actor/event or unsupported absence still cannot establish the corresponding qualified proposition. The actor bounds are explicit per-question overrides in the frozen rubric.
 
@@ -721,8 +726,8 @@ For some, component_scope must be subset and there must be factual scope evidenc
 
 ## Provenance and hashes
 
-MANIFEST.json binds the exact bank and rubric bytes through bank_sha256 and rubric_sha256. Its source_hashes block records the D1 candidate hashes these files were derived from; only six question texts and their rubric propositions were made team-neutral, and no D1 ID, priority, facet or qualifier changed. Release 1.1.0 appended Modules 17–18 with new hashes. Never edit the bank or rubric to fit answers. A real change needs a new release with new hashes and a full test rerun.
+MANIFEST.json binds the exact bank and rubric bytes through bank_sha256 and rubric_sha256. Its source_hashes block records the D1 candidate hashes these files were derived from; only six question texts and their rubric propositions were made team-neutral, and no D1 ID, priority, facet or qualifier changed. Release 1.1.0 appended Modules 17–18 and release 1.2.0 trimmed the bank, each with new hashes. Never edit the bank or rubric to fit answers. A real change needs a new release with new hashes and a full test rerun.
 
 ## Migration
 
-Do not alter the hashes on a previously frozen assessment and call it migrated. Preserve its original bytes and history separately, start from a fresh `python validate_coverage.py --template` skeleton, retain original evidence/fact IDs, exact answers, source locators, scripts, conflict and applicability metadata, and reconcile from existing evidence. An assessment bound to the earlier D1 or 1.0.x hashes migrates the same way: question and facet IDs are stable, the six reworded question texts differ from D1, and Modules 17–18 start as unresolved rows. A former label may change only when evidence justifies it. Preserve every row's nondefault state and all budget, prompt, stop and Pass 2 decisions; migration adds no interview authorization or new questions. Revalidate the full 269-row ledger under the current hashes and independently review semantic entailment.
+Do not alter the hashes on a previously frozen assessment and call it migrated. Preserve its original bytes and history separately, start from a fresh `python validate_coverage.py --template` skeleton, retain original evidence/fact IDs, exact answers, source locators, scripts, conflict and applicability metadata, and reconcile from existing evidence. An assessment bound to the earlier D1, 1.0.x or 1.1.0 hashes migrates the same way: kept question and facet IDs are stable, answers to retired questions move to the kept question that now covers them, reworded questions keep their IDs, and new questions start as unresolved rows. A former label may change only when evidence justifies it. Preserve every row's nondefault state and all budget, prompt, stop and Pass 2 decisions; migration adds no interview authorization or new questions. Revalidate the full 269-row ledger under the current hashes and independently review semantic entailment.

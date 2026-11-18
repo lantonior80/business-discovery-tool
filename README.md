@@ -2,7 +2,7 @@
 
 **A friendly AI interviewer that maps how a real-estate team turns leads into buyers, one short question at a time, and saves the answers as a shareable report.**
 
-It works inside a **ChatGPT Project** or a **Claude Project**. The owner just chats with it, by typing or voice. Behind the scenes it tracks 332 discovery questions, never asks the same thing twice, starts by mapping how people first find the business and a few money basics, stops after about 20–25 minutes, and hands back one answers file for the owner to send to whoever shared the tool. The file records answers only: the tool never scores the business or gives advice.
+It works inside a **ChatGPT Project** or a **Claude Project**. The owner just chats with it, by typing or voice. Behind the scenes it tracks 201 discovery questions, never asks the same thing twice, starts by mapping how people first find the business and a few money basics, stops after about 20–25 minutes, and hands back one answers file for the owner to send to whoever shared the tool. The file records answers only: the tool never scores the business or gives advice.
 
 ---
 
@@ -68,7 +68,7 @@ Either way, do what it says, one step at a time, then type `done`.
 
 ## Included / you supply / not included
 
-- **Included:** the interviewer's rules, the 332-question bank, a frozen scoring rubric, and a checker (`validate_coverage.py`) that verifies the report's coverage math wherever the AI can run Python.
+- **Included:** the interviewer's rules, the 201-question bank, a frozen scoring rubric, and a checker (`validate_coverage.py`) that verifies the report's coverage math wherever the AI can run Python.
 - **You supply:** your own answers. If you like, you can also share files such as a sample script or a CRM screenshot. It ships with **no facts about any business**.
 - **Not included, on purpose:** advice, coaching, script rewriting, outreach to anyone, changes to your CRM or systems, or legal conclusions. It documents. It doesn't prescribe.
 

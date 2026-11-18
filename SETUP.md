@@ -111,7 +111,7 @@ Open https://raw.githubusercontent.com/lantonior80/business-discovery-tool/main/
 > **Setup complete.**
 > - All five files added to **<Project name>**.
 > - Tool instructions saved.
-> - Setup check: <passed: 332 questions, 538 facets | files present, but the code check couldn't run there>.
+> - Setup check: <passed: 201 questions, 355 facets | files present, but the code check couldn't run there>.
 > - The questionnaire has **not** started.
 >
 > When you're ready, go to the chat where you typed `Check setup` and type `Start quick discovery`.

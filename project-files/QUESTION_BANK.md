@@ -1,6 +1,6 @@
 # Complete original question bank — reference data
 
-All 269 original IDs, priorities, question text and module requirements are preserved. Release 1.1.0 appends Modules 17–18 (63 questions) after Module 16. ID comments identify original Module.question numbers; they do not change the question wording. Read SKILL.md for operating cadence, one-question interviewing and stop/export precedence. Module purposes, supporting information, five-case examples, calculation rules and special instructions below remain coverage requirements; they do not authorize automatic questioning or completion beyond budget. The raw historical Part I/III–V/adaptive execution directions are outside this runtime.
+Release 1.2.0 trims the bank to the questions needed to map front-end and back-end funnels and judge business health. Question IDs are stable: removed IDs are retired, never reused, and new questions take new IDs. ID comments identify original Module.question numbers; they do not change the question wording. Read SKILL.md for operating cadence, one-question interviewing and stop/export precedence. Module purposes, supporting information, five-case examples, calculation rules and special instructions below remain coverage requirements; they do not authorize automatic questioning or completion beyond budget. The raw historical Part I/III–V/adaptive execution directions are outside this runtime.
 
 # PART II — COMPLETE FRAMEWORK DISCOVERY QUESTIONNAIRE
 
@@ -16,20 +16,14 @@ All 269 original IDs, priorities, question text and module requirements are pres
 2. **[E]** What types of buyers currently make up your business? For example, first-time buyers, move-up buyers, relocations, investors, cash buyers, and returning clients.
 <!-- Q01.03 -->
 3. **[E]** Approximately what proportion of your buyer business comes from each major segment? Estimates are acceptable.
-<!-- Q01.04 -->
-4. **[E]** What languages does your team use for marketing, prospect communications, and appointments?
 <!-- Q01.05 -->
-5. **[E]** What is your primary value proposition to homebuyers? Why should a prospective buyer choose your team?
+4. **[E]** What is your primary value proposition to homebuyers? Why should a prospective buyer choose your team?
 <!-- Q01.06 -->
-6. **[D]** What problems or concerns usually motivate prospects to contact you?
+5. **[D]** What problems or concerns usually motivate prospects to contact you?
 <!-- Q01.07 -->
-7. **[D]** Do different buyer types receive different onboarding, financing, or appointment processes?
+6. **[D]** Do different buyer types receive different onboarding, financing, or appointment processes?
 <!-- Q01.08 -->
-8. **[D]** Which prospect types tend to convert into active buyers, and which frequently stall?
-<!-- Q01.09 -->
-9. **[O]** What makes your team's buying experience meaningfully different from other agents' processes?
-<!-- Q01.10 -->
-10. **[O]** What buyer outcomes would you most like your system to improve, and how would you define measurable success?
+7. **[D]** Which prospect types tend to convert into active buyers, and which frequently stall?
 
 ### Supporting information
 
@@ -53,20 +47,10 @@ Current sales presentation, buyer personas if available, service-area map, value
 4. **[E]** What action is the prospect instructed to take—submit a form, send a DM, comment a keyword, call, register, or book directly?
 <!-- Q02.05 -->
 5. **[E]** What information is requested before the prospect becomes a lead?
-<!-- Q02.06 -->
-6. **[D]** Do prospects expect a consultation, a list of homes, an affordability assessment, a financing conversation, an educational resource, or something else?
-<!-- Q02.07 -->
-7. **[D]** Are there important differences in intent between paid-social and organic-social leads?
 <!-- Q02.08 -->
-8. **[D]** Are any campaigns attracting people outside your service area or people who misunderstand your offer?
+6. **[D]** Are any campaigns attracting people outside your service area or people who misunderstand your offer?
 <!-- Q02.09 -->
-9. **[D]** How are original source, campaign, ad, and subsequent interactions attributed in your CRM?
-<!-- Q02.10 -->
-10. **[D]** How much is spent per channel, and which marketing production/labor costs are tracked?
-<!-- Q02.11 -->
-11. **[O]** Which specific ads, hooks, videos, or offers seem to produce the most suitable prospects?
-<!-- Q02.12 -->
-12. **[O]** Are there documented differences between leads attracted by educational content, testimonials, property tours, and financing-related content?
+7. **[D]** How are original source, campaign, ad, and subsequent interactions attributed in your CRM?
 
 ### Supporting information
 
@@ -86,24 +70,14 @@ Representative advertisements, organic posts, landing pages, lead forms, campaig
 2. **[E]** How does that information enter the CRM currently in use?
 <!-- Q03.03 -->
 3. **[E]** Who receives the new lead, and how is that person selected?
-<!-- Q03.04 -->
-4. **[E]** Which VA or agent is responsible for the first contact?
 <!-- Q03.05 -->
-5. **[E]** What information can the assigned person see before contacting the prospect?
-<!-- Q03.06 -->
-6. **[E]** What happens if the assigned person is unavailable?
+4. **[E]** What information can the assigned person see before contacting the prospect?
 <!-- Q03.07 -->
-7. **[D]** How are duplicate leads, existing contacts, past clients, or already represented buyers identified?
-<!-- Q03.08 -->
-8. **[D]** Are different lead sources prioritized differently?
+5. **[D]** How are duplicate leads, existing contacts, past clients, or already represented buyers identified?
 <!-- Q03.09 -->
-9. **[D]** How long does it usually take before a human makes the first meaningful outreach attempt?
+6. **[D]** How long does it usually take before a human makes the first meaningful outreach attempt?
 <!-- Q03.10 -->
-10. **[D]** What happens when a lead arrives outside normal coverage hours?
-<!-- Q03.11 -->
-11. **[D]** How do you detect unassigned, unworked, or incorrectly routed leads?
-<!-- Q03.12 -->
-12. **[O]** What fields, tags, stages, or triggers are currently used to organize different buyer types?
+7. **[D]** What happens when a lead arrives outside normal coverage hours?
 
 ### Supporting information
 
@@ -117,40 +91,20 @@ CRM screenshots, assignment workflow, pipeline stages, notification examples, te
 
 ### Questions
 
-<!-- Q04.01 -->
-1. **[E]** What are the exact responsibilities of each VA who handles buyer inquiries?
 <!-- Q04.02 -->
-2. **[E]** Are those VAs licensed or unlicensed, and who supervises their activities?
+1. **[E]** Are those VAs licensed or unlicensed, and who supervises their activities?
 <!-- Q04.03 -->
-3. **[E]** What is the first outreach method—telephone, SMS, WhatsApp, email, or another channel?
+2. **[E]** What is the first outreach method—telephone, SMS, WhatsApp, email, or another channel?
 <!-- Q04.04 -->
-4. **[E]** What is the exact opening script used when a new lead answers?
-<!-- Q04.05 -->
-5. **[E]** How does the VA establish relevance, explain the reason for calling, and gain permission to continue?
+3. **[E]** What is the exact opening script used when a new lead answers?
 <!-- Q04.06 -->
-6. **[E]** What qualifying or discovery questions are asked before offering an appointment?
-<!-- Q04.07 -->
-7. **[E]** How is the first appointment introduced and described?
-<!-- Q04.08 -->
-8. **[E]** What specific benefit does the VA tell the prospect they will receive from attending?
-<!-- Q04.09 -->
-9. **[E]** What is said when the prospect agrees to book?
+4. **[E]** What qualifying or discovery questions are asked before offering an appointment?
 <!-- Q04.10 -->
-10. **[D]** What happens when the prospect says they are busy, just browsing, not ready, or unsure about purchasing?
-<!-- Q04.11 -->
-11. **[D]** What happens when the prospect does not answer the first call or text?
+5. **[D]** What happens when the prospect says they are busy, just browsing, not ready, or unsure about purchasing?
 <!-- Q04.12 -->
-12. **[D]** What is the actual follow-up sequence over subsequent days and weeks?
-<!-- Q04.13 -->
-13. **[D]** What causes the VA to stop contact, change strategy, escalate, or transfer the prospect?
+6. **[D]** What is the actual follow-up sequence over subsequent days and weeks?
 <!-- Q04.14 -->
-14. **[D]** Are appointments booked automatically, through a shared calendar, or manually?
-<!-- Q04.15 -->
-15. **[D]** How do you know whether the prospect understands what the appointment is for?
-<!-- Q04.16 -->
-16. **[O]** Are the appointment-setting scripts standardized, trained, monitored, and updated based on real conversations?
-<!-- Q04.17 -->
-17. **[O]** Which buyer questions repeatedly arise before the first appointment?
+7. **[D]** Are appointments booked automatically, through a shared calendar, or manually?
 
 ### Supporting information
 
@@ -168,24 +122,10 @@ Real appointment-setting scripts, call recordings where legally obtained and app
 1. **[E]** What qualifies a lead as cold, dormant, unresponsive, nurture-stage, or lost?
 <!-- Q05.02 -->
 2. **[E]** Who owns these leads—the original VA, assigned agent, another agent, or a dedicated reactivation role?
-<!-- Q05.03 -->
-3. **[E]** How are older lead lists assigned to agents?
 <!-- Q05.04 -->
-4. **[E]** What is the actual first reactivation script?
-<!-- Q05.05 -->
-5. **[E]** What information about the previous relationship is reviewed before calling?
-<!-- Q05.06 -->
-6. **[E]** How do agents determine whether the person's buying circumstances have changed?
+3. **[E]** What is the actual first reactivation script?
 <!-- Q05.07 -->
-7. **[D]** What follow-up cadence is used, and does it vary by readiness and contact preference?
-<!-- Q05.08 -->
-8. **[D]** How are opt-outs, prior refusals, and channel permissions handled?
-<!-- Q05.09 -->
-9. **[D]** How is an appointment from reactivation attributed and recorded?
-<!-- Q05.10 -->
-10. **[D]** Do reactivated prospects follow the same first and second appointment structure?
-<!-- Q05.11 -->
-11. **[O]** Which prior reasons for delay are most commonly resolved before reactivation succeeds?
+4. **[D]** What follow-up cadence is used, and does it vary by readiness and contact preference?
 
 ### Supporting information
 
@@ -193,36 +133,29 @@ Reactivation scripts, sample anonymized contact histories, lead status definitio
 
 ---
 
-## MODULE 6 — Appointment 1 scheduling, confirmation, and preparation
+## MODULE 6 — Buyer meetings: number, type, scheduling, and preparation
 
-**Purpose:** Document the entire experience after the first appointment is booked but before the prospect attends.
+**Purpose:** Learn how many meetings a buyer has before touring homes and what type each one is, then document what happens after a meeting is booked and before the buyer attends. Do not assume any number or format of meetings.
 
 ### Questions
 
-<!-- Q06.01 -->
-1. **[E]** Who conducts appointment 1, and how is the responsible person assigned?
-<!-- Q06.02 -->
-2. **[E]** Is appointment 1 conducted by phone, video, or in person?
+<!-- Q06.13 -->
+1. **[E]** How many meetings does a buyer usually have with the team before touring homes?
+<!-- Q06.14 -->
+2. **[E]** For each of those meetings, is it by phone, video or in person, who runs it, and what is it for?
+
 <!-- Q06.03 -->
-3. **[E]** How much time generally passes between booking and the actual appointment?
+3. **[E]** How much time generally passes between booking the first meeting and holding it?
 <!-- Q06.04 -->
-4. **[E]** What confirmation does the prospect receive immediately after booking?
+4. **[E]** What confirmation does the prospect receive immediately after booking a meeting?
 <!-- Q06.05 -->
-5. **[E]** What is the prospect told they need to prepare?
-<!-- Q06.06 -->
-6. **[E]** What educational resources, links, documents, or videos currently arrive before the meeting?
+5. **[E]** What is the prospect told to prepare before a meeting?
 <!-- Q06.07 -->
-7. **[D]** What reminders occur, through which channels, and at what times?
-<!-- Q06.08 -->
-8. **[D]** Who verifies that the prospect is still planning to attend?
+6. **[D]** What meeting reminders are sent, through which channels, and at what times, and who checks that the buyer still plans to attend?
 <!-- Q06.09 -->
-9. **[D]** What happens when a buyer cancels, requests to reschedule, or does not attend?
+7. **[D]** What happens when a buyer cancels, asks to reschedule, or does not attend a meeting?
 <!-- Q06.10 -->
-10. **[D]** What are the most common known reasons for first-appointment no-shows?
-<!-- Q06.11 -->
-11. **[O]** What does the assigned agent wish every prospect understood before the appointment began?
-<!-- Q06.12 -->
-12. **[O]** What questions could a short educational video answer before appointment 1?
+8. **[D]** What are the most common known reasons buyers miss meetings?
 
 ### Supporting information
 
@@ -230,86 +163,56 @@ Booking page, calendar configuration, appointment reminders, preparatory message
 
 ---
 
-## MODULE 7 — Appointment 1: Minute-by-minute process reconstruction
+## MODULE 7 — What happens in buyer meetings
 
-**Purpose:** Recreate the exact first appointment, including its structure, script, educational components, qualification questions, and transition to appointment 2.
+**Purpose:** Document what happens in the team's buyer meetings, however many there are: structure, discovery questions, education, and the invitation to the next step. If the owner shares a recording or written script, use it instead of asking line by line.
 
-This module requires particularly detailed answers. Interview it in several smaller rounds.
+Ask about each meeting the owner described in Module 6; skip anything that does not apply.
 
 ### Opening and agenda
 
-<!-- Q07.01 -->
-1. **[E]** Walk me through the first five minutes. How does the agent greet the prospect?
 <!-- Q07.02 -->
-2. **[E]** How does the agent introduce themselves, the team, and the purpose of the appointment?
+1. **[E]** How does the person running a meeting introduce themselves, the team, and the purpose of the meeting?
 <!-- Q07.03 -->
-3. **[E]** Is there an established agenda or script?
-<!-- Q07.04 -->
-4. **[E]** What is the prospect told will happen during the meeting and afterward?
+2. **[E]** Is there an established agenda or script for each meeting?
 
 ### Buyer discovery
 
 <!-- Q07.05 -->
-5. **[E]** What questions identify the prospect's reason for buying?
+3. **[E]** What questions identify the prospect's reason for buying?
 <!-- Q07.06 -->
-6. **[E]** How are desired timing, urgency, and readiness established?
+4. **[E]** How are desired timing, urgency, and readiness established?
 <!-- Q07.07 -->
-7. **[E]** How are household needs and participating decision-makers discussed?
+5. **[E]** How are household needs and participating decision-makers discussed?
 <!-- Q07.08 -->
-8. **[E]** How does the agent learn which cities, property types, and features the buyer prefers?
+6. **[E]** How does the agent learn which cities, property types, and features the buyer prefers?
 <!-- Q07.09 -->
-9. **[E]** What is asked about the buyer's desired monthly housing expenditure and purchase budget?
+7. **[E]** What is asked about the buyer's desired monthly housing expenditure and purchase budget?
 <!-- Q07.10 -->
-10. **[E]** How are existing representation relationships identified?
+8. **[E]** How are existing representation relationships identified?
 
 ### Buyer education and team presentation
 
 <!-- Q07.11 -->
-11. **[E]** What exactly does the agent teach about the overall homebuying process?
-<!-- Q07.12 -->
-12. **[E]** How is the team's role explained?
+9. **[E]** What exactly does the agent teach about the overall homebuying process?
 <!-- Q07.13 -->
-13. **[E]** What proof or examples are presented to demonstrate competence?
-<!-- Q07.14 -->
-14. **[E]** Are compensation, buyer representation agreements, services, duration, and termination discussed? If so, how and when?
-<!-- Q07.15 -->
-15. **[E]** Are financing, credit, down payment, assistance programs, closing costs, or lender introductions discussed?
+10. **[E]** What proof or examples are presented to demonstrate competence?
 <!-- Q07.16 -->
-16. **[E]** Are market conditions or available geographic options introduced?
+11. **[E]** Are market conditions or available geographic options introduced?
 
-### Closing appointment 1
+### Closing the meeting
 
 <!-- Q07.17 -->
-17. **[E]** What information or understanding must the agent obtain before ending the meeting?
-<!-- Q07.18 -->
-18. **[E]** Under what circumstances is appointment 2 offered?
+12. **[E]** What information or understanding must the team obtain before a meeting ends?
 <!-- Q07.19 -->
-19. **[E]** What are the exact words or script used to invite the buyer to appointment 2?
-<!-- Q07.20 -->
-20. **[E]** What specific value is promised for appointment 2?
-<!-- Q07.21 -->
-21. **[E]** Who schedules appointment 2, and when?
-<!-- Q07.22 -->
-22. **[E]** What does the buyer explicitly agree to do before that meeting?
+13. **[E]** What exact words are used to invite the buyer to the next step, whether another meeting or home tours?
 <!-- Q07.23 -->
-23. **[E]** What happens if the buyer refuses or postpones the second appointment?
+14. **[E]** What happens if the buyer refuses or postpones the next step?
 
 ### Execution quality and exceptions
 
-<!-- Q07.24 -->
-24. **[D]** Which questions or objections most frequently interrupt the meeting?
-<!-- Q07.25 -->
-25. **[D]** What parts of the appointment are repeated almost identically for every buyer?
-<!-- Q07.26 -->
-26. **[D]** Which parts require personalized professional judgment?
-<!-- Q07.27 -->
-27. **[D]** Where do agents struggle to maintain the buyer's understanding or attention?
 <!-- Q07.28 -->
-28. **[D]** How do different agents conduct this appointment differently?
-<!-- Q07.29 -->
-29. **[D]** What distinguishes appointments that progress from appointments that do not?
-<!-- Q07.30 -->
-30. **[O]** What would an exceptionally well-prepared buyer already know before joining this appointment?
+15. **[D]** How do different agents run these meetings differently?
 
 ### Supporting information
 
@@ -325,40 +228,22 @@ Appointment agenda, scripts, presentation materials, screen-sharing examples, in
 
 <!-- Q08.01 -->
 1. **[E]** At what stage is financing first discussed with the buyer?
-<!-- Q08.02 -->
-2. **[E]** Who introduces the lender or recommends obtaining preapproval?
 <!-- Q08.03 -->
-3. **[E]** Can buyers use their own lender, and how is that handled?
-<!-- Q08.04 -->
-4. **[E]** Who determines whether the prospect has been prequalified or preapproved?
-<!-- Q08.05 -->
-5. **[E]** Does lender contact occur before appointment 1, during it, afterward, or at another stage?
-<!-- Q08.06 -->
-6. **[E]** What does the buyer need to complete before the second appointment?
+2. **[E]** Can buyers use their own lender, and how is that handled?
 <!-- Q08.07 -->
-7. **[E]** What specific lender information is communicated back to the licensed agent, and through what authorized process?
+3. **[E]** What specific lender information is communicated back to the licensed agent, and through what authorized process?
 <!-- Q08.08 -->
-8. **[E]** Who explains the difference between the maximum loan-supported purchase amount and the buyer's preferred spending limit?
+4. **[E]** Who explains the difference between the maximum loan-supported purchase amount and the buyer's preferred spending limit?
 <!-- Q08.09 -->
-9. **[E]** How are down payments, cash-to-close, estimated monthly payments, taxes, insurance, HOA costs, and other ongoing ownership expenses addressed?
+5. **[E]** How are down payments, cash-to-close, estimated monthly payments, taxes, insurance, HOA costs, and other ongoing ownership expenses addressed?
 <!-- Q08.10 -->
-10. **[E]** How is the buyer's financial comfort level documented without collecting unnecessary sensitive information?
-<!-- Q08.11 -->
-11. **[D]** What happens if a buyer is preapproved for more than they want to spend?
-<!-- Q08.12 -->
-12. **[D]** What happens if the desired location is not feasible within the buyer's chosen budget?
+6. **[E]** How is the buyer's financial comfort level documented without collecting unnecessary sensitive information?
 <!-- Q08.13 -->
-13. **[D]** What happens if the lender cannot approve the buyer?
+7. **[D]** What happens if the lender cannot approve the buyer?
 <!-- Q08.14 -->
-14. **[D]** What happens when the lender is delayed or cannot obtain necessary information?
+8. **[D]** What happens when the lender is delayed or cannot obtain necessary information?
 <!-- Q08.15 -->
-15. **[D]** Is there a defined requalification or readiness-follow-up process?
-<!-- Q08.16 -->
-16. **[D]** What percentage of first-appointment buyers reach the second appointment with verified financing readiness?
-<!-- Q08.17 -->
-17. **[O]** Which financing-related misconceptions repeatedly consume agent appointment time?
-<!-- Q08.18 -->
-18. **[O]** What general financing concepts could be responsibly taught in advance without implying a specific loan approval?
+9. **[D]** Is there a defined requalification or readiness-follow-up process?
 
 ### Supporting information
 
@@ -368,42 +253,28 @@ Lender coordination procedure, approved educational materials, financing-readine
 
 ---
 
-## MODULE 9 — Between appointment 1 and appointment 2
+## MODULE 9 — Between meetings (only if there is more than one)
 
-**Purpose:** Document the second critical transition where an educational VSL may eventually be useful.
+**Purpose:** If buyers have more than one meeting, document what happens between them. If there is only one meeting, mark this module not applicable.
 
 ### Questions
 
 <!-- Q09.01 -->
-1. **[E]** What triggers the transition from appointment 1 to appointment 2?
+1. **[E]** If buyers have more than one meeting, what triggers moving from one meeting to the next?
 <!-- Q09.02 -->
-2. **[E]** How soon is appointment 2 usually scheduled?
-<!-- Q09.03 -->
-3. **[E]** Who owns the prospect during the interval?
+2. **[E]** How soon is the next meeting usually scheduled?
 <!-- Q09.04 -->
-4. **[E]** What communications does the prospect receive immediately after appointment 1?
+3. **[E]** What communications does the buyer receive right after a meeting?
 <!-- Q09.05 -->
-5. **[E]** Are there educational materials, financing tasks, questionnaires, property examples, or other assignments?
-<!-- Q09.06 -->
-6. **[E]** Who checks whether those tasks are completed?
+4. **[E]** Between meetings, are there educational materials, financing tasks, questionnaires, property examples, or other assignments?
 <!-- Q09.07 -->
-7. **[E]** What prerequisites must be met before appointment 2 proceeds?
+5. **[E]** What must be done before the next meeting can go ahead?
 <!-- Q09.08 -->
-8. **[E]** What exactly is appointment 2 promised to accomplish?
+6. **[E]** What exactly is the next meeting promised to accomplish?
 <!-- Q09.09 -->
-9. **[D]** What happens if the buyer does not complete financing tasks?
+7. **[D]** What happens if the buyer does not complete financing tasks?
 <!-- Q09.10 -->
-10. **[D]** What happens if the buyer stops responding?
-<!-- Q09.11 -->
-11. **[D]** Are reminders different from those used for appointment 1?
-<!-- Q09.12 -->
-12. **[D]** What causes buyers to lose interest between appointments?
-<!-- Q09.13 -->
-13. **[D]** What information do agents repeatedly have to explain at the beginning of appointment 2?
-<!-- Q09.14 -->
-14. **[O]** What would the ideal buyer understand before joining appointment 2?
-<!-- Q09.15 -->
-15. **[O]** What preparation could help a buyer evaluate realistic alternatives without feeling pressured?
+8. **[D]** What happens if the buyer stops responding between meetings?
 
 ### Supporting information
 
@@ -411,110 +282,57 @@ Inter-appointment messages, follow-up scripts, checklists, reminders, sample edu
 
 ---
 
-## MODULE 10 — Appointment 2: Detailed live-video consultation reconstruction
+## MODULE 10 — Budget, areas, and the move to home tours
 
 **Purpose:** Reconstruct exactly how buyers move from general interest to understanding their options and deciding whether to begin touring homes.
 
-This module also requires multiple interview rounds.
+These topics may happen in any meeting; ask about the meeting where they actually happen.
 
 ### Preparation and opening
 
-<!-- Q10.01 -->
-1. **[E]** Who conducts appointment 2, and who else normally attends?
-<!-- Q10.02 -->
-2. **[E]** What are the prerequisites?
-<!-- Q10.03 -->
-3. **[E]** What software is used for the live video meeting?
-<!-- Q10.04 -->
-4. **[E]** Walk through the opening five minutes.
-<!-- Q10.05 -->
-5. **[E]** What agenda is presented?
 <!-- Q10.06 -->
-6. **[E]** What information has the agent prepared before the meeting?
-
-### Purchasing-power discussion
-
-<!-- Q10.07 -->
-7. **[E]** How is the buyer's lender-supported purchasing range presented?
-<!-- Q10.08 -->
-8. **[E]** How is their personal spending limit confirmed?
-<!-- Q10.09 -->
-9. **[E]** How are monthly payments and other ownership expenses addressed?
-<!-- Q10.10 -->
-10. **[E]** How is the buyer's understanding checked?
-<!-- Q10.11 -->
-11. **[D]** What happens when their expectations differ materially from the available options?
+1. **[E]** What does the agent prepare before a meeting?
 
 ### Geographic and property education
 
-<!-- Q10.12 -->
-12. **[E]** How does the agent decide which areas to show?
-<!-- Q10.13 -->
-13. **[E]** How are the buyer's preferred locations compared with realistic alternatives?
-<!-- Q10.14 -->
-14. **[E]** What maps, listings, screen shares, or visual aids are used?
 <!-- Q10.15 -->
-15. **[E]** How are property type, condition, size, commute, expenses, and other buyer priorities considered?
-<!-- Q10.16 -->
-16. **[E]** How are actual available homes selected for presentation?
+2. **[E]** How are property type, condition, size, commute, expenses, and other buyer priorities considered?
 <!-- Q10.17 -->
-17. **[E]** What does the agent say when the buyer's preferred area is outside their spending range?
-<!-- Q10.18 -->
-18. **[E]** How do agents help buyers consider tradeoffs without pressuring them into unsuitable locations?
-<!-- Q10.19 -->
-19. **[D]** What concerns do buyers raise about moving farther from their first-choice area?
+3. **[E]** What does the agent say when the buyer's preferred area is outside their spending range?
 <!-- Q10.20 -->
-20. **[D]** Which alternative markets are most frequently rejected, and why?
+4. **[D]** Which alternative markets are most frequently rejected, and why?
 
 ### Presentation and buyer engagement
 
-<!-- Q10.21 -->
-21. **[E]** Is there a formal presentation or is the meeting conversational?
 <!-- Q10.22 -->
-22. **[E]** What sequence does the agent follow?
+5. **[E]** What sequence does the agent follow in the meeting where budget, areas and homes are discussed?
 <!-- Q10.23 -->
-23. **[E]** What questions are used to determine whether the buyer understands and accepts an area or property type?
-<!-- Q10.24 -->
-24. **[E]** Are homes compared side by side?
+6. **[E]** What questions are used to determine whether the buyer understands and accepts an area or property type?
 <!-- Q10.25 -->
-25. **[D]** How are misunderstandings, uncertainty, disappointment, or hesitation handled?
-<!-- Q10.26 -->
-26. **[D]** Which objections occur most often?
+7. **[D]** How are misunderstandings, uncertainty, disappointment, or hesitation handled?
 <!-- Q10.27 -->
-27. **[D]** How do you distinguish a buyer who needs more education from one who genuinely does not want the available options?
+8. **[D]** How do you distinguish a buyer who needs more education from one who genuinely does not want the available options?
 
 ### Transition to home tours
 
 <!-- Q10.28 -->
-28. **[E]** What exact decision do you want the buyer to make by the end of appointment 2?
+9. **[E]** What exact decision should the buyer make by the end of the last meeting before home tours?
 <!-- Q10.29 -->
-29. **[E]** What conditions determine readiness to schedule tours?
+10. **[E]** What conditions determine readiness to schedule tours?
 <!-- Q10.30 -->
-30. **[E]** What exact language is used to invite the buyer to see homes?
-<!-- Q10.31 -->
-31. **[E]** What is said about representation, required agreements, services, and compensation?
-<!-- Q10.32 -->
-32. **[E]** Who selects or approves the first property list?
-<!-- Q10.33 -->
-33. **[E]** How is the first tour date established?
+11. **[E]** What exact language is used to invite the buyer to see homes?
 <!-- Q10.34 -->
-34. **[E]** What information is recorded before the appointment ends?
-<!-- Q10.35 -->
-35. **[E]** What happens if the buyer likes the process but does not want to tour?
-<!-- Q10.36 -->
-36. **[D]** Why do some second appointments end without a next step?
-<!-- Q10.37 -->
-37. **[O]** What would the best-prepared buyer already understand before this meeting?
+12. **[E]** What information is recorded before a meeting ends?
 
 ### Supporting information
 
-Second-appointment agenda, screen-recording examples where permissioned, presentation slides, maps, example property lists, approved buyer consultation materials, anonymized outcome records.
+Meeting agenda, screen-recording examples where permissioned, presentation slides, maps, example property lists, approved buyer consultation materials, anonymized outcome records.
 
 ---
 
-## MODULE 11 — Buyer representation, property selection, and first tours
+## MODULE 11 — Buyer representation, tours, offers, and closing
 
-**Purpose:** Establish the exact transition from prospect to represented, tour-ready buyer, including applicable agreement requirements.
+**Purpose:** Establish the transition from prospect to represented, tour-ready buyer, including applicable agreement requirements, and what happens from tours through offers, contract and closing.
 
 ### Questions
 
@@ -522,38 +340,34 @@ Second-appointment agenda, screen-recording examples where permissioned, present
 1. **[E]** At what stage do you consider someone a buyer client rather than merely a lead?
 <!-- Q11.02 -->
 2. **[E]** At what point are buyer representation agreements introduced, explained, and signed?
-<!-- Q11.03 -->
-3. **[E]** How are the agreement's services, term, compensation, and termination provisions discussed?
 <!-- Q11.04 -->
-4. **[E]** Who verifies that all required disclosures and agreements are completed before applicable services or tours?
+3. **[E]** Who verifies that all required disclosures and agreements are completed before applicable services or tours?
 <!-- Q11.05 -->
-5. **[E]** Who creates the buyer's initial property list?
+4. **[E]** Who creates the buyer's initial property list?
 <!-- Q11.06 -->
-6. **[E]** How are the buyer's preferences recorded and transferred to the showing agent?
+5. **[E]** How are the buyer's preferences recorded and transferred to the showing agent?
 <!-- Q11.07 -->
-7. **[E]** Who coordinates property availability and scheduling?
+6. **[E]** Who coordinates property availability and scheduling?
 <!-- Q11.08 -->
-8. **[E]** Who conducts the tour?
-<!-- Q11.09 -->
-9. **[E]** What does the buyer receive before their first showing?
-<!-- Q11.10 -->
-10. **[D]** What happens when approved properties are no longer available?
+7. **[E]** Who conducts the tour?
 <!-- Q11.11 -->
-11. **[D]** How are buyers who change budget, geographic preference, or timing handled?
-<!-- Q11.12 -->
-12. **[D]** How often do buyers agree to tour but fail to schedule or attend?
-<!-- Q11.13 -->
-13. **[D]** Are buyers handed off between agents? If so, how is continuity maintained?
-<!-- Q11.14 -->
-14. **[D]** What happens when the buyer decides not to proceed?
-<!-- Q11.15 -->
-15. **[O]** What preparation would make the first tour more useful for both buyer and agent?
+8. **[D]** How are buyers who change budget, geographic preference, or timing handled?
+<!-- Q11.16 -->
+9. **[E]** Of buyers who toured homes last year, about how many wrote an offer, how many went under contract, and how many closed?
+<!-- Q11.17 -->
+10. **[D]** How long does it usually take from a buyer's first tour to an accepted offer, and from contract to closing?
+<!-- Q11.18 -->
+11. **[D]** About how many deals fell apart after going under contract last year, and why, such as financing, inspection, appraisal, a change of mind, or something else?
+<!-- Q11.19 -->
+12. **[D]** Who handles a deal from accepted offer to closing, and how does the team keep the buyer informed during that time?
+<!-- Q11.20 -->
+13. **[D]** Does the team also help clients sell homes, and about how many listings did it close last year?
 
 ### Supporting information
 
 Representation workflow, approved forms, first-tour checklist, scheduling process, property-selection criteria, handoff notes.
 
-**Compliance note:** Record current procedures and identify the team's brokerage and MLS rules. Do not assume generic national guidance satisfies all applicable California requirements.
+**Compliance note:** Record current procedures and identify the team's brokerage and MLS rules. Do not assume generic national guidance satisfies all applicable state requirements.
 
 ---
 
@@ -573,28 +387,16 @@ Representation workflow, approved forms, first-tour checklist, scheduling proces
 4. **[E]** What exact words do buyers use when raising those concerns?
 <!-- Q12.05 -->
 5. **[E]** How does the team currently respond?
-<!-- Q12.06 -->
-6. **[D]** Which concerns are informational misunderstandings?
-<!-- Q12.07 -->
-7. **[D]** Which concerns reflect genuine financing, affordability, timing, geographic, or household constraints?
-<!-- Q12.08 -->
-8. **[D]** Which concerns are about the agent's value, representation terms, or trust?
 <!-- Q12.09 -->
-9. **[D]** Which objections recur after the team believes they were already answered?
-<!-- Q12.10 -->
-10. **[D]** What reasons are logged for lost or deferred buyers?
+6. **[D]** Which objections recur after the team believes they were already answered?
 <!-- Q12.11 -->
-11. **[D]** What happens when a buyer chooses another agent or lender?
-<!-- Q12.12 -->
-12. **[D]** How are prospects who legitimately are not ready placed into appropriate future follow-up?
-<!-- Q12.13 -->
-13. **[O]** Which questions could be answered accurately through reusable videos?
+7. **[D]** What happens when a buyer chooses another agent or lender?
 <!-- Q12.14 -->
-14. **[O]** What proof, demonstration, or explanation has actually helped buyers understand the process?
+8. **[O]** What proof, demonstration, or explanation has actually helped buyers understand the process?
 
 ### Required examples
 
-Ask the owner for at least five anonymized recent examples representing different outcomes: a smooth conversion, a buyer who missed appointment 1, a buyer who never advanced to appointment 2, a buyer who rejected the available locations, and a buyer who proceeded to touring homes.
+Ask the owner for at least five anonymized recent examples representing different outcomes: a smooth conversion that closed, a buyer who missed a first meeting, a buyer who never reached the next step after a meeting, a buyer who rejected the available locations, and a buyer whose deal fell apart after touring or going under contract.
 
 For each example, reconstruct the timeline, communications, available evidence, stated concerns, agent responses, and final status.
 
@@ -611,35 +413,31 @@ Do not assume an objection was "overcome" merely because the buyer eventually pr
 <!-- Q13.01 -->
 1. **[E]** What are the owner's direct responsibilities in this funnel?
 <!-- Q13.02 -->
-2. **[E]** What does each of the four agents own?
+2. **[E]** How many agents does the team have?
+<!-- Q13.17 -->
+3. **[E]** For each agent the owner named, what does that agent own?
 <!-- Q13.03 -->
-3. **[E]** What does each VA own?
+4. **[E]** What does each VA own?
 <!-- Q13.04 -->
-4. **[E]** Which roles conduct appointment 1 and appointment 2?
+5. **[E]** Which roles run each kind of buyer meeting?
 <!-- Q13.05 -->
-5. **[E]** Who manages lender coordination?
+6. **[E]** Who manages lender coordination?
 <!-- Q13.06 -->
-6. **[E]** Who owns prospect follow-up after each appointment?
+7. **[E]** Who owns prospect follow-up after each appointment?
 <!-- Q13.07 -->
-7. **[E]** Who has authority to change a lead stage, reassign a lead, or close an opportunity?
+8. **[E]** Who has authority to change a lead stage, reassign a lead, or close an opportunity?
 <!-- Q13.08 -->
-8. **[E]** What happens if the assigned agent or VA is absent?
+9. **[E]** What happens if the assigned agent or VA is absent?
 <!-- Q13.09 -->
-9. **[D]** What training is provided to VAs and agents?
+10. **[D]** What training is provided to VAs and agents, and how often does the team train together?
 <!-- Q13.10 -->
-10. **[D]** How is script adherence or consultation quality evaluated?
-<!-- Q13.11 -->
-11. **[D]** Are calls or meetings reviewed with appropriate recording permissions?
+11. **[D]** How is script adherence or consultation quality evaluated?
 <!-- Q13.12 -->
 12. **[D]** What performance reports does each person receive?
 <!-- Q13.13 -->
 13. **[D]** Which handoffs most frequently fail?
-<!-- Q13.14 -->
-14. **[D]** How is available capacity measured?
-<!-- Q13.15 -->
-15. **[D]** Who is responsible for supervising unlicensed activities?
 <!-- Q13.16 -->
-16. **[O]** Which repetitive explanations currently consume significant licensed-agent time?
+14. **[O]** Which repetitive explanations currently consume significant licensed-agent time?
 
 ### Supporting information
 
@@ -656,35 +454,21 @@ Role descriptions, responsibility matrix, team SOPs, calendars, training materia
 <!-- Q14.01 -->
 1. **[E]** What CRM and connected communication systems are currently in use?
 <!-- Q14.02 -->
-2. **[E]** What are the active buyer pipeline stages?
-<!-- Q14.03 -->
-3. **[E]** What triggers entry into and exit from each stage?
+2. **[E]** What are the active buyer pipeline stages, and what moves a lead into and out of each one?
 <!-- Q14.04 -->
-4. **[E]** Which tasks and messages are automated?
+3. **[E]** Which tasks and messages are automated?
 <!-- Q14.05 -->
-5. **[E]** Which actions still require manual execution?
+4. **[E]** Which actions still require manual execution?
 <!-- Q14.06 -->
-6. **[E]** Who maintains and approves CRM changes?
+5. **[E]** Who maintains and approves CRM changes?
 <!-- Q14.07 -->
-7. **[D]** How are appointment bookings, cancellations, reschedules, and attendance recorded?
-<!-- Q14.08 -->
-8. **[D]** How is lender readiness captured without exposing unnecessary confidential data?
+6. **[D]** How are appointment bookings, cancellations, reschedules, and attendance recorded?
 <!-- Q14.09 -->
-9. **[D]** How are lead owners, backups, and overdue tasks monitored?
-<!-- Q14.10 -->
-10. **[D]** What happens when a prospect replies to an automated sequence?
+7. **[D]** How are lead owners, backups, and overdue tasks monitored?
 <!-- Q14.11 -->
-11. **[D]** How are marketing opt-outs and communication preferences enforced?
-<!-- Q14.12 -->
-12. **[D]** How are duplicate messages and conflicting automation triggers prevented?
-<!-- Q14.13 -->
-13. **[D]** Are any current pipeline numbers known to be inaccurate?
-<!-- Q14.14 -->
-14. **[O]** Can the system deliver different educational assets based on the buyer's stage?
-<!-- Q14.15 -->
-15. **[O]** Can video delivery and meaningful engagement be tracked?
+8. **[D]** How are marketing opt-outs and communication preferences enforced?
 <!-- Q14.16 -->
-16. **[O]** What automation capabilities exist but are not currently used?
+9. **[O]** What automation capabilities exist but are not currently used?
 
 ### Supporting information
 
@@ -711,13 +495,13 @@ The AI should request available reports, not force guesses.
 <!-- Q15.05 -->
 5. **[E]** How many produced two-way conversations?
 <!-- Q15.06 -->
-6. **[E]** How many booked appointment 1?
+6. **[E]** How many booked a first meeting?
 <!-- Q15.07 -->
-7. **[E]** How many appointment 1 meetings were due and actually held?
+7. **[E]** How many first meetings were due and actually held?
 <!-- Q15.08 -->
-8. **[E]** How many progressed to appointment 2?
+8. **[E]** If the team holds a second meeting, how many progressed to it?
 <!-- Q15.09 -->
-9. **[E]** How many appointment 2 meetings were due and held?
+9. **[E]** How many second meetings were due and held?
 <!-- Q15.10 -->
 10. **[E]** How many obtained verified financing readiness?
 <!-- Q15.11 -->
@@ -732,14 +516,6 @@ The AI should request available reports, not force guesses.
 15. **[D]** How do these measures differ by lead source and responsible agent?
 <!-- Q15.16 -->
 16. **[D]** What does the team spend on advertising, content production, VA labor, appointment labor, CRM, and related acquisition activities?
-<!-- Q15.17 -->
-17. **[D]** What mature-cohort offer, contract, and closing data are available?
-<!-- Q15.18 -->
-18. **[D]** Is retained contribution after applicable compensation splits and variable costs measured?
-<!-- Q15.19 -->
-19. **[D]** Are the available reports accurate enough to calculate stage conversion, or do we first need a data-quality assessment?
-<!-- Q15.20 -->
-20. **[O]** Which specific operational targets has the owner established for lead response, appointments, qualified buyers, and closings?
 
 ### Calculation rules
 
@@ -755,9 +531,9 @@ If data is unavailable, mark **NOT TRACKED** or **UNKNOWN** and record what repo
 
 ---
 
-## MODULE 16 — Existing educational content, proof, and video opportunities
+## MODULE 16 — Existing content and proof
 
-**Purpose:** Inventory the information already delivered and identify where reusable education might fit, without prematurely designing VSLs.
+**Purpose:** Inventory the information and proof the team already uses with buyers.
 
 ### Questions
 
@@ -765,30 +541,8 @@ If data is unavailable, mark **NOT TRACKED** or **UNKNOWN** and record what repo
 1. **[E]** Which educational videos, social posts, presentations, PDFs, and checklists already exist?
 <!-- Q16.02 -->
 2. **[E]** When are they shown or sent?
-<!-- Q16.03 -->
-3. **[E]** Which are specific to appointment 1?
-<!-- Q16.04 -->
-4. **[E]** Which are specific to appointment 2?
-<!-- Q16.05 -->
-5. **[E]** Who creates and approves buyer education?
-<!-- Q16.06 -->
-6. **[D]** Which buyer questions are already covered adequately by existing material?
-<!-- Q16.07 -->
-7. **[D]** Which recurring explanations are missing?
 <!-- Q16.08 -->
-8. **[D]** What client testimonials, case studies, process demonstrations, and other genuine proof are available with appropriate usage permissions?
-<!-- Q16.09 -->
-9. **[D]** Do agents consistently reference or reinforce educational assets during appointments?
-<!-- Q16.10 -->
-10. **[D]** Can prospects access the information easily on their preferred device and in their preferred language?
-<!-- Q16.11 -->
-11. **[O]** What information should a buyer understand before appointment 1?
-<!-- Q16.12 -->
-12. **[O]** What different information should a buyer understand before appointment 2?
-<!-- Q16.13 -->
-13. **[O]** Which questions require individualized advice and should not be delegated to prerecorded content?
-<!-- Q16.14 -->
-14. **[O]** Are there important buyer-segment variations that would require different explanations?
+3. **[D]** What client testimonials, case studies, process demonstrations, and other genuine proof are available with appropriate usage permissions?
 
 ### Supporting information
 
@@ -796,9 +550,7 @@ Video links, presentation materials, buyer guides, FAQs, testimonial permissions
 
 ### Special instruction
 
-Record possible educational-video opportunities as observations only.
-
-Do not write or prescribe VSL 1 or VSL 2 during discovery.
+Record existing content and proof as facts only. Do not design new content or recommend changes during discovery.
 
 ---
 
@@ -819,63 +571,53 @@ Owners may give estimates or ranges; record which numbers come from reports and 
 <!-- Q17.04 -->
 4. **[E]** In the last 12 months, about how many buyer closings came from repeat past clients, and how many came from referrals by past clients?
 <!-- Q17.05 -->
-5. **[D]** What commission rate or fee does the team charge buyers, does it vary by buyer type, and about what is the average purchase price?
+5. **[D]** What commission rate or fee does the team charge buyers, and does it vary by buyer type?
 <!-- Q17.06 -->
 6. **[D]** When did the buyer fee last change and what happened to sign-ups afterward, do buyers pay any admin or transaction fee, and how often does the team reduce commission or give a rebate to win or keep a buyer?
 <!-- Q17.07 -->
 7. **[D]** Does the amount the team keeps per deal differ by lead source, price range or agent, and roughly how?
 <!-- Q17.08 -->
 8. **[D]** After every business cost, including the owner's pay if taken, about how much did the business keep last year?
-<!-- Q17.09 -->
-9. **[D]** Does the team track cost per lead, per held appointment and per closing, overall or by source, and which lead count is used?
-<!-- Q17.10 -->
-10. **[D]** How long does it usually take from a buyer lead's first contact until the commission check arrives?
-<!-- Q17.11 -->
-11. **[D]** Does any money come in during a buyer client's first 30 days, or is everything paid at closing, and how is marketing paid for while waiting?
 <!-- Q17.12 -->
-12. **[D]** Counting every past buyer client, about how many deals has the average client done with the team, including later purchases and sales?
+9. **[D]** Counting every past buyer client, about how many deals has the average client done with the team, including later purchases and sales?
 <!-- Q17.13 -->
-13. **[D]** About how many past clients are in the database, how many could still be reached today, how many heard from the team in the last 6 months, and how many are known to have used another agent since?
+10. **[D]** About how many past clients are in the database, how many could still be reached today, how many heard from the team in the last 6 months, and how many are known to have used another agent since?
 <!-- Q17.14 -->
-14. **[D]** After closing, how often does a past client hear from the team personally, what is done, and about how much does it cost per year?
-<!-- Q17.15 -->
-15. **[D]** About what share of closed buyers left a review or testimonial, and what share sent at least one referral?
-<!-- Q17.16 -->
-16. **[D]** Besides the purchase, what other income has come from buyer clients, such as listing the home they left, a later sale, an investment purchase, rentals or referral fees the law allows, and roughly how many clients produced each?
+11. **[D]** After closing, how often does a past client hear from the team personally, what is done, and about how much does it cost per year?
 <!-- Q17.17 -->
-17. **[D]** What happens to leads who are not ready to buy yet, and of not-ready leads from a year or more ago, about how many later bought with the team?
+12. **[D]** What happens to leads who are not ready to buy yet, and of not-ready leads from a year or more ago, about how many later bought with the team?
 <!-- Q17.18 -->
-18. **[D]** Of buyers who sign with the team, about how many drop out before closing and why, how many go quiet for two weeks or more first, and when a buyer wants to stop, does anyone talk with them and about how many stay?
+13. **[D]** Of buyers who sign with the team, about how many drop out before closing and why, how many go quiet for two weeks or more first, and when a buyer wants to stop, does anyone talk with them and about how many stay?
 <!-- Q17.19 -->
-19. **[D]** Thinking of the best 10–20% of past clients by commission plus repeat and referral business, what do they have in common?
+14. **[D]** Thinking of the best 10–20% of past clients by commission plus repeat and referral business, what do they have in common?
 <!-- Q17.20 -->
-20. **[D]** Is there a step after which buyers become much more likely to close, such as preapproval or a first tour within a certain number of days?
+15. **[D]** Is there a step after which buyers become much more likely to close, such as preapproval or a first tour within a certain number of days?
 <!-- Q17.21 -->
-21. **[D]** How many buyer clients can one agent handle at a time, about how many closings does an agent do per year, and roughly what share of an agent's week goes to appointments and tours, follow-up, prospecting, and admin and training?
+16. **[D]** How many buyer clients can one agent handle at a time, about how many closings does an agent do per year, and roughly what share of an agent's week goes to appointments and tours, follow-up, prospecting, and admin and training?
 <!-- Q17.22 -->
-22. **[E]** What revenue or closings goal does the owner have for the next 12 months?
+17. **[E]** What revenue or closings goal does the owner have for the next 12 months?
 <!-- Q17.23 -->
-23. **[O]** If twice as many leads came in tomorrow, where would things break first, and which stage loses the most people in the team's own numbers?
+18. **[O]** If twice as many leads came in tomorrow, where would things break first?
 <!-- Q17.24 -->
-24. **[O]** Which would change the business most if it improved: more leads, more leads becoming clients, more money per client, more repeat and referral business, or depending less on any one person or source?
+19. **[O]** Which would change the business most if it improved: more leads, more leads becoming clients, more money per client, more repeat and referral business, or depending less on any one person or source?
 <!-- Q17.25 -->
-25. **[D]** Which of these money numbers come from real reports, and which are the owner's best estimate?
+20. **[D]** Which of these money numbers come from real reports, and which are the owner's best estimate?
 <!-- Q17.26 -->
-26. **[D]** Besides splits and fees, about how much does it cost the team to serve one buyer from signing to closing, such as showing time, a transaction coordinator, mileage, gifts or per-client software?
+21. **[D]** Besides splits and fees, about how much does it cost the team to serve one buyer from signing to closing, such as showing time, a transaction coordinator, mileage, gifts or per-client software?
 <!-- Q17.27 -->
-27. **[D]** How does the team pay for leads and marketing before commission arrives, and about how many months of current spending could it cover with no closings?
+22. **[D]** How does the team pay for leads and marketing before commission arrives, and about how many months of current spending could it cover with no closings?
 <!-- Q17.28 -->
-28. **[D]** What do the team's ads or lead forms offer people for getting in touch, and which offer brings the most leads and which brings the most closings?
+23. **[D]** What do the team's ads or lead forms offer people for getting in touch, and which offer brings the most leads and which brings the most closings?
 <!-- Q17.29 -->
-29. **[D]** From first contact to closing, what else does the team offer a buyer and in what order, such as a lender introduction, listing their current home, moving help or other referrals the law allows, and about how many said yes to each last year?
+24. **[D]** From first contact to closing, what else does the team offer a buyer and in what order, such as a lender introduction, listing their current home, moving help or other referrals the law allows, and about how many said yes to each and how much income each brought last year?
 <!-- Q17.30 -->
-30. **[D]** When a buyer declines the buyer agreement, is anything else offered, such as a shorter or single-property agreement, fewer services for a lower fee or listing alerts only, and about how many accept?
+25. **[D]** When a buyer declines the buyer agreement, is anything else offered, such as a shorter or single-property agreement, fewer services for a lower fee or listing alerts only, and about how many accept?
 <!-- Q17.31 -->
-31. **[D]** How long does the buyer agreement run, how can a buyer end it early, is a fee owed if they do, and is any fee waived for buyers who commit?
+26. **[D]** How long does the buyer agreement run, how can a buyer end it early, is a fee owed if they do, and is any fee waived for buyers who commit?
 <!-- Q17.32 -->
-32. **[O]** Does the team offer different service levels or a package price for buying and selling together, and about what share of clients chose each?
+27. **[O]** Does the team offer different service levels or a package price for buying and selling together, and about what share of clients chose each?
 <!-- Q17.33 -->
-33. **[D]** Do past clients get a credit, discount or bonus on their next deal, and does any client bring in recurring income such as property management or investor services, and about how much per year?
+28. **[D]** Do past clients get a credit, discount or bonus on their next deal, and does any client bring in recurring income such as property management or investor services, and about how much per year?
 
 ### Supporting information
 
@@ -893,64 +635,56 @@ Owners may give estimates or ranges; record which numbers come from reports and 
 
 <!-- Q18.01 -->
 1. **[D]** How many calls and texts does a new lead who doesn't answer get, over how many days, before moving to long-term follow-up?
-<!-- Q18.02 -->
-2. **[D]** Of calls to new leads, about how many get answered?
 <!-- Q18.03 -->
-3. **[D]** On which days and hours can a buyer book appointment 1, and how many start times are offered per hour?
+2. **[D]** On which days and hours can a buyer book a first meeting, and how many start times are offered per hour?
 <!-- Q18.04 -->
-4. **[D]** About how many first appointments happen the same day the lead is reached, or get moved earlier?
+3. **[D]** About how many first meetings happen the same day the lead is reached, or get moved earlier?
 <!-- Q18.05 -->
-5. **[D]** When a booked buyer texts a question, about how long until someone replies, and is that tracked?
+4. **[D]** When a booked buyer texts a question, about how long until someone replies, and is that tracked?
 <!-- Q18.06 -->
-6. **[D]** Does the team grade leads, about what share fall in each grade, and who gets the best ones?
+5. **[D]** Does the team grade leads, about what share fall in each grade, and who gets the best ones?
 <!-- Q18.07 -->
-7. **[D]** Is anyone paid for appointments that actually happen, and how much compared with their pay per closing?
+6. **[D]** Is anyone paid for appointments that actually happen, and how much compared with their pay per closing?
 <!-- Q18.08 -->
-8. **[D]** Of buyers who didn't move forward last quarter, about how many gave each reason, such as timing, money, a spouse or partner, wanting a different area, approach or agent, needing to think, or a bad past experience?
+7. **[D]** Of buyers who didn't move forward last quarter, about how many gave each reason, such as timing, money, a spouse or partner, wanting a different area, approach or agent, needing to think, or a bad past experience, and are these reasons logged in the CRM?
 <!-- Q18.09 -->
-9. **[D]** How often is a decision-maker missing from appointment 2, and what happens then?
+8. **[D]** How often is a decision-maker missing from a buyer meeting, and what happens then?
 <!-- Q18.10 -->
-10. **[D]** In the last 12 months, how many agents and VAs joined, and how many left?
+9. **[D]** In the last 12 months, how many agents and VAs joined, and how many left?
 <!-- Q18.11 -->
-11. **[D]** Which calls are recorded and kept, about how many were reviewed together last month, how are calls picked for review, and how often does each person's call get reviewed?
+10. **[D]** Which calls are recorded and kept, about how many were reviewed together last month, how are calls picked for review, and how often does each person's call get reviewed?
 <!-- Q18.12 -->
-12. **[O]** About how many new ads or ad versions are made per month, at what monthly spend did costs start climbing if spending was raised, and are the ad click rate and click-to-lead rate known?
+11. **[O]** About how many new ads or ad versions are made per month, at what monthly spend did costs start climbing if spending was raised, and are the ad click rate and click-to-lead rate known?
 <!-- Q18.13 -->
-13. **[O]** Does the team keep a ranked list of its best ads or posts by leads or appointments, and does it track or test ad opening lines and calls to action?
+12. **[O]** Does the team keep a ranked list of its best ads or posts by leads or appointments, and does it track or test ad opening lines and calls to action?
 <!-- Q18.14 -->
-14. **[O]** About what share of the team's ads and posts feature the owner, versus agents or clients?
+13. **[O]** About what share of the team's ads and posts feature the owner, versus agents or clients?
 <!-- Q18.15 -->
-15. **[D]** On which review sites does the team have reviews, about how many with what average rating, how many new ones arrive per month, when was the latest, and is a satisfaction score collected?
+14. **[D]** On which review sites does the team have reviews, about how many with what average rating, how many new ones arrive per month, when was the latest, and is a satisfaction score collected?
 <!-- Q18.16 -->
-16. **[O]** About how many social followers and email contacts does the team have?
-<!-- Q18.17 -->
-17. **[O]** How many client or past-client events does the team hold per year?
+15. **[O]** About how many social followers and email contacts does the team have?
 <!-- Q18.18 -->
-18. **[O]** Which client-result numbers does the team keep, such as buyers helped per year, average days from signing to keys, or first-time buyers helped?
+16. **[O]** Which client-result numbers does the team keep, such as buyers helped per year, average days from signing to keys, or first-time buyers helped?
 <!-- Q18.19 -->
-19. **[O]** When does the team stop running an ad, how much and how fast is budget raised on an ad that works, and what share of new ads are new versions of ads that already worked?
+17. **[O]** When does the team stop running an ad, how much and how fast is budget raised on an ad that works, and what share of new ads are new versions of ads that already worked?
 <!-- Q18.20 -->
-20. **[D]** Are ads judged mainly by cost per lead or by the appointments and closings they produce, and about how much commission is one held first appointment worth?
-<!-- Q18.21 -->
-21. **[O]** Have the team's best organic posts been run as paid ads and how did they do, and are separate versions made for each placement?
+18. **[D]** Are ads judged mainly by cost per lead or by the meetings and closings they produce?
 <!-- Q18.22 -->
-22. **[D]** About how many hours a week do agents or VAs spend calling or texting leads who haven't booked, about how many appointments does an hour produce, and at what time of day do leads answer most?
+19. **[D]** About how many hours a week do agents or VAs spend calling or texting leads who haven't booked, about how many appointments does an hour produce, and at what time of day do leads answer most?
 <!-- Q18.23 -->
-23. **[D]** If a booked buyer never replies to confirmations, is the appointment kept, cancelled or rebooked, and about how often does that happen?
+20. **[D]** If a booked buyer never replies to confirmations, is the appointment kept, cancelled or rebooked, and about how often does that happen?
 <!-- Q18.24 -->
-24. **[D]** When a buyer no-shows or says no, how long does the team keep contacting them, and about what share of the last 2 months' no-shows and no's has been contacted again?
+21. **[D]** When a buyer no-shows or says no, how long does the team keep contacting them, and about what share of the last 2 months' no-shows and no's has been contacted again?
 <!-- Q18.25 -->
-25. **[D]** Do agents ask for referrals at signing or at closing, and about what share of clients are asked?
+22. **[D]** Do agents ask for referrals at signing or at closing, and about what share of clients are asked?
 <!-- Q18.26 -->
-26. **[D]** Of buyers who sign, about how many decide during appointment 2 versus after later follow-up, and when appointment 2 ends without a decision, how often is the next meeting booked before it ends?
+23. **[D]** Of buyers who sign, about how many decide during a meeting versus after later follow-up, and when a meeting ends without a decision, how often is the next step booked before it ends?
 <!-- Q18.27 -->
-27. **[D]** About how long do appointment 1 and appointment 2 usually last, and is there a set time limit?
+24. **[D]** About how long does each kind of meeting usually last, and is there a set time limit?
 <!-- Q18.28 -->
-28. **[D]** How long after starting does a new VA or agent take a first live call or appointment, and what must they show or pass first?
-<!-- Q18.29 -->
-29. **[D]** How often does the owner or a team lead meet one-on-one with each VA and agent, and how often does the team train together?
+25. **[D]** How long after starting does a new VA or agent take a first live call or appointment, and what must they show or pass first?
 <!-- Q18.30 -->
-30. **[D]** Is there a written weekly or monthly standard for each role, and what happens when someone falls below it?
+26. **[D]** Is there a written weekly or monthly standard or target for each role and for the team, such as lead response, meetings, signed buyers and closings, and what happens when someone falls below it?
 
 ### Supporting information
 
